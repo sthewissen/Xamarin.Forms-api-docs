@@ -2559,6 +2559,10 @@
       <Member Id="P:Xamarin.Forms.SizeRequest.Minimum" />
       <Member Id="P:Xamarin.Forms.SizeRequest.Request" />
     </Type>
+    <Type Name="Xamarin.Forms.SizeTypeConverter" Id="T:Xamarin.Forms.SizeTypeConverter">
+      <Member Id="M:Xamarin.Forms.SizeTypeConverter.#ctor" />
+      <Member Id="M:Xamarin.Forms.SizeTypeConverter.ConvertFromInvariantString(System.String)" />
+    </Type>
     <Type Name="Xamarin.Forms.Slider" Id="T:Xamarin.Forms.Slider">
       <Member Id="E:Xamarin.Forms.Slider.ValueChanged" />
       <Member Id="F:Xamarin.Forms.Slider.MaximumProperty" />
