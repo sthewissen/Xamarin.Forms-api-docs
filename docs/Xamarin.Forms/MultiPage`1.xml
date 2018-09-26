@@ -203,7 +203,7 @@ Children = {
         <ReturnType>System.EventHandler</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Raised when the <see cref="P:Xamarin.MultiPage{T}.CurrentPage" /> property changes.</summary>
+        <summary>Raised when the <see cref="P:Xamarin.MultiPage`1.CurrentPage" /> property changes.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -443,7 +443,7 @@ Children = {
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Raises the <see cref="E:Xamarin.Forms.MultiPage{T}.CurrentPageChanged" /> event.</summary>
+        <summary>Raises the <see cref="E:Xamarin.Forms.MultiPage`1.CurrentPageChanged" /> event.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -558,7 +558,7 @@ Children = {
       </ReturnValue>
       <Docs>
         <summary>The currently selected item.</summary>
-        <value>The selected item from the <see cref="P:Xamarin.MultiPage{T}.ItemsSource" /> or <see langword="null" /> if nothing selected.</value>
+        <value>The selected item from the <see cref="P:Xamarin.MultiPage`1.ItemsSource" /> or <see langword="null" /> if nothing selected.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -675,10 +675,10 @@ Children = {
       </Parameters>
       <Docs>
         <param name="content">The content to unhook.</param>
-        <summary>Application developers override this method to unregister event handlers for items that they registered in <see cref="M:Xamarin.Forms.MultiPage{TVisual}.SetupContent(`0, int)" />.</summary>
+        <summary>Application developers override this method to unregister event handlers for items that they registered in <see cref="M:Xamarin.Forms.MultiPage`1.SetupContent(`0, int)" />.</summary>
         <remarks>
-          <para>Application developers must call <see cref="M:Xamarin.Forms.MultiPage{TVisual}.UnhookContent(`0, int)" /> before performing any other action when overriding this method.</para>
-          <block type="note">Application developers who override <see cref="M:Xamarin.Forms.MultiPage{TVisual}.SetupContent(`0, int)" /> to allocate resources must override this method in order to deallocate them.</block>
+          <para>Application developers must call <see cref="M:Xamarin.Forms.MultiPage`1.UnhookContent(`0, int)" /> before performing any other action when overriding this method.</para>
+          <block type="note">Application developers who override <see cref="M:Xamarin.Forms.MultiPage`1.SetupContent(`0, int)" /> to allocate resources must override this method in order to deallocate them.</block>
         </remarks>
       </Docs>
     </Member>

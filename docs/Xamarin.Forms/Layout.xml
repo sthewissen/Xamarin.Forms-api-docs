@@ -193,7 +193,7 @@
         <returns>A <see cref="T:Xamarin.Forms.SizeRequest" /> which contains a requested size and a minimum size.</returns>
         <remarks>
           <para>
-            Calling GetSizeRequest causes a measure pass to occur for the subtree of elements it is called on. It is ideal to only call GetSizeRequest when needed as excessive calls can negatively impact the performance of the app. Overriding GetSizeRequest should only be done if the developer wants to ignore Width/HeightRequest. More likely a subclass would wish to override <see cref="M:Xamarin.Forms.VisualElement.OnSizeRequest (double, double)" />.
+            Calling GetSizeRequest causes a measure pass to occur for the subtree of elements it is called on. It is ideal to only call GetSizeRequest when needed as excessive calls can negatively impact the performance of the app. Overriding GetSizeRequest should only be done if the developer wants to ignore Width/HeightRequest. More likely a subclass would wish to override <see cref="M:Xamarin.Forms.VisualElement.OnSizeRequest (System.Double, System.Double)" />.
             </para>
         </remarks>
         <altmember cref="M:Xamarin.Forms.OnSizeRequest (double, double)" />

@@ -1283,7 +1283,7 @@
         <value>The minimum height the element requires. Default value is -1.</value>
         <remarks>
           <para>
-            MinimumHeightRequest is used to override the results of a call to <see cref="M:Xamarin.Forms.VisualElement.GetSizeRequest (double, double)" /> by setting the minimum height property. This causes overflow handling to shrink this element to its minimum height before elements who do not have a minimum size set.
+            MinimumHeightRequest is used to override the results of a call to <see cref="M:Xamarin.Forms.VisualElement.GetSizeRequest (System.Double, System.Double)" /> by setting the minimum height property. This causes overflow handling to shrink this element to its minimum height before elements who do not have a minimum size set.
           </para>
           <para>
               The following example sets the MinimumHeightRequest to enable an image to shrink below it's normal size.
@@ -1355,7 +1355,7 @@
         <value>The minimum width the element requires. Default value is -1.</value>
         <remarks>
           <para>
-            MinimumWidthRequest is used to override the results of a call to <see cref="M:Xamarin.Forms.VisualElement.GetSizeRequest (double, double)" /> by setting the minimum width property. This causes overflow handling to shrink this element to its minimum width before elements who do not have a minimum size set.
+            MinimumWidthRequest is used to override the results of a call to <see cref="M:Xamarin.Forms.VisualElement.GetSizeRequest (System.Double, System.Double)" /> by setting the minimum width property. This causes overflow handling to shrink this element to its minimum width before elements who do not have a minimum size set.
           </para>
           <para>
               The following example sets the MinimumWidthRequest to enable an image to shrink below it's normal size.
@@ -2196,7 +2196,7 @@
       </ReturnValue>
       <Docs>
         <summary>Occurs when either the Width or the Height properties change value on this element.</summary>
-        <remarks>Classes should implement <see cref="M:Xamarin.Forms.VisualElement.OnSizeAllocated (double, double)" /> if they wish to respond to size change events directly.</remarks>
+        <remarks>Classes should implement <see cref="M:Xamarin.Forms.VisualElement.OnSizeAllocated (System.Double, System.Double)" /> if they wish to respond to size change events directly.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Style">

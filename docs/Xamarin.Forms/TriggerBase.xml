@@ -40,7 +40,7 @@
         <ReturnType>System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerAction&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the list of <see cref="T:Xamarin.Forms.TirggerAction" /> objects that will be invoked when the trigger condition is met. Ignored for the <see cref="T:Xamarin.Forms.EventTrigger" /> class.</summary>
+        <summary>Gets the list of <see cref="T:Xamarin.Forms.TriggerAction" /> objects that will be invoked when the trigger condition is met. Ignored for the <see cref="T:Xamarin.Forms.EventTrigger" /> class.</summary>
         <value>
         </value>
         <remarks>To be added.</remarks>
@@ -64,7 +64,7 @@
         <ReturnType>System.Collections.Generic.IList&lt;Xamarin.Forms.TriggerAction&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the list of <see cref="T:Xamarin.Forms.TirggerAction" /> objects that will be invoked after the trigger condition is no longer met. Ignored for the <see cref="T:Xamarin.Forms.EventTrigger" /> class.</summary>
+        <summary>Gets the list of <see cref="T:Xamarin.Forms.TriggerAction" /> objects that will be invoked after the trigger condition is no longer met. Ignored for the <see cref="T:Xamarin.Forms.EventTrigger" /> class.</summary>
         <value>
         </value>
         <remarks>To be added.</remarks>

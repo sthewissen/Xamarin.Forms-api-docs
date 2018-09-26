@@ -26,7 +26,7 @@
   <Docs>
     <summary>A <see cref="T:Xamarin.Forms.View" /> that shows a map provided by a platform-specific service.</summary>
     <remarks>
-      <para>Here is a very simple example of a <see cref="T:Xamarin.Forms.Map" />:</para>
+      <para>Here is a very simple example of a <see cref="T:Xamarin.Forms.Maps.Map" />:</para>
       <example>
         <code lang="C#"><![CDATA[
 var map = new Map (MapSpan.FromCenterAndRadius (new Position (37, -122), Distance.FromMiles (10)));

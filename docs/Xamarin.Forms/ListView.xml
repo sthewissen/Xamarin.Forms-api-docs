@@ -35,7 +35,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>An <see cref="T:Xamarin.Forms.ItemsView{TVisual}" /> that displays a collection of data as a vertical list.</summary>
+    <summary>An <see cref="T:Xamarin.Forms.ItemsView`1" /> that displays a collection of data as a vertical list.</summary>
     <remarks>
       <para>
         <img href="xamarin-media/Xamarin.Forms/_images/ListView.TripleScreenShot.png" />
@@ -622,7 +622,7 @@ class ListViewDemoPage : ContentPage
         <remarks>
           <para>
             Use this property to define a template for a <see cref="T:Xamarin.Forms.Cell" /> that will be used as the header for groups in this
-            <see cref="T:Xamarin.Forms.ListView" />. The <see cref="P:Xamarin.BindableObject.BindingContext" /> will be the <see cref="T:System.Collections.IEnumerable" />
+            <see cref="T:Xamarin.Forms.ListView" />. The <see cref="P:Xamarin.Forms.BindableObject.BindingContext" /> will be the <see cref="T:System.Collections.IEnumerable" />
             for each group.
           </para>
           <para>
@@ -816,7 +816,7 @@ ListView CreateListView()
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the <see cref="P:Xamarin.Forms.ListView.HasUnevenRowsProperty" /> property.</summary>
+        <summary>Identifies the <see cref="F:Xamarin.Forms.ListView.HasUnevenRowsProperty" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -991,7 +991,7 @@ ListView CreateListView()
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the <see cref="P:Xamarin.Forms.ListView.IsGroupingEnabledProperty" /> property.</summary>
+        <summary>Identifies the <see cref="F:Xamarin.Forms.ListView.IsGroupingEnabledProperty" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

@@ -91,7 +91,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.BackgroundColor" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.BackgroundColor" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -162,7 +162,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.FontAttributes" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.FontAttributes" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -204,7 +204,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.FontFamily" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.FontFamily" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -223,7 +223,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.Font" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.Font" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -270,7 +270,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.FontSize" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.FontSize" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -318,7 +318,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.ForegroundColor" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.ForegroundColor" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -396,7 +396,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.Style" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.Style" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -459,7 +459,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.TextColor" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.TextColor" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -478,7 +478,7 @@
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Span.Text" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Span.Text" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

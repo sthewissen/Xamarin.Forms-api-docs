@@ -224,7 +224,7 @@
         <value>
         </value>
         <remarks>
-          <para>Application developers can set the width or height of the <see cref="P:Xamarin.Forms.VisualElement.Bounds" /> property to <see cref="P:Xamarin.Forms.AboluteLayout.AutoSize" /> on a visual element when adding to the layout to cause that element to be measured during the layout pass and sized appropriately.</para>
+          <para>Application developers can set the width or height of the <see cref="P:Xamarin.Forms.VisualElement.Bounds" /> property to <see cref="P:Xamarin.Forms.AbsoluteLayout.AutoSize" /> on a visual element when adding to the layout to cause that element to be measured during the layout pass and sized appropriately.</para>
         </remarks>
       </Docs>
     </Member>

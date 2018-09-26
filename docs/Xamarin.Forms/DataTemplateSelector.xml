@@ -15,7 +15,7 @@
   <Docs>
     <summary>Selects <see cref="T:Xamarin.Forms.DataTemplate" /> objects by data type and container.</summary>
     <remarks>
-      <para>Application developers override the <see cref="M:Xamarin.Froms.DataTemplateSelector.OnSelectTemplate" /> method to return a unique <see cref="T:Xamarin.Forms.DataTemplate" /> for a data type and parent container combination. Additionally, because the same exact template instance must be returned for a given piece of data across successive calls to <see cref="M:Xamarin.Froms.DataTemplateSelector.SelectTemplate" />, developers should create and store these <see cref="T:Xamarin.Forms.DataTemplate" /> in their constructor overrides.</para>
+      <para>Application developers override the <see cref="M:Xamarin.Forms.DataTemplateSelector.OnSelectTemplate" /> method to return a unique <see cref="T:Xamarin.Forms.DataTemplate" /> for a data type and parent container combination. Additionally, because the same exact template instance must be returned for a given piece of data across successive calls to <see cref="M:Xamarin.Forms.DataTemplateSelector.SelectTemplate" />, developers should create and store these <see cref="T:Xamarin.Forms.DataTemplate" /> in their constructor overrides.</para>
       <block subset="none" type="note">Developers should note the following items:        <list type="bullet"><item><term>OnSelectTemplate must not return another DataTemplateSelector, and
         </term></item><item><term>The Android platform is limited to 20 templates per list view.</term></item></list></block>
       <example>The following example shows a basic use:
