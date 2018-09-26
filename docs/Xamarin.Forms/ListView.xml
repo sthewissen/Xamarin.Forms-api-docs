@@ -631,7 +631,7 @@ class ListViewDemoPage : ContentPage
           </para>
           <para>Empty groups will still display a group header.</para>
         </remarks>
-        <altmember cref="P:Xamarin.Forms.ListView.ItemsSource" />
+        <altmember cref="P:Xamarin.Forms.ItemsView`1.ItemsSource" />
         <altmember cref="P:Xamarin.Forms.ListView.GroupDisplayBinding" />
         <altmember cref="P:Xamarin.Forms.ListView.IsGroupingEnabled" />
       </Docs>
@@ -1513,7 +1513,7 @@ ListView CreateListView()
         <Parameter Name="animated" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="item">The item from your <see cref="P:Xamarin.Forms.ListView.ItemsSource" /> to scroll to.</param>
+        <param name="item">The item from your <see cref="P:Xamarin.Forms.ItemsView`1.ItemsSource" /> to scroll to.</param>
         <param name="position">How the item should be positioned on screen.</param>
         <param name="animated">Whether or not the scroll should be animated.</param>
         <summary>Scrolls the ListView to the <paramref name="item" />.</summary>
@@ -1549,8 +1549,8 @@ ListView CreateListView()
         <Parameter Name="animated" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="item">The item from your <see cref="P:Xamarin.Forms.ListView.ItemsSource" /> to scroll to.</param>
-        <param name="group">The group from your <see cref="P:Xamarin.Forms.ListView.ItemsSource" /> to scroll to.</param>
+        <param name="item">The item from your <see cref="P:Xamarin.Forms.ItemsView`1.ItemsSource" /> to scroll to.</param>
+        <param name="group">The group from your <see cref="P:Xamarin.Forms.ItemsView`1.ItemsSource" /> to scroll to.</param>
         <param name="position">How the item should be positioned on screen.</param>
         <param name="animated">Whether or not the scroll should be animated.</param>
         <summary>Scrolls the ListView to the <paramref name="item" /> in the <paramref name="group" /></summary>
@@ -1613,7 +1613,7 @@ ListView CreateListView()
         <ReturnType>System.Object</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets or sets the currently selected item from the <see cref="P:Xamarin.Forms.ListView.ItemsSource" />.</summary>
+        <summary>Gets or sets the currently selected item from the <see cref="P:Xamarin.Forms.ItemsView`1.ItemsSource" />.</summary>
         <value>The selected item or <see langword="null" /> if no item is selected.</value>
         <remarks>To be added.</remarks>
       </Docs>
