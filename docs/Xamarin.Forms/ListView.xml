@@ -1894,7 +1894,7 @@ ListView CreateListView()
         <param name="index">The index of the cell in the list of items.</param>
         <summary>Application developers override this method to register event handlers for list view items.</summary>
         <remarks>
-          <para>Application developers must call <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell, int)" /> before performing any other action when overriding this method.</para>
+          <para>Application developers must call <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell,System.Int32)" /> before performing any other action when overriding this method.</para>
           <block type="note">Application developers who override this method to allocate resources must override <see cref="M:Xamarin.Forms.ListView.UnhookContent(Xamarin.Forms.Cell)" /> in order to deallocate them.</block>
         </remarks>
       </Docs>
@@ -1920,10 +1920,10 @@ ListView CreateListView()
       </Parameters>
       <Docs>
         <param name="content">The cell to unhook.</param>
-        <summary>Application developers override this method to unregister event handlers for list view items that they registered in <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell, int)" />.</summary>
+        <summary>Application developers override this method to unregister event handlers for list view items that they registered in <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell,System.Int32)" />.</summary>
         <remarks>
           <para>Application developers must call <see cref="M:Xamarin.Forms.ListView.UnhookContent(Xamarin.Forms.Cell, int)" /> before performing any other action when overriding this method.</para>
-          <block type="note">Application developers who override <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell, int)" /> to allocate resources must override this method in order to deallocate them.</block>
+          <block type="note">Application developers who override <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell,System.Int32)" /> to allocate resources must override this method in order to deallocate them.</block>
         </remarks>
       </Docs>
     </Member>

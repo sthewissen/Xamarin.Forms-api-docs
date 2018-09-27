@@ -53,7 +53,7 @@
       </Parameters>
       <Docs>
         <param name="sz">
-          <see cref="T:Xamarin.Forms.Size" /> that specifies a <see cref="T:Xamarin.Forms.Point" /> that has the coordinates (<see cref="P:Xamarin.Forms.Size.width" />, <see cref="P:Xamarin.Forms.Size.height" />).</param>
+          <see cref="T:Xamarin.Forms.Size" /> that specifies a <see cref="T:Xamarin.Forms.Point" /> that has the coordinates (<see cref="P:Xamarin.Forms.Size.Width" />, <see cref="P:Xamarin.Forms.Size.Height" />).</param>
         <summary>Creates a new <see cref="T:Xamarin.Forms.Point" /> object that has coordinates that are specified by the width and height of <paramref name="sz" />, in that order.</summary>
         <remarks>To be added.</remarks>
       </Docs>

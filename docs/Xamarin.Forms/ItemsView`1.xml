@@ -160,7 +160,7 @@
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the <see cref="T:Xamarin.Forms.DataTemplate" /> to apply to the <see cref="M:Xamarin.Forms.ItemsView`1.ItemsSource" />.</summary>
-        <value>The <see cref="T:Xamarin.Forms.DataTemplate" /> for the <see cref="T:Xamarin.Forms.ItemsView" />, or <see langword="null" /></value>
+        <value>The <see cref="T:Xamarin.Forms.DataTemplate" /> for the <see cref="T:Xamarin.Forms.ItemsView`1" />, or <see langword="null" /></value>
         <remarks>
           <para>The ItemTemplate is used to define the visual appearance of objects from the <see cref="P.Xamarin.Forms.ItemsView`1.ItemsSource" />. Through
           the item template you can set up data bindings to the user objects supplied to automatically fill in the visual and respond to any changes in the user

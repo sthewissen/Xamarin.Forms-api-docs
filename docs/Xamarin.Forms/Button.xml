@@ -457,7 +457,7 @@ void IncrementLabel()
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Backing store for the <see cref="T:Xamarin.Forms.Button.ContentLayout" /> property.</summary>
+        <summary>Backing store for the <see cref="P:Xamarin.Forms.Button.ContentLayout" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -861,7 +861,7 @@ void IncrementLabel()
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Xamarin.Forms.Padding" /> property.</summary>
+        <summary>The backing store for the <see cref="P:Xamarin.Forms.Button.Padding" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
