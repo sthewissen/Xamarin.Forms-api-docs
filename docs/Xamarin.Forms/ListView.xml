@@ -285,7 +285,7 @@ class ListViewDemoPage : ContentPage
         </returns>
         <remarks>
           <para>
-            This method is called by the templating system when <see cref="P:Xamarin.Forms.ListView.ItemTemplate" /> is <see langword="null" />.
+            This method is called by the templating system when <see cref="P:Xamarin.Forms.ItemsView`1.ItemTemplate" /> is <see langword="null" />.
           </para>
           <para>
             The <see cref="P:Xamarin.Forms.BindableObject.BindingContext" /> of the returned object will automatically be set to <paramref name="item" />, there is no
@@ -1485,7 +1485,7 @@ ListView CreateListView()
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>The backing store for the <see cref="P:Xamarin.Forms.ListView.RowHeightProperty" /> property.</summary>
+        <summary>The backing store for the <see cref="F:Xamarin.Forms.ListView.RowHeightProperty" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1640,7 +1640,7 @@ ListView CreateListView()
         <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Identifies the <see cref="P:Xamarin.Forms.ListView.SelectedItemProperty" /> property.</summary>
+        <summary>Identifies the <see cref="F:Xamarin.Forms.ListView.SelectedItemProperty" /> property.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -1922,7 +1922,7 @@ ListView CreateListView()
         <param name="content">The cell to unhook.</param>
         <summary>Application developers override this method to unregister event handlers for list view items that they registered in <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell,System.Int32)" />.</summary>
         <remarks>
-          <para>Application developers must call <see cref="M:Xamarin.Forms.ListView.UnhookContent(Xamarin.Forms.Cell, int)" /> before performing any other action when overriding this method.</para>
+          <para>Application developers must call <see cref="M:Xamarin.Forms.ListView.UnhookContent(Xamarin.Forms.Cell,System.Int32)" /> before performing any other action when overriding this method.</para>
           <block type="note">Application developers who override <see cref="M:Xamarin.Forms.ListView.SetupContent(Xamarin.Forms.Cell,System.Int32)" /> to allocate resources must override this method in order to deallocate them.</block>
         </remarks>
       </Docs>
