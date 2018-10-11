@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="xamarin-forms">
   <Namespace Name="Xamarin.Forms">
     <Type Name="Xamarin.Forms.AbsoluteLayout" Id="T:Xamarin.Forms.AbsoluteLayout">
@@ -1013,7 +1013,7 @@
       <Member Id="M:Xamarin.Forms.FileImageSource.op_Implicit(System.String)~Xamarin.Forms.FileImageSource" />
       <Member Id="M:Xamarin.Forms.FileImageSource.op_Implicit(Xamarin.Forms.FileImageSource)~System.String" />
       <Member Id="M:Xamarin.Forms.FileImageSource.ToString" />
-      <Member Id="P:Xamarin.Forms.FileImageSource.File" />
+      <Member Id="T:Xamarin.Forms.FileImageSource.File" />
     </Type>
     <Type Name="Xamarin.Forms.FileImageSourceConverter" Id="T:Xamarin.Forms.FileImageSourceConverter">
       <Member Id="M:Xamarin.Forms.FileImageSourceConverter.#ctor" />
@@ -2595,6 +2595,7 @@
       <Member Id="F:Xamarin.Forms.Span.TextColorProperty" />
       <Member Id="F:Xamarin.Forms.Span.TextProperty" />
       <Member Id="M:Xamarin.Forms.Span.#ctor" />
+      <Member Id="M:Xamarin.Forms.Span.OnBindingContextChanged" />
       <Member Id="M:Xamarin.Forms.Span.Xamarin#Forms#Internals#IFontElement#FontSizeDefaultValueCreator" />
       <Member Id="M:Xamarin.Forms.Span.Xamarin#Forms#Internals#IFontElement#OnFontAttributesChanged(Xamarin.Forms.FontAttributes,Xamarin.Forms.FontAttributes)" />
       <Member Id="M:Xamarin.Forms.Span.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
