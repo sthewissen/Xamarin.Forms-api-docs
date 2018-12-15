@@ -533,7 +533,7 @@
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>Attemps to set focus to this element.</summary>
+        <summary>Attempts to set focus to this element.</summary>
         <returns>
           <see langword="true" /> if the keyboard focus was set to this element; <see langword="false" /> if the call to this method did not force a focus change.</returns>
         <remarks>Element must be able to receive focus for this to work. Calling Focus on offscreen or unrealized elements has undefined behavior.</remarks>
