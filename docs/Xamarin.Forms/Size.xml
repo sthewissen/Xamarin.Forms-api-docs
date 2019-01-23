@@ -29,7 +29,7 @@
   <Docs>
     <summary>Struct defining height and width as a pair of doubles.</summary>
     <remarks>
-      <para>Application developers should be aware of the limits of floating-point representations, specifically the possibility of incorrect comparisons and equality checks for values with small differences. David Goldberg's paper <format type="text/html"><a href="http://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html">What Every Computer Scientist Should Know About Floating-Point Arithmetic</a></format> describes the issues excellently. </para>
+      <para>Application developers should be aware of the limits of floating-point representations, specifically the possibility of incorrect comparisons and equality checks for values with small differences. David Goldberg's paper <format type="text/html"><a href="https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html">What Every Computer Scientist Should Know About Floating-Point Arithmetic</a></format> describes the issues excellently. </para>
     </remarks>
   </Docs>
   <Members>
@@ -229,7 +229,7 @@
       <Docs>
         <summary>Whether the <see cref="T:Xamarin.Forms.Size" /> has <see cref="P:Xamarin.Forms.Size.Height" /> and <see cref="P:Xamarin.Forms.Size.Width" /> of 0.0.</summary>
         <value>
-          <see langword="true" /> if both <see cref="P:Xamarin.Forms.Size.Height" /> and <see cref="P:Xamarin.Forms.Width" /> are 0.0.</value>
+          <see langword="true" /> if both <see cref="P:Xamarin.Forms.Size.Height" /> and <see cref="P:Xamarin.Forms.Size.Width" /> are 0.0.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
