@@ -570,6 +570,7 @@ namespace FormsGallery
       <MemberSignature Language="F#" Value="member this.Reload : unit -&gt; unit" Usage="webView.Reload " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -591,6 +592,7 @@ namespace FormsGallery
         <InterfaceMember>E:Xamarin.Forms.IWebViewController.ReloadRequested</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

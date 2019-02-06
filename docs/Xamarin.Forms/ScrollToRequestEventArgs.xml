@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.ScrollToRequestEventArgs : int * int * Xamarin.Forms.ScrollToPosition * bool -&gt; Xamarin.Forms.ScrollToRequestEventArgs" Usage="new Xamarin.Forms.ScrollToRequestEventArgs (index, groupIndex, scrollToPosition, isAnimated)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -47,6 +48,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.ScrollToRequestEventArgs : obj * obj * Xamarin.Forms.ScrollToPosition * bool -&gt; Xamarin.Forms.ScrollToRequestEventArgs" Usage="new Xamarin.Forms.ScrollToRequestEventArgs (item, group, scrollToPosition, isAnimated)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -71,6 +73,7 @@
       <MemberSignature Language="F#" Value="member this.Group : obj" Usage="Xamarin.Forms.ScrollToRequestEventArgs.Group" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -89,6 +92,7 @@
       <MemberSignature Language="F#" Value="member this.GroupIndex : int" Usage="Xamarin.Forms.ScrollToRequestEventArgs.GroupIndex" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -107,6 +111,7 @@
       <MemberSignature Language="F#" Value="member this.Index : int" Usage="Xamarin.Forms.ScrollToRequestEventArgs.Index" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -125,6 +130,7 @@
       <MemberSignature Language="F#" Value="member this.IsAnimated : bool" Usage="Xamarin.Forms.ScrollToRequestEventArgs.IsAnimated" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -143,6 +149,7 @@
       <MemberSignature Language="F#" Value="member this.Item : obj" Usage="Xamarin.Forms.ScrollToRequestEventArgs.Item" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -161,6 +168,7 @@
       <MemberSignature Language="F#" Value="member this.Mode : Xamarin.Forms.ScrollToMode" Usage="Xamarin.Forms.ScrollToRequestEventArgs.Mode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -179,6 +187,7 @@
       <MemberSignature Language="F#" Value="member this.ScrollToPosition : Xamarin.Forms.ScrollToPosition" Usage="Xamarin.Forms.ScrollToRequestEventArgs.ScrollToPosition" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

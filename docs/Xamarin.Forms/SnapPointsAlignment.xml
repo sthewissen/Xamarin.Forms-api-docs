@@ -22,6 +22,7 @@
       <MemberSignature Language="F#" Value="Center = 1" Usage="Xamarin.Forms.SnapPointsAlignment.Center" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -39,6 +40,7 @@
       <MemberSignature Language="F#" Value="End = 2" Usage="Xamarin.Forms.SnapPointsAlignment.End" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -56,6 +58,7 @@
       <MemberSignature Language="F#" Value="Start = 0" Usage="Xamarin.Forms.SnapPointsAlignment.Start" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

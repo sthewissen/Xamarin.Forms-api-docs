@@ -52,6 +52,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ImageButton.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -67,6 +68,7 @@
       <MemberSignature Language="F#" Value="member this.Aspect : Xamarin.Forms.Aspect with get, set" Usage="Xamarin.Forms.ImageButton.Aspect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -85,6 +87,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable AspectProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.AspectProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -102,6 +105,7 @@
       <MemberSignature Language="F#" Value="member this.BorderColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.ImageButton.BorderColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -120,6 +124,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable BorderColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.BorderColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -137,6 +142,7 @@
       <MemberSignature Language="F#" Value="member this.BorderWidth : double with get, set" Usage="Xamarin.Forms.ImageButton.BorderWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -155,6 +161,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable BorderWidthProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.BorderWidthProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -172,6 +179,7 @@
       <MemberSignature Language="F#" Value="override this.ChangeVisualState : unit -&gt; unit" Usage="imageButton.ChangeVisualState " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -190,6 +198,7 @@
       <MemberSignature Language="F#" Value="member this.Clicked : EventHandler " Usage="member this.Clicked : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -210,6 +219,7 @@
         <InterfaceMember>P:Xamarin.Forms.Internals.IButtonElement.Command</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -231,6 +241,7 @@
         <InterfaceMember>P:Xamarin.Forms.Internals.IButtonElement.CommandParameter</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -249,6 +260,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.CommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -266,6 +278,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.CommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -283,6 +296,7 @@
       <MemberSignature Language="F#" Value="member this.CornerRadius : int with get, set" Usage="Xamarin.Forms.ImageButton.CornerRadius" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -301,6 +315,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable CornerRadiusProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.CornerRadiusProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -318,6 +333,7 @@
       <MemberSignature Language="F#" Value="member this.IsLoading : bool" Usage="Xamarin.Forms.ImageButton.IsLoading" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -336,6 +352,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable IsLoadingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.IsLoadingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -353,6 +370,7 @@
       <MemberSignature Language="F#" Value="member this.IsOpaque : bool with get, set" Usage="Xamarin.Forms.ImageButton.IsOpaque" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -371,6 +389,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable IsOpaqueProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.IsOpaqueProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -391,6 +410,7 @@
         <InterfaceMember>P:Xamarin.Forms.Internals.IButtonElement.IsPressed</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -409,6 +429,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable IsPressedProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.IsPressedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -429,6 +450,7 @@
         <InterfaceMember>M:Xamarin.Forms.IElementConfiguration`1.On``1</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -456,6 +478,7 @@
       <MemberSignature Language="F#" Value="override this.OnBindingContextChanged : unit -&gt; unit" Usage="imageButton.OnBindingContextChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -474,6 +497,7 @@
       <MemberSignature Language="F#" Value="override this.OnMeasure : double * double -&gt; Xamarin.Forms.SizeRequest" Usage="imageButton.OnMeasure (widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -498,6 +522,7 @@
       <MemberSignature Language="F#" Value="member this.Padding : Xamarin.Forms.Thickness with get, set" Usage="Xamarin.Forms.ImageButton.Padding" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -516,6 +541,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable PaddingProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.PaddingProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -533,6 +559,7 @@
       <MemberSignature Language="F#" Value="member this.Pressed : EventHandler " Usage="member this.Pressed : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -553,6 +580,7 @@
         <InterfaceMember>M:Xamarin.Forms.Internals.IButtonElement.PropagateUpClicked</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -574,6 +602,7 @@
         <InterfaceMember>M:Xamarin.Forms.Internals.IButtonElement.PropagateUpPressed</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -595,6 +624,7 @@
         <InterfaceMember>M:Xamarin.Forms.Internals.IButtonElement.PropagateUpReleased</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -616,6 +646,7 @@
         <InterfaceMember>M:Xamarin.Forms.IImageElement.RaiseImageSourcePropertyChanged</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -634,6 +665,7 @@
       <MemberSignature Language="F#" Value="member this.Released : EventHandler " Usage="member this.Released : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -654,6 +686,7 @@
         <InterfaceMember>M:Xamarin.Forms.IButtonController.SendClicked</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -680,6 +713,7 @@
         <InterfaceMember>M:Xamarin.Forms.IButtonController.SendPressed</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -706,6 +740,7 @@
         <InterfaceMember>M:Xamarin.Forms.IButtonController.SendReleased</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -732,6 +767,7 @@
         <InterfaceMember>M:Xamarin.Forms.IImageController.SetIsLoading(System.Boolean)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -761,6 +797,7 @@
         <InterfaceMember>M:Xamarin.Forms.Internals.IButtonElement.SetIsPressed(System.Boolean)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -787,6 +824,7 @@
       <MemberSignature Language="F#" Value="member this.Source : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.ImageButton.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -810,6 +848,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable SourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ImageButton.SourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -830,6 +869,7 @@
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.BorderColorDefaultValue</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -851,6 +891,7 @@
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.BorderWidthDefaultValue</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -872,6 +913,7 @@
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.CornerRadiusDefaultValue</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -892,6 +934,7 @@
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsBackgroundColorSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -913,6 +956,7 @@
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsBorderColorSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -934,6 +978,7 @@
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsBorderWidthSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -955,6 +1000,7 @@
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsCornerRadiusSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -976,6 +1022,7 @@
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.OnBorderColorPropertyChanged(Xamarin.Forms.Color,Xamarin.Forms.Color)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1001,6 +1048,7 @@
         <InterfaceMember>M:Xamarin.Forms.IImageElement.OnImageSourcesSourceChanged(System.Object,System.EventArgs)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

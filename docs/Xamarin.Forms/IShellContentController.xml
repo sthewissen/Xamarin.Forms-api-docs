@@ -24,6 +24,7 @@
       <MemberSignature Language="F#" Value="abstract member GetOrCreateContent : unit -&gt; Xamarin.Forms.Page" Usage="iShellContentController.GetOrCreateContent " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -43,6 +44,7 @@
       <MemberSignature Language="F#" Value="member this.Page : Xamarin.Forms.Page" Usage="Xamarin.Forms.IShellContentController.Page" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -61,6 +63,7 @@
       <MemberSignature Language="F#" Value="abstract member RecyclePage : Xamarin.Forms.Page -&gt; unit" Usage="iShellContentController.RecyclePage page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

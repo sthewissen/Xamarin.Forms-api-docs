@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="member this.MenuItem : Xamarin.Forms.MenuItem" Usage="Xamarin.Forms.MenuShellItem.MenuItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

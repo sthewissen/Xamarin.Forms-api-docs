@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="static member GetIsShadowEnabled : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetIsShadowEnabled element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -45,6 +46,7 @@
       <MemberSignature Language="F#" Value="static member GetIsShadowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetIsShadowEnabled config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -67,6 +69,7 @@
       <MemberSignature Language="F#" Value="static member GetShadowColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowColor element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -89,6 +92,7 @@
       <MemberSignature Language="F#" Value="static member GetShadowColor : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowColor config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -111,6 +115,7 @@
       <MemberSignature Language="F#" Value="static member GetShadowOffset : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Size" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowOffset element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -133,6 +138,7 @@
       <MemberSignature Language="F#" Value="static member GetShadowOffset : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; Xamarin.Forms.Size" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowOffset config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -155,6 +161,7 @@
       <MemberSignature Language="F#" Value="static member GetShadowRadius : Xamarin.Forms.BindableObject -&gt; double" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowRadius element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -177,6 +184,7 @@
       <MemberSignature Language="F#" Value="static member GetShadowRadius : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; double" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowRadius config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -199,6 +207,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable IsShadowEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.IsShadowEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -216,6 +225,7 @@
       <MemberSignature Language="F#" Value="static member SetIsShadowEnabled : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetIsShadowEnabled (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -239,6 +249,7 @@
       <MemberSignature Language="F#" Value="static member SetIsShadowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetIsShadowEnabled (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -263,6 +274,7 @@
       <MemberSignature Language="F#" Value="static member SetShadowColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowColor (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -286,6 +298,7 @@
       <MemberSignature Language="F#" Value="static member SetShadowColor : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * Xamarin.Forms.Color -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowColor (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -310,6 +323,7 @@
       <MemberSignature Language="F#" Value="static member SetShadowOffset : Xamarin.Forms.BindableObject * Xamarin.Forms.Size -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowOffset (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -333,6 +347,7 @@
       <MemberSignature Language="F#" Value="static member SetShadowOffset : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * Xamarin.Forms.Size -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowOffset (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -357,6 +372,7 @@
       <MemberSignature Language="F#" Value="static member SetShadowRadius : Xamarin.Forms.BindableObject * double -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowRadius (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -380,6 +396,7 @@
       <MemberSignature Language="F#" Value="static member SetShadowRadius : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * double -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowRadius (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -404,6 +421,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ShadowColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.ShadowColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -421,6 +439,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ShadowOffsetProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.ShadowOffsetProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -438,6 +457,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ShadowRadiusProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.ShadowRadiusProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

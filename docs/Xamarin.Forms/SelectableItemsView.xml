@@ -22,6 +22,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SelectableItemsView.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -37,6 +38,7 @@
       <MemberSignature Language="F#" Value="abstract member OnSelectionChanged : Xamarin.Forms.SelectionChangedEventArgs -&gt; unit&#xA;override this.OnSelectionChanged : Xamarin.Forms.SelectionChangedEventArgs -&gt; unit" Usage="selectableItemsView.OnSelectionChanged args" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -58,6 +60,7 @@
       <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectedItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -76,6 +79,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectedItemProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -93,6 +97,7 @@
       <MemberSignature Language="F#" Value="member this.SelectionChanged : EventHandler&lt;Xamarin.Forms.SelectionChangedEventArgs&gt; " Usage="member this.SelectionChanged : System.EventHandler&lt;Xamarin.Forms.SelectionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -110,6 +115,7 @@
       <MemberSignature Language="F#" Value="member this.SelectionChangedCommand : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -128,6 +134,7 @@
       <MemberSignature Language="F#" Value="member this.SelectionChangedCommandParameter : obj with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -146,6 +153,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable SelectionChangedCommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -163,6 +171,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable SelectionChangedCommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -180,6 +189,7 @@
       <MemberSignature Language="F#" Value="member this.SelectionMode : Xamarin.Forms.SelectionMode with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectionMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -198,6 +208,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable SelectionModeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectionModeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

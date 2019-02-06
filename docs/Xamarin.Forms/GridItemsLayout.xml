@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.GridItemsLayout : Xamarin.Forms.ItemsLayoutOrientation -&gt; Xamarin.Forms.GridItemsLayout" Usage="new Xamarin.Forms.GridItemsLayout orientation" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -41,6 +42,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.GridItemsLayout : int * Xamarin.Forms.ItemsLayoutOrientation -&gt; Xamarin.Forms.GridItemsLayout" Usage="new Xamarin.Forms.GridItemsLayout (span, orientation)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -61,6 +63,7 @@
       <MemberSignature Language="F#" Value="member this.Span : int with get, set" Usage="Xamarin.Forms.GridItemsLayout.Span" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -79,6 +82,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable SpanProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.GridItemsLayout.SpanProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

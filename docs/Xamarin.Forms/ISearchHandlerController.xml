@@ -20,6 +20,7 @@
       <MemberSignature Language="F#" Value="abstract member ClearPlaceholderClicked : unit -&gt; unit" Usage="iSearchHandlerController.ClearPlaceholderClicked " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -38,6 +39,7 @@
       <MemberSignature Language="F#" Value="abstract member ItemSelected : obj -&gt; unit" Usage="iSearchHandlerController.ItemSelected obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -59,6 +61,7 @@
       <MemberSignature Language="F#" Value="member this.ListProxy : System.Collections.Generic.IReadOnlyList&lt;obj&gt;" Usage="Xamarin.Forms.ISearchHandlerController.ListProxy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -77,6 +80,7 @@
       <MemberSignature Language="F#" Value="member this.ListProxyChanged : EventHandler&lt;Xamarin.Forms.ListProxyChangedEventArgs&gt; " Usage="member this.ListProxyChanged : System.EventHandler&lt;Xamarin.Forms.ListProxyChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -94,6 +98,7 @@
       <MemberSignature Language="F#" Value="abstract member QueryConfirmed : unit -&gt; unit" Usage="iSearchHandlerController.QueryConfirmed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

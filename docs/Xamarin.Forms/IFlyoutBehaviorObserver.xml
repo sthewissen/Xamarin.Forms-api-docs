@@ -20,6 +20,7 @@
       <MemberSignature Language="F#" Value="abstract member OnFlyoutBehaviorChanged : Xamarin.Forms.FlyoutBehavior -&gt; unit" Usage="iFlyoutBehaviorObserver.OnFlyoutBehaviorChanged behavior" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

@@ -147,6 +147,7 @@
       <MemberSignature Language="F#" Value="member this.ReloadRequested : EventHandler " Usage="member this.ReloadRequested : System.EventHandler " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

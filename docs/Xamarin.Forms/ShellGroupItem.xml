@@ -22,6 +22,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ShellGroupItem.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -37,6 +38,7 @@
       <MemberSignature Language="F#" Value="member this.FlyoutDisplayOptions : Xamarin.Forms.FlyoutDisplayOptions with get, set" Usage="Xamarin.Forms.ShellGroupItem.FlyoutDisplayOptions" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -55,6 +57,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable FlyoutDisplayOptionsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ShellGroupItem.FlyoutDisplayOptionsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

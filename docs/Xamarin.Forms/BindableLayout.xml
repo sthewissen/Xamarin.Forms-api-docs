@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="static member GetItemsSource : Xamarin.Forms.BindableObject -&gt; System.Collections.IEnumerable" Usage="Xamarin.Forms.BindableLayout.GetItemsSource b" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -45,6 +46,7 @@
       <MemberSignature Language="F#" Value="static member GetItemTemplate : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.DataTemplate" Usage="Xamarin.Forms.BindableLayout.GetItemTemplate b" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -67,6 +69,7 @@
       <MemberSignature Language="F#" Value="static member GetItemTemplateSelector : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.DataTemplateSelector" Usage="Xamarin.Forms.BindableLayout.GetItemTemplateSelector b" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -89,6 +92,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BindableLayout.ItemsSourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -106,6 +110,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BindableLayout.ItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -123,6 +128,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateSelectorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BindableLayout.ItemTemplateSelectorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -140,6 +146,7 @@
       <MemberSignature Language="F#" Value="static member SetItemsSource : Xamarin.Forms.BindableObject * System.Collections.IEnumerable -&gt; unit" Usage="Xamarin.Forms.BindableLayout.SetItemsSource (b, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -163,6 +170,7 @@
       <MemberSignature Language="F#" Value="static member SetItemTemplate : Xamarin.Forms.BindableObject * Xamarin.Forms.DataTemplate -&gt; unit" Usage="Xamarin.Forms.BindableLayout.SetItemTemplate (b, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -186,6 +194,7 @@
       <MemberSignature Language="F#" Value="static member SetItemTemplateSelector : Xamarin.Forms.BindableObject * Xamarin.Forms.DataTemplateSelector -&gt; unit" Usage="Xamarin.Forms.BindableLayout.SetItemTemplateSelector (b, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

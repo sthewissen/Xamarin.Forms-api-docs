@@ -163,6 +163,7 @@
       <MemberSignature Language="F#" Value="abstract member GetSectionTextColor : int -&gt; Xamarin.Forms.Color" Usage="iTableModel.GetSectionTextColor section" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

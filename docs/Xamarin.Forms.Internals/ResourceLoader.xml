@@ -29,6 +29,7 @@
       <MemberSignature Language="F#" Value="static member CanProvideContentFor : Xamarin.Forms.Internals.ResourceLoader.ResourceLoadingQuery -&gt; bool" Usage="Xamarin.Forms.Internals.ResourceLoader.CanProvideContentFor rlq" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -87,6 +88,7 @@
       <MemberSignature Language="F#" Value="member this.ResourceProvider2 : Func&lt;Xamarin.Forms.Internals.ResourceLoader.ResourceLoadingQuery, Xamarin.Forms.Internals.ResourceLoader.ResourceLoadingResponse&gt;" Usage="Xamarin.Forms.Internals.ResourceLoader.ResourceProvider2" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

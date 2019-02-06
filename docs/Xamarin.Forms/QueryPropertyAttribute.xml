@@ -28,6 +28,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.QueryPropertyAttribute : string * string -&gt; Xamarin.Forms.QueryPropertyAttribute" Usage="new Xamarin.Forms.QueryPropertyAttribute (name, queryId)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -48,6 +49,7 @@
       <MemberSignature Language="F#" Value="member this.Name : string" Usage="Xamarin.Forms.QueryPropertyAttribute.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -66,6 +68,7 @@
       <MemberSignature Language="F#" Value="member this.QueryId : string" Usage="Xamarin.Forms.QueryPropertyAttribute.QueryId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

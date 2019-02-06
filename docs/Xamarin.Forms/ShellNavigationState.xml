@@ -22,6 +22,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ShellNavigationState.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -37,6 +38,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.ShellNavigationState : string -&gt; Xamarin.Forms.ShellNavigationState" Usage="new Xamarin.Forms.ShellNavigationState location" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -55,6 +57,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.ShellNavigationState : Uri -&gt; Xamarin.Forms.ShellNavigationState" Usage="new Xamarin.Forms.ShellNavigationState location" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -73,6 +76,7 @@
       <MemberSignature Language="F#" Value="member this.Location : Uri with get, set" Usage="Xamarin.Forms.ShellNavigationState.Location" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -91,6 +95,7 @@
       <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; Xamarin.Forms.ShellNavigationState" Usage="Xamarin.Forms.ShellNavigationState.op_Implicit value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -113,6 +118,7 @@
       <MemberSignature Language="F#" Value="static member op_Implicit : Uri -&gt; Xamarin.Forms.ShellNavigationState" Usage="Xamarin.Forms.ShellNavigationState.op_Implicit uri" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

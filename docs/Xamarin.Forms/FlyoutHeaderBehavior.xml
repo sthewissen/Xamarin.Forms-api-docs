@@ -22,6 +22,7 @@
       <MemberSignature Language="F#" Value="CollapseOnScroll = 3" Usage="Xamarin.Forms.FlyoutHeaderBehavior.CollapseOnScroll" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -39,6 +40,7 @@
       <MemberSignature Language="F#" Value="Default = 0" Usage="Xamarin.Forms.FlyoutHeaderBehavior.Default" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -56,6 +58,7 @@
       <MemberSignature Language="F#" Value="Fixed = 1" Usage="Xamarin.Forms.FlyoutHeaderBehavior.Fixed" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -73,6 +76,7 @@
       <MemberSignature Language="F#" Value="Scroll = 2" Usage="Xamarin.Forms.FlyoutHeaderBehavior.Scroll" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

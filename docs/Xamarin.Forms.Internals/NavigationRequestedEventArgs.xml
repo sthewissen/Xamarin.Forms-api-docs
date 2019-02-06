@@ -29,6 +29,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NavigationRequestedEventArgs : Xamarin.Forms.Page * bool -&gt; Xamarin.Forms.Internals.NavigationRequestedEventArgs" Usage="new Xamarin.Forms.Internals.NavigationRequestedEventArgs (page, animated)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -39,29 +40,6 @@
         <param name="page">To be added.</param>
         <param name="animated">To be added.</param>
         <summary>To be added.</summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public NavigationRequestedEventArgs (Xamarin.Forms.Page page, bool animated, bool realize = true);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.Page page, bool animated, bool realize) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NavigationRequestedEventArgs.#ctor(Xamarin.Forms.Page,System.Boolean,System.Boolean)" />
-      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NavigationRequestedEventArgs : Xamarin.Forms.Page * bool * bool -&gt; Xamarin.Forms.Internals.NavigationRequestedEventArgs" Usage="new Xamarin.Forms.Internals.NavigationRequestedEventArgs (page, animated, realize)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
-      </AssemblyInfo>
-      <Parameters>
-        <Parameter Name="page" Type="Xamarin.Forms.Page" />
-        <Parameter Name="animated" Type="System.Boolean" />
-        <Parameter Name="realize" Type="System.Boolean" />
-      </Parameters>
-      <Docs>
-        <param name="page">For internal use by the Xamarin.Forms platform.</param>
-        <param name="animated">For internal use by the Xamarin.Forms platform.</param>
-        <param name="realize">For internal use by the Xamarin.Forms platform.</param>
-        <summary>For internal use by platform renderers.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -129,25 +107,6 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="Realize">
-      <MemberSignature Language="C#" Value="public bool Realize { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool Realize" />
-      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.NavigationRequestedEventArgs.Realize" />
-      <MemberSignature Language="F#" Value="member this.Realize : bool with get, set" Usage="Xamarin.Forms.Internals.NavigationRequestedEventArgs.Realize" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyVersion>0.0.0.0</AssemblyVersion>
-        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>For internal use by platform renderers.</summary>
-        <value>For internal use by the Xamarin.Forms platform.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="RequestType">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Internals.NavigationRequestType RequestType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Internals.NavigationRequestType RequestType" />
@@ -155,6 +114,7 @@
       <MemberSignature Language="F#" Value="member this.RequestType : Xamarin.Forms.Internals.NavigationRequestType with get, set" Usage="Xamarin.Forms.Internals.NavigationRequestedEventArgs.RequestType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

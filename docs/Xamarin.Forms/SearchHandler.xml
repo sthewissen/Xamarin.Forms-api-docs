@@ -26,6 +26,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SearchHandler.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -41,6 +42,7 @@
       <MemberSignature Language="F#" Value="member this.ClearIcon : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.SearchHandler.ClearIcon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -59,6 +61,7 @@
       <MemberSignature Language="F#" Value="member this.ClearIconHelpText : string with get, set" Usage="Xamarin.Forms.SearchHandler.ClearIconHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -77,6 +80,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearIconHelpTextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearIconHelpTextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -94,6 +98,7 @@
       <MemberSignature Language="F#" Value="member this.ClearIconName : string with get, set" Usage="Xamarin.Forms.SearchHandler.ClearIconName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -112,6 +117,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearIconNameProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearIconNameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -129,6 +135,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearIconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearIconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -146,6 +153,7 @@
       <MemberSignature Language="F#" Value="member this.ClearPlaceholderCommand : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -164,6 +172,7 @@
       <MemberSignature Language="F#" Value="member this.ClearPlaceholderCommandParameter : obj with get, set" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderCommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -182,6 +191,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearPlaceholderCommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderCommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -199,6 +209,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearPlaceholderCommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderCommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -216,6 +227,7 @@
       <MemberSignature Language="F#" Value="member this.ClearPlaceholderEnabled : bool with get, set" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -234,6 +246,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearPlaceholderEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -251,6 +264,7 @@
       <MemberSignature Language="F#" Value="member this.ClearPlaceholderHelpText : string with get, set" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -269,6 +283,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearPlaceholderHelpTextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderHelpTextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -286,6 +301,7 @@
       <MemberSignature Language="F#" Value="member this.ClearPlaceholderIcon : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderIcon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -304,6 +320,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearPlaceholderIconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderIconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -321,6 +338,7 @@
       <MemberSignature Language="F#" Value="member this.ClearPlaceholderName : string with get, set" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -339,6 +357,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ClearPlaceholderNameProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ClearPlaceholderNameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -356,6 +375,7 @@
       <MemberSignature Language="F#" Value="member this.Command : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.SearchHandler.Command" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -374,6 +394,7 @@
       <MemberSignature Language="F#" Value="member this.CommandParameter : obj with get, set" Usage="Xamarin.Forms.SearchHandler.CommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -392,6 +413,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable CommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.CommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -409,6 +431,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable CommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.CommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -426,6 +449,7 @@
       <MemberSignature Language="F#" Value="member this.DisplayMemberName : string with get, set" Usage="Xamarin.Forms.SearchHandler.DisplayMemberName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -444,6 +468,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable DisplayMemberNameProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.DisplayMemberNameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -461,6 +486,7 @@
       <MemberSignature Language="F#" Value="member this.IsSearchEnabled : bool with get, set" Usage="Xamarin.Forms.SearchHandler.IsSearchEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -479,6 +505,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable IsSearchEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.IsSearchEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -496,6 +523,7 @@
       <MemberSignature Language="F#" Value="member this.ItemsSource : System.Collections.IEnumerable with get, set" Usage="Xamarin.Forms.SearchHandler.ItemsSource" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -514,6 +542,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ItemsSourceProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ItemsSourceProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -531,6 +560,7 @@
       <MemberSignature Language="F#" Value="member this.ItemTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.SearchHandler.ItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -549,6 +579,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -566,6 +597,7 @@
       <MemberSignature Language="F#" Value="abstract member OnClearPlaceholderClicked : unit -&gt; unit&#xA;override this.OnClearPlaceholderClicked : unit -&gt; unit" Usage="searchHandler.OnClearPlaceholderClicked " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -584,6 +616,7 @@
       <MemberSignature Language="F#" Value="abstract member OnItemSelected : obj -&gt; unit&#xA;override this.OnItemSelected : obj -&gt; unit" Usage="searchHandler.OnItemSelected item" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -605,6 +638,7 @@
       <MemberSignature Language="F#" Value="abstract member OnQueryChanged : string * string -&gt; unit&#xA;override this.OnQueryChanged : string * string -&gt; unit" Usage="searchHandler.OnQueryChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -628,6 +662,7 @@
       <MemberSignature Language="F#" Value="abstract member OnQueryConfirmed : unit -&gt; unit&#xA;override this.OnQueryConfirmed : unit -&gt; unit" Usage="searchHandler.OnQueryConfirmed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -646,6 +681,7 @@
       <MemberSignature Language="F#" Value="member this.Placeholder : string with get, set" Usage="Xamarin.Forms.SearchHandler.Placeholder" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -664,6 +700,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable PlaceholderProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.PlaceholderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -681,6 +718,7 @@
       <MemberSignature Language="F#" Value="member this.Query : string with get, set" Usage="Xamarin.Forms.SearchHandler.Query" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -699,6 +737,7 @@
       <MemberSignature Language="F#" Value="member this.QueryIcon : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.SearchHandler.QueryIcon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -717,6 +756,7 @@
       <MemberSignature Language="F#" Value="member this.QueryIconHelpText : string with get, set" Usage="Xamarin.Forms.SearchHandler.QueryIconHelpText" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -735,6 +775,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable QueryIconHelpTextProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.QueryIconHelpTextProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -752,6 +793,7 @@
       <MemberSignature Language="F#" Value="member this.QueryIconName : string with get, set" Usage="Xamarin.Forms.SearchHandler.QueryIconName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -770,6 +812,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable QueryIconNameProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.QueryIconNameProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -787,6 +830,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable QueryIconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.QueryIconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -804,6 +848,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable QueryProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.QueryProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -821,6 +866,7 @@
       <MemberSignature Language="F#" Value="member this.SearchBoxVisibility : Xamarin.Forms.SearchBoxVisiblity with get, set" Usage="Xamarin.Forms.SearchHandler.SearchBoxVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -839,6 +885,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable SearchBoxVisibilityProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.SearchBoxVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -856,6 +903,7 @@
       <MemberSignature Language="F#" Value="member this.ShowsResults : bool with get, set" Usage="Xamarin.Forms.SearchHandler.ShowsResults" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -874,6 +922,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ShowsResultsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SearchHandler.ShowsResultsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -893,6 +942,7 @@
         <InterfaceMember>M:Xamarin.Forms.ISearchHandlerController.ClearPlaceholderClicked</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -913,6 +963,7 @@
         <InterfaceMember>M:Xamarin.Forms.ISearchHandlerController.ItemSelected(System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -937,6 +988,7 @@
         <InterfaceMember>P:Xamarin.Forms.ISearchHandlerController.ListProxy</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -957,6 +1009,7 @@
         <InterfaceMember>E:Xamarin.Forms.ISearchHandlerController.ListProxyChanged</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -976,6 +1029,7 @@
         <InterfaceMember>M:Xamarin.Forms.ISearchHandlerController.QueryConfirmed</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

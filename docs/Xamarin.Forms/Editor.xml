@@ -283,6 +283,7 @@ var editor = new Editor {
       <MemberSignature Language="F#" Value="member this.IsTextPredictionEnabled : bool with get, set" Usage="Xamarin.Forms.Editor.IsTextPredictionEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -301,6 +302,7 @@ var editor = new Editor {
       <MemberSignature Language="F#" Value=" staticval mutable IsTextPredictionEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Editor.IsTextPredictionEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

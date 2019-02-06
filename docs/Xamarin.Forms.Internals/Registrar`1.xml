@@ -221,6 +221,7 @@
       <MemberSignature Language="F#" Value="member this.GetHandlerType : Type * Type -&gt; Type" Usage="registrar.GetHandlerType (viewType, visualType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -294,6 +295,7 @@
       <MemberSignature Language="F#" Value="member this.Register : Type * Type * Type[] -&gt; unit" Usage="registrar.Register (tview, trender, supportedVisuals)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

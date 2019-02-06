@@ -949,6 +949,7 @@ ListView CreateListView()
       <MemberSignature Language="F#" Value="member this.HorizontalScrollBarVisibility : Xamarin.Forms.ScrollBarVisibility with get, set" Usage="Xamarin.Forms.ListView.HorizontalScrollBarVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -967,6 +968,7 @@ ListView CreateListView()
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalScrollBarVisibilityProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.HorizontalScrollBarVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1463,6 +1465,7 @@ ListView CreateListView()
       <MemberSignature Language="F#" Value="member this.RefreshControlColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.ListView.RefreshControlColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -1481,6 +1484,7 @@ ListView CreateListView()
       <MemberSignature Language="F#" Value=" staticval mutable RefreshControlColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.RefreshControlColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2036,6 +2040,7 @@ ListView CreateListView()
       <MemberSignature Language="F#" Value="member this.VerticalScrollBarVisibility : Xamarin.Forms.ScrollBarVisibility with get, set" Usage="Xamarin.Forms.ListView.VerticalScrollBarVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -2054,6 +2059,7 @@ ListView CreateListView()
       <MemberSignature Language="F#" Value=" staticval mutable VerticalScrollBarVisibilityProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.VerticalScrollBarVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

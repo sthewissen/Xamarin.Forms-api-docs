@@ -27,6 +27,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualTypeConverter.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -42,6 +43,7 @@
       <MemberSignature Language="F#" Value="override this.ConvertFromInvariantString : string -&gt; obj" Usage="visualTypeConverter.ConvertFromInvariantString value" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

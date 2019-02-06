@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.ListProxyChangedEventArgs : System.Collections.Generic.IReadOnlyCollection&lt;obj&gt; * System.Collections.Generic.IReadOnlyCollection&lt;obj&gt; -&gt; Xamarin.Forms.ListProxyChangedEventArgs" Usage="new Xamarin.Forms.ListProxyChangedEventArgs (oldList, newList)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -43,6 +44,7 @@
       <MemberSignature Language="F#" Value="member this.NewList : System.Collections.Generic.IReadOnlyCollection&lt;obj&gt;" Usage="Xamarin.Forms.ListProxyChangedEventArgs.NewList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -61,6 +63,7 @@
       <MemberSignature Language="F#" Value="member this.OldList : System.Collections.Generic.IReadOnlyCollection&lt;obj&gt;" Usage="Xamarin.Forms.ListProxyChangedEventArgs.OldList" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

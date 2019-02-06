@@ -37,6 +37,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.DataTemplateExtension.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -55,6 +56,7 @@
         <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -77,6 +79,7 @@
       <MemberSignature Language="F#" Value="member this.TypeName : string with get, set" Usage="Xamarin.Forms.Xaml.DataTemplateExtension.TypeName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -97,6 +100,7 @@
         <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

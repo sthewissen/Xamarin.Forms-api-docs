@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="member this.CurrentSelection : System.Collections.Generic.IReadOnlyList&lt;obj&gt;" Usage="Xamarin.Forms.SelectionChangedEventArgs.CurrentSelection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -41,6 +42,7 @@
       <MemberSignature Language="F#" Value="member this.PreviousSelection : System.Collections.Generic.IReadOnlyList&lt;obj&gt;" Usage="Xamarin.Forms.SelectionChangedEventArgs.PreviousSelection" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

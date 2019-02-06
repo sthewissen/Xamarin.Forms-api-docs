@@ -212,6 +212,7 @@
         <InterfaceMember>M:Xamarin.Forms.ITableModel.GetSectionTextColor(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

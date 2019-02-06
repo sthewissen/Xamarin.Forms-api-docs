@@ -80,6 +80,7 @@
       <MemberSignature Language="F#" Value="member this.TextColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.TableSectionBase.TextColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -98,6 +99,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable TextColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.TableSectionBase.TextColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

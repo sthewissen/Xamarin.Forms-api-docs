@@ -251,6 +251,7 @@ MainPage = new ContentPage
         <InterfaceMember>P:Xamarin.Forms.IScrollViewController.LayoutAreaOverride</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>

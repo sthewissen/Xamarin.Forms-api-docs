@@ -34,6 +34,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ShellSection.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -49,6 +50,7 @@
       <MemberSignature Language="F#" Value="member this.CurrentItem : Xamarin.Forms.ShellContent with get, set" Usage="Xamarin.Forms.ShellSection.CurrentItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -67,6 +69,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable CurrentItemProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ShellSection.CurrentItemProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -84,6 +87,7 @@
       <MemberSignature Language="F#" Value="abstract member GetNavigationStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Xamarin.Forms.Page&gt;&#xA;override this.GetNavigationStack : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Xamarin.Forms.Page&gt;" Usage="shellSection.GetNavigationStack " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -103,6 +107,7 @@
       <MemberSignature Language="F#" Value="abstract member GoToAsync : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * bool -&gt; System.Threading.Tasks.Task&#xA;override this.GoToAsync : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.IDictionary&lt;string, string&gt; * bool -&gt; System.Threading.Tasks.Task" Usage="shellSection.GoToAsync (routes, queryData, animate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -129,6 +134,7 @@
       <MemberSignature Language="F#" Value="member this.Items : Xamarin.Forms.ShellContentCollection" Usage="Xamarin.Forms.ShellSection.Items" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -147,6 +153,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ItemsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ShellSection.ItemsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -164,6 +171,7 @@
       <MemberSignature Language="F#" Value="override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="shellSection.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -185,6 +193,7 @@
       <MemberSignature Language="F#" Value="override this.OnChildRemoved : Xamarin.Forms.Element -&gt; unit" Usage="shellSection.OnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -206,6 +215,7 @@
       <MemberSignature Language="F#" Value="abstract member OnInsertPageBefore : Xamarin.Forms.Page * Xamarin.Forms.Page -&gt; unit&#xA;override this.OnInsertPageBefore : Xamarin.Forms.Page * Xamarin.Forms.Page -&gt; unit" Usage="shellSection.OnInsertPageBefore (page, before)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -229,6 +239,7 @@
       <MemberSignature Language="F#" Value="abstract member OnPopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Xamarin.Forms.Page&gt;&#xA;override this.OnPopAsync : bool -&gt; System.Threading.Tasks.Task&lt;Xamarin.Forms.Page&gt;" Usage="shellSection.OnPopAsync animated" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -251,6 +262,7 @@
       <MemberSignature Language="F#" Value="abstract member OnPopToRootAsync : bool -&gt; System.Threading.Tasks.Task&#xA;override this.OnPopToRootAsync : bool -&gt; System.Threading.Tasks.Task" Usage="shellSection.OnPopToRootAsync animated" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -273,6 +285,7 @@
       <MemberSignature Language="F#" Value="abstract member OnPushAsync : Xamarin.Forms.Page * bool -&gt; System.Threading.Tasks.Task&#xA;override this.OnPushAsync : Xamarin.Forms.Page * bool -&gt; System.Threading.Tasks.Task" Usage="shellSection.OnPushAsync (page, animated)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -297,6 +310,7 @@
       <MemberSignature Language="F#" Value="abstract member OnRemovePage : Xamarin.Forms.Page -&gt; unit&#xA;override this.OnRemovePage : Xamarin.Forms.Page -&gt; unit" Usage="shellSection.OnRemovePage page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -318,6 +332,7 @@
       <MemberSignature Language="F#" Value="static member op_Implicit : Xamarin.Forms.ShellContent -&gt; Xamarin.Forms.ShellSection" Usage="Xamarin.Forms.ShellSection.op_Implicit shellContent" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -340,6 +355,7 @@
       <MemberSignature Language="F#" Value="static member op_Implicit : Xamarin.Forms.TemplatedPage -&gt; Xamarin.Forms.ShellSection" Usage="Xamarin.Forms.ShellSection.op_Implicit page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -362,6 +378,7 @@
       <MemberSignature Language="F#" Value="member this.Stack : System.Collections.Generic.IReadOnlyList&lt;Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.ShellSection.Stack" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -382,6 +399,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellSectionController.AddContentInsetObserver(Xamarin.Forms.IShellContentInsetObserver)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -405,6 +423,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellSectionController.AddDisplayedPageObserver(System.Object,System.Action{Xamarin.Forms.Page})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -430,6 +449,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellSectionController.GoToPart(System.Collections.Generic.List{System.String},System.Collections.Generic.Dictionary{System.String,System.String})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -456,6 +476,7 @@
         <InterfaceMember>E:Xamarin.Forms.IShellSectionController.NavigationRequested</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -476,6 +497,7 @@
         <InterfaceMember>P:Xamarin.Forms.IShellSectionController.PresentedPage</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -496,6 +518,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellSectionController.RemoveContentInsetObserver(Xamarin.Forms.IShellContentInsetObserver)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -520,6 +543,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellSectionController.RemoveDisplayedPageObserver(System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -544,6 +568,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellSectionController.SendInsetChanged(Xamarin.Forms.Thickness,System.Double)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -569,6 +594,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellSectionController.SendPopped</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

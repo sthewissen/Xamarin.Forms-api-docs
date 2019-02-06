@@ -20,6 +20,7 @@
       <MemberSignature Language="F#" Value="abstract member ApplyQueryAttributes : System.Collections.Generic.IDictionary&lt;string, string&gt; -&gt; unit" Usage="iQueryAttributable.ApplyQueryAttributes query" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

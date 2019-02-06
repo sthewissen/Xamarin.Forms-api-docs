@@ -24,6 +24,7 @@
       <MemberSignature Language="F#" Value="abstract member GoToPart : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.Dictionary&lt;string, string&gt; -&gt; System.Threading.Tasks.Task" Usage="iShellItemController.GoToPart (parts, queryData)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -48,6 +49,7 @@
       <MemberSignature Language="F#" Value="abstract member ProposeSection : Xamarin.Forms.ShellSection * bool -&gt; bool" Usage="iShellItemController.ProposeSection (shellSection, setValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

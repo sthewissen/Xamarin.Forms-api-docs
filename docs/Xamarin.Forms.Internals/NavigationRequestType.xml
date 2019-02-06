@@ -27,6 +27,7 @@
       <MemberSignature Language="F#" Value="Insert = 4" Usage="Xamarin.Forms.Internals.NavigationRequestType.Insert" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -44,6 +45,7 @@
       <MemberSignature Language="F#" Value="Pop = 2" Usage="Xamarin.Forms.Internals.NavigationRequestType.Pop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -61,6 +63,7 @@
       <MemberSignature Language="F#" Value="PopToRoot = 3" Usage="Xamarin.Forms.Internals.NavigationRequestType.PopToRoot" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -78,6 +81,7 @@
       <MemberSignature Language="F#" Value="Push = 1" Usage="Xamarin.Forms.Internals.NavigationRequestType.Push" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -95,6 +99,7 @@
       <MemberSignature Language="F#" Value="Remove = 5" Usage="Xamarin.Forms.Internals.NavigationRequestType.Remove" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -112,6 +117,7 @@
       <MemberSignature Language="F#" Value="Unknown = 0" Usage="Xamarin.Forms.Internals.NavigationRequestType.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

@@ -27,6 +27,7 @@
       <MemberSignature Language="F#" Value="member this.class : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Xamarin.Forms.NavigableElement.class" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -50,6 +51,7 @@
       <MemberSignature Language="F#" Value="member this.Navigation : Xamarin.Forms.INavigation" Usage="Xamarin.Forms.NavigableElement.Navigation" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -68,6 +70,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable NavigationProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigableElement.NavigationProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -88,6 +91,7 @@
         <InterfaceMember>P:Xamarin.Forms.Internals.INavigationProxy.NavigationProxy</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -111,6 +115,7 @@
       <MemberSignature Language="F#" Value="override this.OnParentSet : unit -&gt; unit" Usage="navigableElement.OnParentSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -129,6 +134,7 @@
       <MemberSignature Language="F#" Value="member this.Style : Xamarin.Forms.Style with get, set" Usage="Xamarin.Forms.NavigableElement.Style" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -147,6 +153,7 @@
       <MemberSignature Language="F#" Value="member this.StyleClass : System.Collections.Generic.IList&lt;string&gt; with get, set" Usage="Xamarin.Forms.NavigableElement.StyleClass" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
@@ -170,6 +177,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable StyleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.NavigableElement.StyleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

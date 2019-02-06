@@ -22,6 +22,7 @@
       <MemberSignature Language="F#" Value="Horizontal = 1" Usage="Xamarin.Forms.ItemsLayoutOrientation.Horizontal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -39,6 +40,7 @@
       <MemberSignature Language="F#" Value="Vertical = 0" Usage="Xamarin.Forms.ItemsLayoutOrientation.Vertical" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

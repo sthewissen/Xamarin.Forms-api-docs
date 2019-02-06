@@ -20,6 +20,7 @@
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarBackgroundColor : Xamarin.Forms.Color" Usage="Xamarin.Forms.IShellAppearanceElement.EffectiveTabBarBackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -38,6 +39,7 @@
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarDisabledColor : Xamarin.Forms.Color" Usage="Xamarin.Forms.IShellAppearanceElement.EffectiveTabBarDisabledColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -56,6 +58,7 @@
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarForegroundColor : Xamarin.Forms.Color" Usage="Xamarin.Forms.IShellAppearanceElement.EffectiveTabBarForegroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -74,6 +77,7 @@
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarTitleColor : Xamarin.Forms.Color" Usage="Xamarin.Forms.IShellAppearanceElement.EffectiveTabBarTitleColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -92,6 +96,7 @@
       <MemberSignature Language="F#" Value="member this.EffectiveTabBarUnselectedColor : Xamarin.Forms.Color" Usage="Xamarin.Forms.IShellAppearanceElement.EffectiveTabBarUnselectedColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

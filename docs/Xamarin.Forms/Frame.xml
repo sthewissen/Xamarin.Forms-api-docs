@@ -322,6 +322,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.BorderColorDefaultValue</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -343,6 +344,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.BorderWidth</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -364,6 +366,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.BorderWidthDefaultValue</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -385,6 +388,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.CornerRadius</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -406,6 +410,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>P:Xamarin.Forms.IBorderElement.CornerRadiusDefaultValue</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -426,6 +431,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsBackgroundColorSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -447,6 +453,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsBorderColorSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -468,6 +475,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsBorderWidthSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -489,6 +497,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.IsCornerRadiusSet</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -510,6 +519,7 @@ MainPage = new ContentPage () {
         <InterfaceMember>M:Xamarin.Forms.IBorderElement.OnBorderColorPropertyChanged(Xamarin.Forms.Color,Xamarin.Forms.Color)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

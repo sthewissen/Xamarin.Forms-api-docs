@@ -25,6 +25,7 @@
       <MemberSignature Language="F#" Value="member this.Aspect : Xamarin.Forms.Aspect" Usage="Xamarin.Forms.IImageElement.Aspect" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -43,6 +44,7 @@
       <MemberSignature Language="F#" Value="member this.IsOpaque : bool" Usage="Xamarin.Forms.IImageElement.IsOpaque" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -61,6 +63,7 @@
       <MemberSignature Language="F#" Value="abstract member OnImageSourcesSourceChanged : obj * EventArgs -&gt; unit" Usage="iImageElement.OnImageSourcesSourceChanged (sender, e)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -84,6 +87,7 @@
       <MemberSignature Language="F#" Value="abstract member RaiseImageSourcePropertyChanged : unit -&gt; unit" Usage="iImageElement.RaiseImageSourcePropertyChanged " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -102,6 +106,7 @@
       <MemberSignature Language="F#" Value="member this.Source : Xamarin.Forms.ImageSource" Usage="Xamarin.Forms.IImageElement.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

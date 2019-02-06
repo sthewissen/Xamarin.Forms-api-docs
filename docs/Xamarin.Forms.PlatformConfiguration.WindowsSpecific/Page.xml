@@ -24,6 +24,7 @@
       <MemberSignature Language="F#" Value="static member GetToolbarDynamicOverflowEnabled : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled element" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -46,6 +47,7 @@
       <MemberSignature Language="F#" Value="static member GetToolbarDynamicOverflowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled config" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -116,6 +118,7 @@
       <MemberSignature Language="F#" Value="static member SetToolbarDynamicOverflowEnabled : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled (element, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -139,6 +142,7 @@
       <MemberSignature Language="F#" Value="static member SetToolbarDynamicOverflowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled (config, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -214,6 +218,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ToolbarDynamicOverflowEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.ToolbarDynamicOverflowEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

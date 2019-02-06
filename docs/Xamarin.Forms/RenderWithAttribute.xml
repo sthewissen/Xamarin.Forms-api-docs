@@ -55,6 +55,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.RenderWithAttribute : Type * Type[] -&gt; Xamarin.Forms.RenderWithAttribute" Usage="new Xamarin.Forms.RenderWithAttribute (type, supportedVisuals)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -75,6 +76,7 @@
       <MemberSignature Language="F#" Value="member this.SupportedVisuals : Type[]" Usage="Xamarin.Forms.RenderWithAttribute.SupportedVisuals" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

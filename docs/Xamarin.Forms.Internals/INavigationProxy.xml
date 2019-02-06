@@ -25,6 +25,7 @@
       <MemberSignature Language="F#" Value="member this.NavigationProxy : Xamarin.Forms.Internals.NavigationProxy" Usage="Xamarin.Forms.Internals.INavigationProxy.NavigationProxy" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

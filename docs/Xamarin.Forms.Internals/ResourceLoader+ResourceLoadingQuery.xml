@@ -22,6 +22,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.ResourceLoader.ResourceLoadingQuery.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -37,6 +38,7 @@
       <MemberSignature Language="F#" Value="member this.AssemblyName : System.Reflection.AssemblyName with get, set" Usage="Xamarin.Forms.Internals.ResourceLoader.ResourceLoadingQuery.AssemblyName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -55,6 +57,7 @@
       <MemberSignature Language="F#" Value="member this.ResourcePath : string with get, set" Usage="Xamarin.Forms.Internals.ResourceLoader.ResourceLoadingQuery.ResourcePath" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

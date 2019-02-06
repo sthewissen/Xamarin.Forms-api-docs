@@ -24,6 +24,7 @@
       <MemberSignature Language="F#" Value="abstract member AddContentInsetObserver : Xamarin.Forms.IShellContentInsetObserver -&gt; unit" Usage="iShellSectionController.AddContentInsetObserver observer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -45,6 +46,7 @@
       <MemberSignature Language="F#" Value="abstract member AddDisplayedPageObserver : obj * Action&lt;Xamarin.Forms.Page&gt; -&gt; unit" Usage="iShellSectionController.AddDisplayedPageObserver (observer, callback)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -68,6 +70,7 @@
       <MemberSignature Language="F#" Value="abstract member GoToPart : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.Dictionary&lt;string, string&gt; -&gt; System.Threading.Tasks.Task" Usage="iShellSectionController.GoToPart (parts, queryData)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -92,6 +95,7 @@
       <MemberSignature Language="F#" Value="member this.NavigationRequested : EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " Usage="member this.NavigationRequested : System.EventHandler&lt;Xamarin.Forms.Internals.NavigationRequestedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -109,6 +113,7 @@
       <MemberSignature Language="F#" Value="member this.PresentedPage : Xamarin.Forms.Page" Usage="Xamarin.Forms.IShellSectionController.PresentedPage" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -127,6 +132,7 @@
       <MemberSignature Language="F#" Value="abstract member RemoveContentInsetObserver : Xamarin.Forms.IShellContentInsetObserver -&gt; bool" Usage="iShellSectionController.RemoveContentInsetObserver observer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -149,6 +155,7 @@
       <MemberSignature Language="F#" Value="abstract member RemoveDisplayedPageObserver : obj -&gt; bool" Usage="iShellSectionController.RemoveDisplayedPageObserver observer" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -171,6 +178,7 @@
       <MemberSignature Language="F#" Value="abstract member SendInsetChanged : Xamarin.Forms.Thickness * double -&gt; unit" Usage="iShellSectionController.SendInsetChanged (inset, tabThickness)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -194,6 +202,7 @@
       <MemberSignature Language="F#" Value="abstract member SendPopped : unit -&gt; unit" Usage="iShellSectionController.SendPopped " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

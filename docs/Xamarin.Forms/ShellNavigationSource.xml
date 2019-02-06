@@ -22,6 +22,7 @@
       <MemberSignature Language="F#" Value="Insert = 4" Usage="Xamarin.Forms.ShellNavigationSource.Insert" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -39,6 +40,7 @@
       <MemberSignature Language="F#" Value="Pop = 2" Usage="Xamarin.Forms.ShellNavigationSource.Pop" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -56,6 +58,7 @@
       <MemberSignature Language="F#" Value="PopToRoot = 3" Usage="Xamarin.Forms.ShellNavigationSource.PopToRoot" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -73,6 +76,7 @@
       <MemberSignature Language="F#" Value="Push = 1" Usage="Xamarin.Forms.ShellNavigationSource.Push" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -90,6 +94,7 @@
       <MemberSignature Language="F#" Value="Remove = 5" Usage="Xamarin.Forms.ShellNavigationSource.Remove" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -107,6 +112,7 @@
       <MemberSignature Language="F#" Value="ShellContentChanged = 8" Usage="Xamarin.Forms.ShellNavigationSource.ShellContentChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -124,6 +130,7 @@
       <MemberSignature Language="F#" Value="ShellItemChanged = 6" Usage="Xamarin.Forms.ShellNavigationSource.ShellItemChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -141,6 +148,7 @@
       <MemberSignature Language="F#" Value="ShellSectionChanged = 7" Usage="Xamarin.Forms.ShellNavigationSource.ShellSectionChanged" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -158,6 +166,7 @@
       <MemberSignature Language="F#" Value="Unknown = 0" Usage="Xamarin.Forms.ShellNavigationSource.Unknown" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

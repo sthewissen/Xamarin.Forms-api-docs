@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="static member GetOrCreateContent : string -&gt; Xamarin.Forms.Element" Usage="Xamarin.Forms.Routing.GetOrCreateContent route" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -45,6 +46,7 @@
       <MemberSignature Language="F#" Value="static member GetRoute : Xamarin.Forms.Element -&gt; string" Usage="Xamarin.Forms.Routing.GetRoute obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -67,6 +69,7 @@
       <MemberSignature Language="F#" Value="static member RegisterRoute : string * Type -&gt; unit" Usage="Xamarin.Forms.Routing.RegisterRoute (route, type)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -90,6 +93,7 @@
       <MemberSignature Language="F#" Value="static member RegisterRoute : string * Xamarin.Forms.RouteFactory -&gt; unit" Usage="Xamarin.Forms.Routing.RegisterRoute (route, factory)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -113,6 +117,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable RouteProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Routing.RouteProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -130,6 +135,7 @@
       <MemberSignature Language="F#" Value="static member SetRoute : Xamarin.Forms.Element * string -&gt; unit" Usage="Xamarin.Forms.Routing.SetRoute (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

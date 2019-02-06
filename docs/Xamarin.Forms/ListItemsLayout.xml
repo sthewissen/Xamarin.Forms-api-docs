@@ -23,6 +23,7 @@
       <MemberSignature Language="F#" Value="new Xamarin.Forms.ListItemsLayout : Xamarin.Forms.ItemsLayoutOrientation -&gt; Xamarin.Forms.ListItemsLayout" Usage="new Xamarin.Forms.ListItemsLayout orientation" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
@@ -41,6 +42,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable HorizontalList : Xamarin.Forms.IItemsLayout" Usage="Xamarin.Forms.ListItemsLayout.HorizontalList" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -58,6 +60,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable VerticalList : Xamarin.Forms.IItemsLayout" Usage="Xamarin.Forms.ListItemsLayout.VerticalList" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

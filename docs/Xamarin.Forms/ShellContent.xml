@@ -34,6 +34,7 @@
       <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ShellContent.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
@@ -49,6 +50,7 @@
       <MemberSignature Language="F#" Value="member this.Content : obj with get, set" Usage="Xamarin.Forms.ShellContent.Content" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -67,6 +69,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ContentProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ShellContent.ContentProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -84,6 +87,7 @@
       <MemberSignature Language="F#" Value="member this.ContentTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.ShellContent.ContentTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -102,6 +106,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable ContentTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ShellContent.ContentTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -119,6 +124,7 @@
       <MemberSignature Language="F#" Value="member this.MenuItems : Xamarin.Forms.MenuItemCollection" Usage="Xamarin.Forms.ShellContent.MenuItems" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -137,6 +143,7 @@
       <MemberSignature Language="F#" Value=" staticval mutable MenuItemsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ShellContent.MenuItemsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -154,6 +161,7 @@
       <MemberSignature Language="F#" Value="static member op_Implicit : Xamarin.Forms.TemplatedPage -&gt; Xamarin.Forms.ShellContent" Usage="Xamarin.Forms.ShellContent.op_Implicit page" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -178,6 +186,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellContentController.GetOrCreateContent</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -200,6 +209,7 @@
         <InterfaceMember>P:Xamarin.Forms.IShellContentController.Page</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -220,6 +230,7 @@
         <InterfaceMember>M:Xamarin.Forms.IShellContentController.RecyclePage(Xamarin.Forms.Page)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
