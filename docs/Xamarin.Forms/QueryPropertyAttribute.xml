@@ -1,6 +1,8 @@
 <Type Name="QueryPropertyAttribute" FullName="Xamarin.Forms.QueryPropertyAttribute">
   <TypeSignature Language="C#" Value="public class QueryPropertyAttribute : Attribute" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit QueryPropertyAttribute extends System.Attribute" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.QueryPropertyAttribute" />
+  <TypeSignature Language="F#" Value="type QueryPropertyAttribute = class&#xA;    inherit Attribute" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -22,6 +24,8 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public QueryPropertyAttribute (string name, string queryId);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, string queryId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.QueryPropertyAttribute.#ctor(System.String,System.String)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.QueryPropertyAttribute : string * string -&gt; Xamarin.Forms.QueryPropertyAttribute" Usage="new Xamarin.Forms.QueryPropertyAttribute (name, queryId)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -40,6 +44,8 @@
     <Member MemberName="Name">
       <MemberSignature Language="C#" Value="public string Name { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.QueryPropertyAttribute.Name" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Xamarin.Forms.QueryPropertyAttribute.Name" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -56,6 +62,8 @@
     <Member MemberName="QueryId">
       <MemberSignature Language="C#" Value="public string QueryId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string QueryId" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.QueryPropertyAttribute.QueryId" />
+      <MemberSignature Language="F#" Value="member this.QueryId : string" Usage="Xamarin.Forms.QueryPropertyAttribute.QueryId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

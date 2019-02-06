@@ -945,6 +945,8 @@ ListView CreateListView()
     <Member MemberName="HorizontalScrollBarVisibility">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ScrollBarVisibility HorizontalScrollBarVisibility { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ScrollBarVisibility HorizontalScrollBarVisibility" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.HorizontalScrollBarVisibility" />
+      <MemberSignature Language="F#" Value="member this.HorizontalScrollBarVisibility : Xamarin.Forms.ScrollBarVisibility with get, set" Usage="Xamarin.Forms.ListView.HorizontalScrollBarVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -961,6 +963,8 @@ ListView CreateListView()
     <Member MemberName="HorizontalScrollBarVisibilityProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty HorizontalScrollBarVisibilityProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty HorizontalScrollBarVisibilityProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.HorizontalScrollBarVisibilityProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable HorizontalScrollBarVisibilityProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.HorizontalScrollBarVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1455,6 +1459,8 @@ ListView CreateListView()
     <Member MemberName="RefreshControlColor">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Color RefreshControlColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color RefreshControlColor" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.RefreshControlColor" />
+      <MemberSignature Language="F#" Value="member this.RefreshControlColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.ListView.RefreshControlColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1471,6 +1477,8 @@ ListView CreateListView()
     <Member MemberName="RefreshControlColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty RefreshControlColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty RefreshControlColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.RefreshControlColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable RefreshControlColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.RefreshControlColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -2024,6 +2032,8 @@ ListView CreateListView()
     <Member MemberName="VerticalScrollBarVisibility">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ScrollBarVisibility VerticalScrollBarVisibility { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ScrollBarVisibility VerticalScrollBarVisibility" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ListView.VerticalScrollBarVisibility" />
+      <MemberSignature Language="F#" Value="member this.VerticalScrollBarVisibility : Xamarin.Forms.ScrollBarVisibility with get, set" Usage="Xamarin.Forms.ListView.VerticalScrollBarVisibility" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -2040,6 +2050,8 @@ ListView CreateListView()
     <Member MemberName="VerticalScrollBarVisibilityProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty VerticalScrollBarVisibilityProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty VerticalScrollBarVisibilityProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.ListView.VerticalScrollBarVisibilityProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable VerticalScrollBarVisibilityProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.ListView.VerticalScrollBarVisibilityProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -1,6 +1,8 @@
 <Type Name="IItemsLayout" FullName="Xamarin.Forms.IItemsLayout">
   <TypeSignature Language="C#" Value="public interface IItemsLayout : System.ComponentModel.INotifyPropertyChanged" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IItemsLayout implements class System.ComponentModel.INotifyPropertyChanged" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IItemsLayout" />
+  <TypeSignature Language="F#" Value="type IItemsLayout = interface&#xA;    interface INotifyPropertyChanged" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>

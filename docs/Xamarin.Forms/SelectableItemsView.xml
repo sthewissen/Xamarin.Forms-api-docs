@@ -1,6 +1,8 @@
 <Type Name="SelectableItemsView" FullName="Xamarin.Forms.SelectableItemsView">
   <TypeSignature Language="C#" Value="public class SelectableItemsView : Xamarin.Forms.ItemsView" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SelectableItemsView extends Xamarin.Forms.ItemsView" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.SelectableItemsView" />
+  <TypeSignature Language="F#" Value="type SelectableItemsView = class&#xA;    inherit ItemsView" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -17,6 +19,7 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public SelectableItemsView ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SelectableItemsView.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -30,6 +33,8 @@
     <Member MemberName="OnSelectionChanged">
       <MemberSignature Language="C#" Value="protected virtual void OnSelectionChanged (Xamarin.Forms.SelectionChangedEventArgs args);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnSelectionChanged(class Xamarin.Forms.SelectionChangedEventArgs args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.SelectableItemsView.OnSelectionChanged(Xamarin.Forms.SelectionChangedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnSelectionChanged : Xamarin.Forms.SelectionChangedEventArgs -&gt; unit&#xA;override this.OnSelectionChanged : Xamarin.Forms.SelectionChangedEventArgs -&gt; unit" Usage="selectableItemsView.OnSelectionChanged args" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -49,6 +54,8 @@
     <Member MemberName="SelectedItem">
       <MemberSignature Language="C#" Value="public object SelectedItem { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object SelectedItem" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SelectableItemsView.SelectedItem" />
+      <MemberSignature Language="F#" Value="member this.SelectedItem : obj with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectedItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -65,6 +72,8 @@
     <Member MemberName="SelectedItemProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty SelectedItemProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectedItemProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SelectableItemsView.SelectedItemProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectedItemProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectedItemProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -80,6 +89,8 @@
     <Member MemberName="SelectionChanged">
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Xamarin.Forms.SelectionChangedEventArgs&gt; SelectionChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.SelectionChangedEventArgs&gt; SelectionChanged" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.SelectableItemsView.SelectionChanged" />
+      <MemberSignature Language="F#" Value="member this.SelectionChanged : EventHandler&lt;Xamarin.Forms.SelectionChangedEventArgs&gt; " Usage="member this.SelectionChanged : System.EventHandler&lt;Xamarin.Forms.SelectionChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -95,6 +106,8 @@
     <Member MemberName="SelectionChangedCommand">
       <MemberSignature Language="C#" Value="public System.Windows.Input.ICommand SelectionChangedCommand { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Input.ICommand SelectionChangedCommand" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SelectableItemsView.SelectionChangedCommand" />
+      <MemberSignature Language="F#" Value="member this.SelectionChangedCommand : System.Windows.Input.ICommand with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommand" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -111,6 +124,8 @@
     <Member MemberName="SelectionChangedCommandParameter">
       <MemberSignature Language="C#" Value="public object SelectionChangedCommandParameter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object SelectionChangedCommandParameter" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SelectableItemsView.SelectionChangedCommandParameter" />
+      <MemberSignature Language="F#" Value="member this.SelectionChangedCommandParameter : obj with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommandParameter" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -127,6 +142,8 @@
     <Member MemberName="SelectionChangedCommandParameterProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty SelectionChangedCommandParameterProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectionChangedCommandParameterProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SelectableItemsView.SelectionChangedCommandParameterProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectionChangedCommandParameterProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommandParameterProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -142,6 +159,8 @@
     <Member MemberName="SelectionChangedCommandProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty SelectionChangedCommandProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectionChangedCommandProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SelectableItemsView.SelectionChangedCommandProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectionChangedCommandProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectionChangedCommandProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -157,6 +176,8 @@
     <Member MemberName="SelectionMode">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.SelectionMode SelectionMode { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.SelectionMode SelectionMode" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SelectableItemsView.SelectionMode" />
+      <MemberSignature Language="F#" Value="member this.SelectionMode : Xamarin.Forms.SelectionMode with get, set" Usage="Xamarin.Forms.SelectableItemsView.SelectionMode" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -173,6 +194,8 @@
     <Member MemberName="SelectionModeProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty SelectionModeProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SelectionModeProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SelectableItemsView.SelectionModeProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable SelectionModeProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SelectableItemsView.SelectionModeProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

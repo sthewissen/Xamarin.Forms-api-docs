@@ -566,6 +566,8 @@ namespace FormsGallery
     <Member MemberName="Reload">
       <MemberSignature Language="C#" Value="public void Reload ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Reload() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.WebView.Reload" />
+      <MemberSignature Language="F#" Value="member this.Reload : unit -&gt; unit" Usage="webView.Reload " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -582,6 +584,8 @@ namespace FormsGallery
     <Member MemberName="ReloadRequested">
       <MemberSignature Language="C#" Value="public event EventHandler ReloadRequested;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler ReloadRequested" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.WebView.ReloadRequested" />
+      <MemberSignature Language="F#" Value="member this.ReloadRequested : EventHandler " Usage="member this.ReloadRequested : System.EventHandler " />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Xamarin.Forms.IWebViewController.ReloadRequested</InterfaceMember>

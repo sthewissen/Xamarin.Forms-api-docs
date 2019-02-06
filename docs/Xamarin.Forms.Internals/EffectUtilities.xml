@@ -52,6 +52,8 @@
     <Member MemberName="UnregisterEffectControlProvider">
       <MemberSignature Language="C#" Value="public static void UnregisterEffectControlProvider (Xamarin.Forms.IEffectControlProvider self, Xamarin.Forms.IElementController element);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void UnregisterEffectControlProvider(class Xamarin.Forms.IEffectControlProvider self, class Xamarin.Forms.IElementController element) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.EffectUtilities.UnregisterEffectControlProvider(Xamarin.Forms.IEffectControlProvider,Xamarin.Forms.IElementController)" />
+      <MemberSignature Language="F#" Value="static member UnregisterEffectControlProvider : Xamarin.Forms.IEffectControlProvider * Xamarin.Forms.IElementController -&gt; unit" Usage="Xamarin.Forms.Internals.EffectUtilities.UnregisterEffectControlProvider (self, element)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

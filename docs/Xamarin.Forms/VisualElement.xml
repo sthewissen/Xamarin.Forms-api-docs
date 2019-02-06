@@ -2,7 +2,7 @@
   <TypeSignature Language="C#" Value="public class VisualElement : Xamarin.Forms.NavigableElement, Xamarin.Forms.IAnimatable, Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VisualElement extends Xamarin.Forms.NavigableElement implements class Xamarin.Forms.IAnimatable, class Xamarin.Forms.IElementController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.VisualElement" />
-  <TypeSignature Language="F#" Value="type VisualElement = class&#xA;    inherit Element&#xA;    interface IAnimatable&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
+  <TypeSignature Language="F#" Value="type VisualElement = class&#xA;    inherit NavigableElement&#xA;    interface IAnimatable&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -2629,6 +2629,8 @@
     <Member MemberName="VerifyVisualFlagEnabled">
       <MemberSignature Language="C#" Value="public static void VerifyVisualFlagEnabled (string constructorHint = null, string memberName = &quot;&quot;);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void VerifyVisualFlagEnabled(string constructorHint, string memberName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualElement.VerifyVisualFlagEnabled(System.String,System.String)" />
+      <MemberSignature Language="F#" Value="static member VerifyVisualFlagEnabled : string * string -&gt; unit" Usage="Xamarin.Forms.VisualElement.VerifyVisualFlagEnabled (constructorHint, memberName)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -2661,6 +2663,8 @@
     <Member MemberName="Visual">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.IVisual Visual { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.IVisual Visual" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.VisualElement.Visual" />
+      <MemberSignature Language="F#" Value="member this.Visual : Xamarin.Forms.IVisual with get, set" Usage="Xamarin.Forms.VisualElement.Visual" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -2677,6 +2681,8 @@
     <Member MemberName="VisualProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty VisualProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty VisualProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualElement.VisualProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable VisualProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.VisualElement.VisualProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

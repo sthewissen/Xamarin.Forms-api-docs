@@ -1,6 +1,8 @@
 <Type Name="IDataTemplateController" FullName="Xamarin.Forms.Internals.IDataTemplateController">
   <TypeSignature Language="C#" Value="public interface IDataTemplateController" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IDataTemplateController" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Internals.IDataTemplateController" />
+  <TypeSignature Language="F#" Value="type IDataTemplateController = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,6 +21,8 @@
     <Member MemberName="Id">
       <MemberSignature Language="C#" Value="public int Id { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Id" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.IDataTemplateController.Id" />
+      <MemberSignature Language="F#" Value="member this.Id : int" Usage="Xamarin.Forms.Internals.IDataTemplateController.Id" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -35,6 +39,8 @@
     <Member MemberName="IdString">
       <MemberSignature Language="C#" Value="public string IdString { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string IdString" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.IDataTemplateController.IdString" />
+      <MemberSignature Language="F#" Value="member this.IdString : string" Usage="Xamarin.Forms.Internals.IDataTemplateController.IdString" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

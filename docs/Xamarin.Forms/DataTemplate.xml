@@ -2,7 +2,7 @@
   <TypeSignature Language="C#" Value="public class DataTemplate : Xamarin.Forms.ElementTemplate, Xamarin.Forms.Internals.IDataTemplateController" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataTemplate extends Xamarin.Forms.ElementTemplate implements class Xamarin.Forms.Internals.IDataTemplateController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.DataTemplate" />
-  <TypeSignature Language="F#" Value="type DataTemplate = class&#xA;    inherit ElementTemplate" />
+  <TypeSignature Language="F#" Value="type DataTemplate = class&#xA;    inherit ElementTemplate&#xA;    interface IDataTemplateController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
@@ -219,6 +219,8 @@
     <Member MemberName="Xamarin.Forms.Internals.IDataTemplateController.Id">
       <MemberSignature Language="C#" Value="int Xamarin.Forms.Internals.IDataTemplateController.Id { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 Xamarin.Forms.Internals.IDataTemplateController.Id" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.DataTemplate.Xamarin#Forms#Internals#IDataTemplateController#Id" />
+      <MemberSignature Language="F#" Usage="Xamarin.Forms.Internals.IDataTemplateController.Id" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Xamarin.Forms.Internals.IDataTemplateController.Id</InterfaceMember>
@@ -238,6 +240,8 @@
     <Member MemberName="Xamarin.Forms.Internals.IDataTemplateController.IdString">
       <MemberSignature Language="C#" Value="string Xamarin.Forms.Internals.IDataTemplateController.IdString { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Xamarin.Forms.Internals.IDataTemplateController.IdString" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.DataTemplate.Xamarin#Forms#Internals#IDataTemplateController#IdString" />
+      <MemberSignature Language="F#" Usage="Xamarin.Forms.Internals.IDataTemplateController.IdString" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Xamarin.Forms.Internals.IDataTemplateController.IdString</InterfaceMember>

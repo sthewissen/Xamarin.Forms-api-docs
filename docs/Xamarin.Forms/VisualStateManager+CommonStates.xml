@@ -1,6 +1,8 @@
 <Type Name="VisualStateManager+CommonStates" FullName="Xamarin.Forms.VisualStateManager+CommonStates">
   <TypeSignature Language="C#" Value="public class VisualStateManager.CommonStates" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit VisualStateManager/CommonStates extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.VisualStateManager.CommonStates" />
+  <TypeSignature Language="F#" Value="type VisualStateManager.CommonStates = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -17,6 +19,7 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public CommonStates ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.VisualStateManager.CommonStates.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -30,6 +33,8 @@
     <Member MemberName="Disabled">
       <MemberSignature Language="C#" Value="public const string Disabled;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Disabled" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualStateManager.CommonStates.Disabled" />
+      <MemberSignature Language="F#" Value="val mutable Disabled : string" Usage="Xamarin.Forms.VisualStateManager.CommonStates.Disabled" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -45,6 +50,8 @@
     <Member MemberName="Focused">
       <MemberSignature Language="C#" Value="public const string Focused;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Focused" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualStateManager.CommonStates.Focused" />
+      <MemberSignature Language="F#" Value="val mutable Focused : string" Usage="Xamarin.Forms.VisualStateManager.CommonStates.Focused" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -60,6 +67,8 @@
     <Member MemberName="Normal">
       <MemberSignature Language="C#" Value="public const string Normal;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Normal" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualStateManager.CommonStates.Normal" />
+      <MemberSignature Language="F#" Value="val mutable Normal : string" Usage="Xamarin.Forms.VisualStateManager.CommonStates.Normal" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -75,6 +84,8 @@
     <Member MemberName="Selected">
       <MemberSignature Language="C#" Value="public const string Selected;" />
       <MemberSignature Language="ILAsm" Value=".field public static literal string Selected" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.VisualStateManager.CommonStates.Selected" />
+      <MemberSignature Language="F#" Value="val mutable Selected : string" Usage="Xamarin.Forms.VisualStateManager.CommonStates.Selected" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

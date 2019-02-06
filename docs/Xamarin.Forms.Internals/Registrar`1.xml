@@ -217,6 +217,8 @@
     <Member MemberName="GetHandlerType">
       <MemberSignature Language="C#" Value="public Type GetHandlerType (Type viewType, Type visualType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Type GetHandlerType(class System.Type viewType, class System.Type visualType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Registrar`1.GetHandlerType(System.Type,System.Type)" />
+      <MemberSignature Language="F#" Value="member this.GetHandlerType : Type * Type -&gt; Type" Usage="registrar.GetHandlerType (viewType, visualType)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -288,6 +290,8 @@
     <Member MemberName="Register">
       <MemberSignature Language="C#" Value="public void Register (Type tview, Type trender, Type[] supportedVisuals);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Register(class System.Type tview, class System.Type trender, class System.Type[] supportedVisuals) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.Registrar`1.Register(System.Type,System.Type,System.Type[])" />
+      <MemberSignature Language="F#" Value="member this.Register : Type * Type * Type[] -&gt; unit" Usage="registrar.Register (tview, trender, supportedVisuals)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

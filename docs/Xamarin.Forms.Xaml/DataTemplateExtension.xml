@@ -1,6 +1,8 @@
 <Type Name="DataTemplateExtension" FullName="Xamarin.Forms.Xaml.DataTemplateExtension">
   <TypeSignature Language="C#" Value="public sealed class DataTemplateExtension : Xamarin.Forms.Xaml.IMarkupExtension&lt;Xamarin.Forms.DataTemplate&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit DataTemplateExtension extends System.Object implements class Xamarin.Forms.Xaml.IMarkupExtension, class Xamarin.Forms.Xaml.IMarkupExtension`1&lt;class Xamarin.Forms.DataTemplate&gt;" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Xaml.DataTemplateExtension" />
+  <TypeSignature Language="F#" Value="type DataTemplateExtension = class&#xA;    interface IMarkupExtension&lt;DataTemplate&gt;&#xA;    interface IMarkupExtension" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Xaml</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -32,6 +34,7 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public DataTemplateExtension ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.DataTemplateExtension.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -45,6 +48,8 @@
     <Member MemberName="ProvideValue">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.DataTemplate ProvideValue (IServiceProvider serviceProvider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.DataTemplate ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.DataTemplateExtension.ProvideValue(System.IServiceProvider)" />
+      <MemberSignature Language="F#" Value="abstract member ProvideValue : IServiceProvider -&gt; Xamarin.Forms.DataTemplate&#xA;override this.ProvideValue : IServiceProvider -&gt; Xamarin.Forms.DataTemplate" Usage="dataTemplateExtension.ProvideValue serviceProvider" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension`1.ProvideValue(System.IServiceProvider)</InterfaceMember>
@@ -68,6 +73,8 @@
     <Member MemberName="TypeName">
       <MemberSignature Language="C#" Value="public string TypeName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string TypeName" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Xaml.DataTemplateExtension.TypeName" />
+      <MemberSignature Language="F#" Value="member this.TypeName : string with get, set" Usage="Xamarin.Forms.Xaml.DataTemplateExtension.TypeName" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -84,6 +91,7 @@
     <Member MemberName="Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue">
       <MemberSignature Language="C#" Value="object IMarkupExtension.ProvideValue (IServiceProvider serviceProvider);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(class System.IServiceProvider serviceProvider) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Xaml.DataTemplateExtension.Xamarin#Forms#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)</InterfaceMember>

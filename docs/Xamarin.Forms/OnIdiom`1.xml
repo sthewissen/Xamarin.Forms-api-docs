@@ -52,6 +52,8 @@
     <Member MemberName="Default">
       <MemberSignature Language="C#" Value="public T Default { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance !T Default" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.OnIdiom`1.Default" />
+      <MemberSignature Language="F#" Value="member this.Default : 'T with get, set" Usage="Xamarin.Forms.OnIdiom&lt;'T&gt;.Default" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

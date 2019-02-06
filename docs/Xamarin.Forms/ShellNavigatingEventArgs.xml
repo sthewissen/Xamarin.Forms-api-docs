@@ -1,6 +1,8 @@
 <Type Name="ShellNavigatingEventArgs" FullName="Xamarin.Forms.ShellNavigatingEventArgs">
   <TypeSignature Language="C#" Value="public class ShellNavigatingEventArgs : EventArgs" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ShellNavigatingEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.ShellNavigatingEventArgs" />
+  <TypeSignature Language="F#" Value="type ShellNavigatingEventArgs = class&#xA;    inherit EventArgs" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -17,6 +19,8 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public ShellNavigatingEventArgs (Xamarin.Forms.ShellNavigationState current, Xamarin.Forms.ShellNavigationState target, Xamarin.Forms.ShellNavigationSource source, bool canCancel);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.ShellNavigationState current, class Xamarin.Forms.ShellNavigationState target, valuetype Xamarin.Forms.ShellNavigationSource source, bool canCancel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ShellNavigatingEventArgs.#ctor(Xamarin.Forms.ShellNavigationState,Xamarin.Forms.ShellNavigationState,Xamarin.Forms.ShellNavigationSource,System.Boolean)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.ShellNavigatingEventArgs : Xamarin.Forms.ShellNavigationState * Xamarin.Forms.ShellNavigationState * Xamarin.Forms.ShellNavigationSource * bool -&gt; Xamarin.Forms.ShellNavigatingEventArgs" Usage="new Xamarin.Forms.ShellNavigatingEventArgs (current, target, source, canCancel)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -39,6 +43,8 @@
     <Member MemberName="CanCancel">
       <MemberSignature Language="C#" Value="public bool CanCancel { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool CanCancel" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ShellNavigatingEventArgs.CanCancel" />
+      <MemberSignature Language="F#" Value="member this.CanCancel : bool" Usage="Xamarin.Forms.ShellNavigatingEventArgs.CanCancel" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -55,6 +61,8 @@
     <Member MemberName="Cancel">
       <MemberSignature Language="C#" Value="public bool Cancel ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool Cancel() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ShellNavigatingEventArgs.Cancel" />
+      <MemberSignature Language="F#" Value="member this.Cancel : unit -&gt; bool" Usage="shellNavigatingEventArgs.Cancel " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -72,6 +80,8 @@
     <Member MemberName="Cancelled">
       <MemberSignature Language="C#" Value="public bool Cancelled { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool Cancelled" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ShellNavigatingEventArgs.Cancelled" />
+      <MemberSignature Language="F#" Value="member this.Cancelled : bool" Usage="Xamarin.Forms.ShellNavigatingEventArgs.Cancelled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -88,6 +98,8 @@
     <Member MemberName="Current">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ShellNavigationState Current { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ShellNavigationState Current" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ShellNavigatingEventArgs.Current" />
+      <MemberSignature Language="F#" Value="member this.Current : Xamarin.Forms.ShellNavigationState" Usage="Xamarin.Forms.ShellNavigatingEventArgs.Current" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -104,6 +116,8 @@
     <Member MemberName="Source">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ShellNavigationSource Source { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.ShellNavigationSource Source" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ShellNavigatingEventArgs.Source" />
+      <MemberSignature Language="F#" Value="member this.Source : Xamarin.Forms.ShellNavigationSource" Usage="Xamarin.Forms.ShellNavigatingEventArgs.Source" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -120,6 +134,8 @@
     <Member MemberName="Target">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ShellNavigationState Target { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ShellNavigationState Target" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ShellNavigatingEventArgs.Target" />
+      <MemberSignature Language="F#" Value="member this.Target : Xamarin.Forms.ShellNavigationState" Usage="Xamarin.Forms.ShellNavigatingEventArgs.Target" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -159,6 +159,8 @@
     <Member MemberName="GetSectionTextColor">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Color GetSectionTextColor (int section);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Xamarin.Forms.Color GetSectionTextColor(int32 section) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.ITableModel.GetSectionTextColor(System.Int32)" />
+      <MemberSignature Language="F#" Value="abstract member GetSectionTextColor : int -&gt; Xamarin.Forms.Color" Usage="iTableModel.GetSectionTextColor section" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

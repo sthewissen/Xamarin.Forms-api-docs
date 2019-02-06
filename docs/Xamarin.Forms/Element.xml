@@ -116,6 +116,8 @@
     <Member MemberName="AutomationIdProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty AutomationIdProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty AutomationIdProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Element.AutomationIdProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable AutomationIdProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Element.AutomationIdProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

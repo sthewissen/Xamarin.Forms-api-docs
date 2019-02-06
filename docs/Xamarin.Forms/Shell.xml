@@ -1,6 +1,8 @@
 <Type Name="Shell" FullName="Xamarin.Forms.Shell">
   <TypeSignature Language="C#" Value="public class Shell : Xamarin.Forms.Page, Xamarin.Forms.IShellController" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Shell extends Xamarin.Forms.Page implements class Xamarin.Forms.IElementController, class Xamarin.Forms.IPageController, class Xamarin.Forms.IShellController, class Xamarin.Forms.IVisualElementController" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.Shell" />
+  <TypeSignature Language="F#" Value="type Shell = class&#xA;    inherit Page&#xA;    interface IShellController&#xA;    interface IPageController&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -35,6 +37,7 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public Shell ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -48,6 +51,8 @@
     <Member MemberName="BackButtonBehaviorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty BackButtonBehaviorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty BackButtonBehaviorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.BackButtonBehaviorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable BackButtonBehaviorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.BackButtonBehaviorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -63,6 +68,8 @@
     <Member MemberName="CurrentItem">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ShellItem CurrentItem { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ShellItem CurrentItem" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.CurrentItem" />
+      <MemberSignature Language="F#" Value="member this.CurrentItem : Xamarin.Forms.ShellItem with get, set" Usage="Xamarin.Forms.Shell.CurrentItem" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -79,6 +86,8 @@
     <Member MemberName="CurrentItemProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty CurrentItemProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CurrentItemProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.CurrentItemProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentItemProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.CurrentItemProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -94,6 +103,8 @@
     <Member MemberName="CurrentShell">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Shell CurrentShell { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class Xamarin.Forms.Shell CurrentShell" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.CurrentShell" />
+      <MemberSignature Language="F#" Value="member this.CurrentShell : Xamarin.Forms.Shell" Usage="Xamarin.Forms.Shell.CurrentShell" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -110,6 +121,8 @@
     <Member MemberName="CurrentState">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ShellNavigationState CurrentState { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ShellNavigationState CurrentState" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.CurrentState" />
+      <MemberSignature Language="F#" Value="member this.CurrentState : Xamarin.Forms.ShellNavigationState" Usage="Xamarin.Forms.Shell.CurrentState" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -126,6 +139,8 @@
     <Member MemberName="CurrentStateProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty CurrentStateProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty CurrentStateProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.CurrentStateProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable CurrentStateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.CurrentStateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -141,6 +156,8 @@
     <Member MemberName="FlyoutBackgroundColor">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Color FlyoutBackgroundColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color FlyoutBackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.FlyoutBackgroundColor" />
+      <MemberSignature Language="F#" Value="member this.FlyoutBackgroundColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.Shell.FlyoutBackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -157,6 +174,8 @@
     <Member MemberName="FlyoutBackgroundColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty FlyoutBackgroundColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FlyoutBackgroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.FlyoutBackgroundColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable FlyoutBackgroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.FlyoutBackgroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -172,6 +191,8 @@
     <Member MemberName="FlyoutBehavior">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.FlyoutBehavior FlyoutBehavior { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.FlyoutBehavior FlyoutBehavior" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.FlyoutBehavior" />
+      <MemberSignature Language="F#" Value="member this.FlyoutBehavior : Xamarin.Forms.FlyoutBehavior with get, set" Usage="Xamarin.Forms.Shell.FlyoutBehavior" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -188,6 +209,8 @@
     <Member MemberName="FlyoutBehaviorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty FlyoutBehaviorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FlyoutBehaviorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.FlyoutBehaviorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable FlyoutBehaviorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.FlyoutBehaviorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -203,6 +226,8 @@
     <Member MemberName="FlyoutHeader">
       <MemberSignature Language="C#" Value="public object FlyoutHeader { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object FlyoutHeader" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.FlyoutHeader" />
+      <MemberSignature Language="F#" Value="member this.FlyoutHeader : obj with get, set" Usage="Xamarin.Forms.Shell.FlyoutHeader" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -219,6 +244,8 @@
     <Member MemberName="FlyoutHeaderBehavior">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.FlyoutHeaderBehavior FlyoutHeaderBehavior { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.FlyoutHeaderBehavior FlyoutHeaderBehavior" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.FlyoutHeaderBehavior" />
+      <MemberSignature Language="F#" Value="member this.FlyoutHeaderBehavior : Xamarin.Forms.FlyoutHeaderBehavior with get, set" Usage="Xamarin.Forms.Shell.FlyoutHeaderBehavior" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -235,6 +262,8 @@
     <Member MemberName="FlyoutHeaderBehaviorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty FlyoutHeaderBehaviorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FlyoutHeaderBehaviorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.FlyoutHeaderBehaviorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable FlyoutHeaderBehaviorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.FlyoutHeaderBehaviorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -250,6 +279,8 @@
     <Member MemberName="FlyoutHeaderProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty FlyoutHeaderProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FlyoutHeaderProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.FlyoutHeaderProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable FlyoutHeaderProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.FlyoutHeaderProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -265,6 +296,8 @@
     <Member MemberName="FlyoutHeaderTemplate">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.DataTemplate FlyoutHeaderTemplate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate FlyoutHeaderTemplate" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.FlyoutHeaderTemplate" />
+      <MemberSignature Language="F#" Value="member this.FlyoutHeaderTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.Shell.FlyoutHeaderTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -281,6 +314,8 @@
     <Member MemberName="FlyoutHeaderTemplateProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty FlyoutHeaderTemplateProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FlyoutHeaderTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.FlyoutHeaderTemplateProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable FlyoutHeaderTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.FlyoutHeaderTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -296,6 +331,8 @@
     <Member MemberName="FlyoutIsPresented">
       <MemberSignature Language="C#" Value="public bool FlyoutIsPresented { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool FlyoutIsPresented" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.FlyoutIsPresented" />
+      <MemberSignature Language="F#" Value="member this.FlyoutIsPresented : bool with get, set" Usage="Xamarin.Forms.Shell.FlyoutIsPresented" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -312,6 +349,8 @@
     <Member MemberName="FlyoutIsPresentedProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty FlyoutIsPresentedProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FlyoutIsPresentedProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.FlyoutIsPresentedProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable FlyoutIsPresentedProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.FlyoutIsPresentedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -327,6 +366,8 @@
     <Member MemberName="GetBackButtonBehavior">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.BackButtonBehavior GetBackButtonBehavior (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.BackButtonBehavior GetBackButtonBehavior(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetBackButtonBehavior(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetBackButtonBehavior : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.BackButtonBehavior" Usage="Xamarin.Forms.Shell.GetBackButtonBehavior obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -347,6 +388,8 @@
     <Member MemberName="GetFlyoutBehavior">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.FlyoutBehavior GetFlyoutBehavior (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.FlyoutBehavior GetFlyoutBehavior(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetFlyoutBehavior(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetFlyoutBehavior : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.FlyoutBehavior" Usage="Xamarin.Forms.Shell.GetFlyoutBehavior obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -367,6 +410,8 @@
     <Member MemberName="GetNavBarIsVisible">
       <MemberSignature Language="C#" Value="public static bool GetNavBarIsVisible (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetNavBarIsVisible(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetNavBarIsVisible(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetNavBarIsVisible : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.Shell.GetNavBarIsVisible obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -387,6 +432,8 @@
     <Member MemberName="GetSearchHandler">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.SearchHandler GetSearchHandler (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.SearchHandler GetSearchHandler(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetSearchHandler(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetSearchHandler : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.SearchHandler" Usage="Xamarin.Forms.Shell.GetSearchHandler obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -407,6 +454,8 @@
     <Member MemberName="GetSetPaddingInsets">
       <MemberSignature Language="C#" Value="public static bool GetSetPaddingInsets (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetSetPaddingInsets(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetSetPaddingInsets(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetSetPaddingInsets : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.Shell.GetSetPaddingInsets obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -427,6 +476,8 @@
     <Member MemberName="GetShellBackgroundColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellBackgroundColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellBackgroundColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellBackgroundColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellBackgroundColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellBackgroundColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -447,6 +498,8 @@
     <Member MemberName="GetShellDisabledColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellDisabledColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellDisabledColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellDisabledColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellDisabledColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellDisabledColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -467,6 +520,8 @@
     <Member MemberName="GetShellForegroundColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellForegroundColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellForegroundColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellForegroundColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellForegroundColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellForegroundColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -487,6 +542,8 @@
     <Member MemberName="GetShellTabBarBackgroundColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellTabBarBackgroundColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellTabBarBackgroundColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellTabBarBackgroundColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellTabBarBackgroundColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellTabBarBackgroundColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -507,6 +564,8 @@
     <Member MemberName="GetShellTabBarDisabledColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellTabBarDisabledColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellTabBarDisabledColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellTabBarDisabledColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellTabBarDisabledColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellTabBarDisabledColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -527,6 +586,8 @@
     <Member MemberName="GetShellTabBarForegroundColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellTabBarForegroundColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellTabBarForegroundColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellTabBarForegroundColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellTabBarForegroundColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellTabBarForegroundColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -547,6 +608,8 @@
     <Member MemberName="GetShellTabBarTitleColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellTabBarTitleColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellTabBarTitleColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellTabBarTitleColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellTabBarTitleColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellTabBarTitleColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -567,6 +630,8 @@
     <Member MemberName="GetShellTabBarUnselectedColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellTabBarUnselectedColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellTabBarUnselectedColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellTabBarUnselectedColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellTabBarUnselectedColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellTabBarUnselectedColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -587,6 +652,8 @@
     <Member MemberName="GetShellTitleColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellTitleColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellTitleColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellTitleColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellTitleColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellTitleColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -607,6 +674,8 @@
     <Member MemberName="GetShellUnselectedColor">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShellUnselectedColor (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShellUnselectedColor(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetShellUnselectedColor(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetShellUnselectedColor : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.Shell.GetShellUnselectedColor obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -627,6 +696,8 @@
     <Member MemberName="GetTabBarIsVisible">
       <MemberSignature Language="C#" Value="public static bool GetTabBarIsVisible (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetTabBarIsVisible(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetTabBarIsVisible(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetTabBarIsVisible : Xamarin.Forms.BindableObject -&gt; bool" Usage="Xamarin.Forms.Shell.GetTabBarIsVisible obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -647,6 +718,8 @@
     <Member MemberName="GetTitleView">
       <MemberSignature Language="C#" Value="public static Xamarin.Forms.View GetTitleView (Xamarin.Forms.BindableObject obj);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.View GetTitleView(class Xamarin.Forms.BindableObject obj) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GetTitleView(Xamarin.Forms.BindableObject)" />
+      <MemberSignature Language="F#" Value="static member GetTitleView : Xamarin.Forms.BindableObject -&gt; Xamarin.Forms.View" Usage="Xamarin.Forms.Shell.GetTitleView obj" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -667,6 +740,8 @@
     <Member MemberName="GoToAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task GoToAsync (Xamarin.Forms.ShellNavigationState state, bool animate = true);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task GoToAsync(class Xamarin.Forms.ShellNavigationState state, bool animate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.GoToAsync(Xamarin.Forms.ShellNavigationState,System.Boolean)" />
+      <MemberSignature Language="F#" Value="member this.GoToAsync : Xamarin.Forms.ShellNavigationState * bool -&gt; System.Threading.Tasks.Task" Usage="shell.GoToAsync (state, animate)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -689,6 +764,8 @@
     <Member MemberName="GroupHeaderTemplate">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.DataTemplate GroupHeaderTemplate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate GroupHeaderTemplate" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.GroupHeaderTemplate" />
+      <MemberSignature Language="F#" Value="member this.GroupHeaderTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.Shell.GroupHeaderTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -705,6 +782,8 @@
     <Member MemberName="GroupHeaderTemplateProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty GroupHeaderTemplateProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty GroupHeaderTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.GroupHeaderTemplateProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable GroupHeaderTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.GroupHeaderTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -720,6 +799,8 @@
     <Member MemberName="Items">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ShellItemCollection Items { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ShellItemCollection Items" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.Items" />
+      <MemberSignature Language="F#" Value="member this.Items : Xamarin.Forms.ShellItemCollection" Usage="Xamarin.Forms.Shell.Items" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -736,6 +817,8 @@
     <Member MemberName="ItemsProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ItemsProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ItemsProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ItemsProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ItemsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -751,6 +834,8 @@
     <Member MemberName="ItemTemplate">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.DataTemplate ItemTemplate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate ItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.ItemTemplate" />
+      <MemberSignature Language="F#" Value="member this.ItemTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.Shell.ItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -767,6 +852,8 @@
     <Member MemberName="ItemTemplateProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ItemTemplateProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ItemTemplateProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ItemTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -782,6 +869,8 @@
     <Member MemberName="MenuItems">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.MenuItemCollection MenuItems { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.MenuItemCollection MenuItems" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.MenuItems" />
+      <MemberSignature Language="F#" Value="member this.MenuItems : Xamarin.Forms.MenuItemCollection" Usage="Xamarin.Forms.Shell.MenuItems" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -798,6 +887,8 @@
     <Member MemberName="MenuItemsProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty MenuItemsProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MenuItemsProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.MenuItemsProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable MenuItemsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.MenuItemsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -813,6 +904,8 @@
     <Member MemberName="MenuItemTemplate">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.DataTemplate MenuItemTemplate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.DataTemplate MenuItemTemplate" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.MenuItemTemplate" />
+      <MemberSignature Language="F#" Value="member this.MenuItemTemplate : Xamarin.Forms.DataTemplate with get, set" Usage="Xamarin.Forms.Shell.MenuItemTemplate" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -829,6 +922,8 @@
     <Member MemberName="MenuItemTemplateProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty MenuItemTemplateProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty MenuItemTemplateProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.MenuItemTemplateProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable MenuItemTemplateProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.MenuItemTemplateProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -844,6 +939,8 @@
     <Member MemberName="NavBarIsVisibleProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty NavBarIsVisibleProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty NavBarIsVisibleProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.NavBarIsVisibleProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable NavBarIsVisibleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.NavBarIsVisibleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -859,6 +956,8 @@
     <Member MemberName="Navigated">
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Xamarin.Forms.ShellNavigatedEventArgs&gt; Navigated;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ShellNavigatedEventArgs&gt; Navigated" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Shell.Navigated" />
+      <MemberSignature Language="F#" Value="member this.Navigated : EventHandler&lt;Xamarin.Forms.ShellNavigatedEventArgs&gt; " Usage="member this.Navigated : System.EventHandler&lt;Xamarin.Forms.ShellNavigatedEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -874,6 +973,8 @@
     <Member MemberName="Navigating">
       <MemberSignature Language="C#" Value="public event EventHandler&lt;Xamarin.Forms.ShellNavigatingEventArgs&gt; Navigating;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Xamarin.Forms.ShellNavigatingEventArgs&gt; Navigating" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Shell.Navigating" />
+      <MemberSignature Language="F#" Value="member this.Navigating : EventHandler&lt;Xamarin.Forms.ShellNavigatingEventArgs&gt; " Usage="member this.Navigating : System.EventHandler&lt;Xamarin.Forms.ShellNavigatingEventArgs&gt; " />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -889,6 +990,8 @@
     <Member MemberName="OnBackButtonPressed">
       <MemberSignature Language="C#" Value="protected override bool OnBackButtonPressed ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool OnBackButtonPressed() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.OnBackButtonPressed" />
+      <MemberSignature Language="F#" Value="override this.OnBackButtonPressed : unit -&gt; bool" Usage="shell.OnBackButtonPressed " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -906,6 +1009,8 @@
     <Member MemberName="OnChildAdded">
       <MemberSignature Language="C#" Value="protected override void OnChildAdded (Xamarin.Forms.Element child);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildAdded(class Xamarin.Forms.Element child) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.OnChildAdded(Xamarin.Forms.Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildAdded : Xamarin.Forms.Element -&gt; unit" Usage="shell.OnChildAdded child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -925,6 +1030,8 @@
     <Member MemberName="OnChildRemoved">
       <MemberSignature Language="C#" Value="protected override void OnChildRemoved (Xamarin.Forms.Element child);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnChildRemoved(class Xamarin.Forms.Element child) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.OnChildRemoved(Xamarin.Forms.Element)" />
+      <MemberSignature Language="F#" Value="override this.OnChildRemoved : Xamarin.Forms.Element -&gt; unit" Usage="shell.OnChildRemoved child" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -944,6 +1051,8 @@
     <Member MemberName="OnNavigated">
       <MemberSignature Language="C#" Value="protected virtual void OnNavigated (Xamarin.Forms.ShellNavigatedEventArgs args);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnNavigated(class Xamarin.Forms.ShellNavigatedEventArgs args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.OnNavigated(Xamarin.Forms.ShellNavigatedEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnNavigated : Xamarin.Forms.ShellNavigatedEventArgs -&gt; unit&#xA;override this.OnNavigated : Xamarin.Forms.ShellNavigatedEventArgs -&gt; unit" Usage="shell.OnNavigated args" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -963,6 +1072,8 @@
     <Member MemberName="OnNavigating">
       <MemberSignature Language="C#" Value="protected virtual void OnNavigating (Xamarin.Forms.ShellNavigatingEventArgs args);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnNavigating(class Xamarin.Forms.ShellNavigatingEventArgs args) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.OnNavigating(Xamarin.Forms.ShellNavigatingEventArgs)" />
+      <MemberSignature Language="F#" Value="abstract member OnNavigating : Xamarin.Forms.ShellNavigatingEventArgs -&gt; unit&#xA;override this.OnNavigating : Xamarin.Forms.ShellNavigatingEventArgs -&gt; unit" Usage="shell.OnNavigating args" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -982,6 +1093,8 @@
     <Member MemberName="Route">
       <MemberSignature Language="C#" Value="public string Route { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Route" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.Route" />
+      <MemberSignature Language="F#" Value="member this.Route : string with get, set" Usage="Xamarin.Forms.Shell.Route" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -998,6 +1111,8 @@
     <Member MemberName="RouteHost">
       <MemberSignature Language="C#" Value="public string RouteHost { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RouteHost" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.RouteHost" />
+      <MemberSignature Language="F#" Value="member this.RouteHost : string with get, set" Usage="Xamarin.Forms.Shell.RouteHost" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1014,6 +1129,8 @@
     <Member MemberName="RouteScheme">
       <MemberSignature Language="C#" Value="public string RouteScheme { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RouteScheme" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.RouteScheme" />
+      <MemberSignature Language="F#" Value="member this.RouteScheme : string with get, set" Usage="Xamarin.Forms.Shell.RouteScheme" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1030,6 +1147,8 @@
     <Member MemberName="SearchHandlerProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty SearchHandlerProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SearchHandlerProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.SearchHandlerProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable SearchHandlerProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.SearchHandlerProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1045,6 +1164,8 @@
     <Member MemberName="SetBackButtonBehavior">
       <MemberSignature Language="C#" Value="public static void SetBackButtonBehavior (Xamarin.Forms.BindableObject obj, Xamarin.Forms.BackButtonBehavior behavior);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetBackButtonBehavior(class Xamarin.Forms.BindableObject obj, class Xamarin.Forms.BackButtonBehavior behavior) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetBackButtonBehavior(Xamarin.Forms.BindableObject,Xamarin.Forms.BackButtonBehavior)" />
+      <MemberSignature Language="F#" Value="static member SetBackButtonBehavior : Xamarin.Forms.BindableObject * Xamarin.Forms.BackButtonBehavior -&gt; unit" Usage="Xamarin.Forms.Shell.SetBackButtonBehavior (obj, behavior)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1066,6 +1187,8 @@
     <Member MemberName="SetFlyoutBehavior">
       <MemberSignature Language="C#" Value="public static void SetFlyoutBehavior (Xamarin.Forms.BindableObject obj, Xamarin.Forms.FlyoutBehavior value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetFlyoutBehavior(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.FlyoutBehavior value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetFlyoutBehavior(Xamarin.Forms.BindableObject,Xamarin.Forms.FlyoutBehavior)" />
+      <MemberSignature Language="F#" Value="static member SetFlyoutBehavior : Xamarin.Forms.BindableObject * Xamarin.Forms.FlyoutBehavior -&gt; unit" Usage="Xamarin.Forms.Shell.SetFlyoutBehavior (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1087,6 +1210,8 @@
     <Member MemberName="SetNavBarIsVisible">
       <MemberSignature Language="C#" Value="public static void SetNavBarIsVisible (Xamarin.Forms.BindableObject obj, bool value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetNavBarIsVisible(class Xamarin.Forms.BindableObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetNavBarIsVisible(Xamarin.Forms.BindableObject,System.Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetNavBarIsVisible : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.Shell.SetNavBarIsVisible (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1108,6 +1233,8 @@
     <Member MemberName="SetPaddingInsetsProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty SetPaddingInsetsProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty SetPaddingInsetsProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.SetPaddingInsetsProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable SetPaddingInsetsProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.SetPaddingInsetsProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1123,6 +1250,8 @@
     <Member MemberName="SetSearchHandler">
       <MemberSignature Language="C#" Value="public static void SetSearchHandler (Xamarin.Forms.BindableObject obj, Xamarin.Forms.SearchHandler handler);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSearchHandler(class Xamarin.Forms.BindableObject obj, class Xamarin.Forms.SearchHandler handler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetSearchHandler(Xamarin.Forms.BindableObject,Xamarin.Forms.SearchHandler)" />
+      <MemberSignature Language="F#" Value="static member SetSearchHandler : Xamarin.Forms.BindableObject * Xamarin.Forms.SearchHandler -&gt; unit" Usage="Xamarin.Forms.Shell.SetSearchHandler (obj, handler)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1144,6 +1273,8 @@
     <Member MemberName="SetSetPaddingInsets">
       <MemberSignature Language="C#" Value="public static void SetSetPaddingInsets (Xamarin.Forms.BindableObject obj, bool value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetSetPaddingInsets(class Xamarin.Forms.BindableObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetSetPaddingInsets(Xamarin.Forms.BindableObject,System.Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetSetPaddingInsets : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.Shell.SetSetPaddingInsets (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1165,6 +1296,8 @@
     <Member MemberName="SetShellBackgroundColor">
       <MemberSignature Language="C#" Value="public static void SetShellBackgroundColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellBackgroundColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellBackgroundColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellBackgroundColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellBackgroundColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1186,6 +1319,8 @@
     <Member MemberName="SetShellDisabledColor">
       <MemberSignature Language="C#" Value="public static void SetShellDisabledColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellDisabledColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellDisabledColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellDisabledColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellDisabledColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1207,6 +1342,8 @@
     <Member MemberName="SetShellForegroundColor">
       <MemberSignature Language="C#" Value="public static void SetShellForegroundColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellForegroundColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellForegroundColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellForegroundColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellForegroundColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1228,6 +1365,8 @@
     <Member MemberName="SetShellTabBarBackgroundColor">
       <MemberSignature Language="C#" Value="public static void SetShellTabBarBackgroundColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellTabBarBackgroundColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellTabBarBackgroundColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellTabBarBackgroundColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellTabBarBackgroundColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1249,6 +1388,8 @@
     <Member MemberName="SetShellTabBarDisabledColor">
       <MemberSignature Language="C#" Value="public static void SetShellTabBarDisabledColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellTabBarDisabledColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellTabBarDisabledColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellTabBarDisabledColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellTabBarDisabledColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1270,6 +1411,8 @@
     <Member MemberName="SetShellTabBarForegroundColor">
       <MemberSignature Language="C#" Value="public static void SetShellTabBarForegroundColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellTabBarForegroundColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellTabBarForegroundColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellTabBarForegroundColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellTabBarForegroundColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1291,6 +1434,8 @@
     <Member MemberName="SetShellTabBarTitleColor">
       <MemberSignature Language="C#" Value="public static void SetShellTabBarTitleColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellTabBarTitleColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellTabBarTitleColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellTabBarTitleColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellTabBarTitleColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1312,6 +1457,8 @@
     <Member MemberName="SetShellTabBarUnselectedColor">
       <MemberSignature Language="C#" Value="public static void SetShellTabBarUnselectedColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellTabBarUnselectedColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellTabBarUnselectedColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellTabBarUnselectedColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellTabBarUnselectedColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1333,6 +1480,8 @@
     <Member MemberName="SetShellTitleColor">
       <MemberSignature Language="C#" Value="public static void SetShellTitleColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellTitleColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellTitleColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellTitleColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellTitleColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1354,6 +1503,8 @@
     <Member MemberName="SetShellUnselectedColor">
       <MemberSignature Language="C#" Value="public static void SetShellUnselectedColor (Xamarin.Forms.BindableObject obj, Xamarin.Forms.Color value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetShellUnselectedColor(class Xamarin.Forms.BindableObject obj, valuetype Xamarin.Forms.Color value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetShellUnselectedColor(Xamarin.Forms.BindableObject,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="static member SetShellUnselectedColor : Xamarin.Forms.BindableObject * Xamarin.Forms.Color -&gt; unit" Usage="Xamarin.Forms.Shell.SetShellUnselectedColor (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1375,6 +1526,8 @@
     <Member MemberName="SetTabBarIsVisible">
       <MemberSignature Language="C#" Value="public static void SetTabBarIsVisible (Xamarin.Forms.BindableObject obj, bool value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTabBarIsVisible(class Xamarin.Forms.BindableObject obj, bool value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetTabBarIsVisible(Xamarin.Forms.BindableObject,System.Boolean)" />
+      <MemberSignature Language="F#" Value="static member SetTabBarIsVisible : Xamarin.Forms.BindableObject * bool -&gt; unit" Usage="Xamarin.Forms.Shell.SetTabBarIsVisible (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1396,6 +1549,8 @@
     <Member MemberName="SetTitleView">
       <MemberSignature Language="C#" Value="public static void SetTitleView (Xamarin.Forms.BindableObject obj, Xamarin.Forms.View value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetTitleView(class Xamarin.Forms.BindableObject obj, class Xamarin.Forms.View value) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.SetTitleView(Xamarin.Forms.BindableObject,Xamarin.Forms.View)" />
+      <MemberSignature Language="F#" Value="static member SetTitleView : Xamarin.Forms.BindableObject * Xamarin.Forms.View -&gt; unit" Usage="Xamarin.Forms.Shell.SetTitleView (obj, value)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1417,6 +1572,8 @@
     <Member MemberName="ShellBackgroundColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellBackgroundColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellBackgroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellBackgroundColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellBackgroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellBackgroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1432,6 +1589,8 @@
     <Member MemberName="ShellDisabledColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellDisabledColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellDisabledColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellDisabledColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellDisabledColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellDisabledColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1447,6 +1606,8 @@
     <Member MemberName="ShellForegroundColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellForegroundColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellForegroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellForegroundColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellForegroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellForegroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1462,6 +1623,8 @@
     <Member MemberName="ShellTabBarBackgroundColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellTabBarBackgroundColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellTabBarBackgroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellTabBarBackgroundColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellTabBarBackgroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellTabBarBackgroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1477,6 +1640,8 @@
     <Member MemberName="ShellTabBarDisabledColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellTabBarDisabledColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellTabBarDisabledColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellTabBarDisabledColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellTabBarDisabledColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellTabBarDisabledColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1492,6 +1657,8 @@
     <Member MemberName="ShellTabBarForegroundColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellTabBarForegroundColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellTabBarForegroundColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellTabBarForegroundColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellTabBarForegroundColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellTabBarForegroundColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1507,6 +1674,8 @@
     <Member MemberName="ShellTabBarTitleColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellTabBarTitleColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellTabBarTitleColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellTabBarTitleColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellTabBarTitleColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellTabBarTitleColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1522,6 +1691,8 @@
     <Member MemberName="ShellTabBarUnselectedColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellTabBarUnselectedColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellTabBarUnselectedColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellTabBarUnselectedColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellTabBarUnselectedColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellTabBarUnselectedColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1537,6 +1708,8 @@
     <Member MemberName="ShellTitleColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellTitleColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellTitleColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellTitleColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellTitleColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellTitleColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1552,6 +1725,8 @@
     <Member MemberName="ShellUnselectedColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty ShellUnselectedColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty ShellUnselectedColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.ShellUnselectedColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable ShellUnselectedColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.ShellUnselectedColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1567,6 +1742,8 @@
     <Member MemberName="TabBarIsVisibleProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty TabBarIsVisibleProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TabBarIsVisibleProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.TabBarIsVisibleProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable TabBarIsVisibleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.TabBarIsVisibleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1582,6 +1759,8 @@
     <Member MemberName="TitleViewProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty TitleViewProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TitleViewProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.Shell.TitleViewProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleViewProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.Shell.TitleViewProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1597,6 +1776,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.AddAppearanceObserver">
       <MemberSignature Language="C#" Value="void IShellController.AddAppearanceObserver (Xamarin.Forms.IAppearanceObserver observer, Xamarin.Forms.Element pivot);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Xamarin.Forms.IShellController.AddAppearanceObserver(class Xamarin.Forms.IAppearanceObserver observer, class Xamarin.Forms.Element pivot) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#AddAppearanceObserver(Xamarin.Forms.IAppearanceObserver,Xamarin.Forms.Element)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.AddAppearanceObserver(Xamarin.Forms.IAppearanceObserver,Xamarin.Forms.Element)</InterfaceMember>
@@ -1621,6 +1801,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.AddFlyoutBehaviorObserver">
       <MemberSignature Language="C#" Value="void IShellController.AddFlyoutBehaviorObserver (Xamarin.Forms.IFlyoutBehaviorObserver observer);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Xamarin.Forms.IShellController.AddFlyoutBehaviorObserver(class Xamarin.Forms.IFlyoutBehaviorObserver observer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#AddFlyoutBehaviorObserver(Xamarin.Forms.IFlyoutBehaviorObserver)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.AddFlyoutBehaviorObserver(Xamarin.Forms.IFlyoutBehaviorObserver)</InterfaceMember>
@@ -1643,6 +1824,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.AppearanceChanged">
       <MemberSignature Language="C#" Value="void IShellController.AppearanceChanged (Xamarin.Forms.Element source, bool appearanceSet);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Xamarin.Forms.IShellController.AppearanceChanged(class Xamarin.Forms.Element source, bool appearanceSet) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#AppearanceChanged(Xamarin.Forms.Element,System.Boolean)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.AppearanceChanged(Xamarin.Forms.Element,System.Boolean)</InterfaceMember>
@@ -1667,6 +1849,8 @@
     <Member MemberName="Xamarin.Forms.IShellController.FlyoutHeader">
       <MemberSignature Language="C#" Value="Xamarin.Forms.View Xamarin.Forms.IShellController.FlyoutHeader { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.View Xamarin.Forms.IShellController.FlyoutHeader" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#FlyoutHeader" />
+      <MemberSignature Language="F#" Usage="Xamarin.Forms.IShellController.FlyoutHeader" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Xamarin.Forms.IShellController.FlyoutHeader</InterfaceMember>
@@ -1686,6 +1870,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.GenerateFlyoutGrouping">
       <MemberSignature Language="C#" Value="System.Collections.Generic.List&lt;System.Collections.Generic.List&lt;Xamarin.Forms.Element&gt;&gt; IShellController.GenerateFlyoutGrouping ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class System.Collections.Generic.List`1&lt;class Xamarin.Forms.Element&gt;&gt; Xamarin.Forms.IShellController.GenerateFlyoutGrouping() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#GenerateFlyoutGrouping" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.GenerateFlyoutGrouping</InterfaceMember>
@@ -1706,6 +1891,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.GetNavigationState">
       <MemberSignature Language="C#" Value="Xamarin.Forms.ShellNavigationState IShellController.GetNavigationState (Xamarin.Forms.ShellItem shellItem, Xamarin.Forms.ShellSection shellSection, Xamarin.Forms.ShellContent shellContent, bool includeStack);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class Xamarin.Forms.ShellNavigationState Xamarin.Forms.IShellController.GetNavigationState(class Xamarin.Forms.ShellItem shellItem, class Xamarin.Forms.ShellSection shellSection, class Xamarin.Forms.ShellContent shellContent, bool includeStack) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#GetNavigationState(Xamarin.Forms.ShellItem,Xamarin.Forms.ShellSection,Xamarin.Forms.ShellContent,System.Boolean)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.GetNavigationState(Xamarin.Forms.ShellItem,Xamarin.Forms.ShellSection,Xamarin.Forms.ShellContent,System.Boolean)</InterfaceMember>
@@ -1735,6 +1921,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.HeaderChanged">
       <MemberSignature Language="C#" Value="event EventHandler Xamarin.Forms.IShellController.HeaderChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Xamarin.Forms.IShellController.HeaderChanged" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#HeaderChanged" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Xamarin.Forms.IShellController.HeaderChanged</InterfaceMember>
@@ -1753,6 +1940,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.OnFlyoutItemSelected">
       <MemberSignature Language="C#" Value="void IShellController.OnFlyoutItemSelected (Xamarin.Forms.Element element);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Xamarin.Forms.IShellController.OnFlyoutItemSelected(class Xamarin.Forms.Element element) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#OnFlyoutItemSelected(Xamarin.Forms.Element)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.OnFlyoutItemSelected(Xamarin.Forms.Element)</InterfaceMember>
@@ -1775,6 +1963,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.ProposeNavigation">
       <MemberSignature Language="C#" Value="bool IShellController.ProposeNavigation (Xamarin.Forms.ShellNavigationSource source, Xamarin.Forms.ShellItem shellItem, Xamarin.Forms.ShellSection shellSection, Xamarin.Forms.ShellContent shellContent, System.Collections.Generic.IReadOnlyList&lt;Xamarin.Forms.Page&gt; stack, bool canCancel);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Xamarin.Forms.IShellController.ProposeNavigation(valuetype Xamarin.Forms.ShellNavigationSource source, class Xamarin.Forms.ShellItem shellItem, class Xamarin.Forms.ShellSection shellSection, class Xamarin.Forms.ShellContent shellContent, class System.Collections.Generic.IReadOnlyList`1&lt;class Xamarin.Forms.Page&gt; stack, bool canCancel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#ProposeNavigation(Xamarin.Forms.ShellNavigationSource,Xamarin.Forms.ShellItem,Xamarin.Forms.ShellSection,Xamarin.Forms.ShellContent,System.Collections.Generic.IReadOnlyList{Xamarin.Forms.Page},System.Boolean)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.ProposeNavigation(Xamarin.Forms.ShellNavigationSource,Xamarin.Forms.ShellItem,Xamarin.Forms.ShellSection,Xamarin.Forms.ShellContent,System.Collections.Generic.IReadOnlyList{Xamarin.Forms.Page},System.Boolean)</InterfaceMember>
@@ -1808,6 +1997,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.RemoveAppearanceObserver">
       <MemberSignature Language="C#" Value="bool IShellController.RemoveAppearanceObserver (Xamarin.Forms.IAppearanceObserver observer);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Xamarin.Forms.IShellController.RemoveAppearanceObserver(class Xamarin.Forms.IAppearanceObserver observer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#RemoveAppearanceObserver(Xamarin.Forms.IAppearanceObserver)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.RemoveAppearanceObserver(Xamarin.Forms.IAppearanceObserver)</InterfaceMember>
@@ -1831,6 +2021,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.RemoveFlyoutBehaviorObserver">
       <MemberSignature Language="C#" Value="bool IShellController.RemoveFlyoutBehaviorObserver (Xamarin.Forms.IFlyoutBehaviorObserver observer);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool Xamarin.Forms.IShellController.RemoveFlyoutBehaviorObserver(class Xamarin.Forms.IFlyoutBehaviorObserver observer) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#RemoveFlyoutBehaviorObserver(Xamarin.Forms.IFlyoutBehaviorObserver)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.RemoveFlyoutBehaviorObserver(Xamarin.Forms.IFlyoutBehaviorObserver)</InterfaceMember>
@@ -1854,6 +2045,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.StructureChanged">
       <MemberSignature Language="C#" Value="event EventHandler Xamarin.Forms.IShellController.StructureChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler Xamarin.Forms.IShellController.StructureChanged" />
+      <MemberSignature Language="DocId" Value="E:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#StructureChanged" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:Xamarin.Forms.IShellController.StructureChanged</InterfaceMember>
@@ -1872,6 +2064,7 @@
     <Member MemberName="Xamarin.Forms.IShellController.UpdateCurrentState">
       <MemberSignature Language="C#" Value="void IShellController.UpdateCurrentState (Xamarin.Forms.ShellNavigationSource source);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Xamarin.Forms.IShellController.UpdateCurrentState(valuetype Xamarin.Forms.ShellNavigationSource source) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Shell.Xamarin#Forms#IShellController#UpdateCurrentState(Xamarin.Forms.ShellNavigationSource)" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IShellController.UpdateCurrentState(Xamarin.Forms.ShellNavigationSource)</InterfaceMember>

@@ -1,6 +1,8 @@
 <Type Name="BaseShellItem" FullName="Xamarin.Forms.BaseShellItem">
   <TypeSignature Language="C#" Value="public class BaseShellItem : Xamarin.Forms.NavigableElement" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit BaseShellItem extends Xamarin.Forms.NavigableElement" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.BaseShellItem" />
+  <TypeSignature Language="F#" Value="type BaseShellItem = class&#xA;    inherit NavigableElement" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -17,6 +19,7 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public BaseShellItem ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.BaseShellItem.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -30,6 +33,8 @@
     <Member MemberName="FlyoutIcon">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ImageSource FlyoutIcon { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ImageSource FlyoutIcon" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.BaseShellItem.FlyoutIcon" />
+      <MemberSignature Language="F#" Value="member this.FlyoutIcon : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.BaseShellItem.FlyoutIcon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -46,6 +51,8 @@
     <Member MemberName="FlyoutIconProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty FlyoutIconProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty FlyoutIconProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BaseShellItem.FlyoutIconProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable FlyoutIconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BaseShellItem.FlyoutIconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -61,6 +68,8 @@
     <Member MemberName="Icon">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.ImageSource Icon { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.ImageSource Icon" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.BaseShellItem.Icon" />
+      <MemberSignature Language="F#" Value="member this.Icon : Xamarin.Forms.ImageSource with get, set" Usage="Xamarin.Forms.BaseShellItem.Icon" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -77,6 +86,8 @@
     <Member MemberName="IconProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty IconProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IconProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BaseShellItem.IconProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable IconProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BaseShellItem.IconProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -92,6 +103,8 @@
     <Member MemberName="IsChecked">
       <MemberSignature Language="C#" Value="public bool IsChecked { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsChecked" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.BaseShellItem.IsChecked" />
+      <MemberSignature Language="F#" Value="member this.IsChecked : bool" Usage="Xamarin.Forms.BaseShellItem.IsChecked" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -108,6 +121,8 @@
     <Member MemberName="IsCheckedProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty IsCheckedProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsCheckedProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BaseShellItem.IsCheckedProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsCheckedProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BaseShellItem.IsCheckedProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -123,6 +138,8 @@
     <Member MemberName="IsEnabled">
       <MemberSignature Language="C#" Value="public bool IsEnabled { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool IsEnabled" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.BaseShellItem.IsEnabled" />
+      <MemberSignature Language="F#" Value="member this.IsEnabled : bool with get, set" Usage="Xamarin.Forms.BaseShellItem.IsEnabled" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -139,6 +156,8 @@
     <Member MemberName="IsEnabledProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty IsEnabledProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty IsEnabledProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BaseShellItem.IsEnabledProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable IsEnabledProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BaseShellItem.IsEnabledProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -154,6 +173,8 @@
     <Member MemberName="Route">
       <MemberSignature Language="C#" Value="public string Route { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Route" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.BaseShellItem.Route" />
+      <MemberSignature Language="F#" Value="member this.Route : string with get, set" Usage="Xamarin.Forms.BaseShellItem.Route" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -170,6 +191,8 @@
     <Member MemberName="Title">
       <MemberSignature Language="C#" Value="public string Title { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Title" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.BaseShellItem.Title" />
+      <MemberSignature Language="F#" Value="member this.Title : string with get, set" Usage="Xamarin.Forms.BaseShellItem.Title" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -186,6 +209,8 @@
     <Member MemberName="TitleProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty TitleProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty TitleProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.BaseShellItem.TitleProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable TitleProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.BaseShellItem.TitleProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

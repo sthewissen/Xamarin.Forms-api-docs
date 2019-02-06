@@ -1,6 +1,8 @@
 <Type Name="IBorderElement" FullName="Xamarin.Forms.IBorderElement">
   <TypeSignature Language="C#" Value="public interface IBorderElement" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IBorderElement" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IBorderElement" />
+  <TypeSignature Language="F#" Value="type IBorderElement = interface" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -19,6 +21,8 @@
     <Member MemberName="BackgroundColor">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Color BackgroundColor { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BackgroundColor" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IBorderElement.BackgroundColor" />
+      <MemberSignature Language="F#" Value="member this.BackgroundColor : Xamarin.Forms.Color" Usage="Xamarin.Forms.IBorderElement.BackgroundColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -35,6 +39,8 @@
     <Member MemberName="BorderColor">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Color BorderColor { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BorderColor" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IBorderElement.BorderColor" />
+      <MemberSignature Language="F#" Value="member this.BorderColor : Xamarin.Forms.Color" Usage="Xamarin.Forms.IBorderElement.BorderColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -51,6 +57,8 @@
     <Member MemberName="BorderColorDefaultValue">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Color BorderColorDefaultValue { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color BorderColorDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IBorderElement.BorderColorDefaultValue" />
+      <MemberSignature Language="F#" Value="member this.BorderColorDefaultValue : Xamarin.Forms.Color" Usage="Xamarin.Forms.IBorderElement.BorderColorDefaultValue" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -67,6 +75,8 @@
     <Member MemberName="BorderWidth">
       <MemberSignature Language="C#" Value="public double BorderWidth { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 BorderWidth" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IBorderElement.BorderWidth" />
+      <MemberSignature Language="F#" Value="member this.BorderWidth : double" Usage="Xamarin.Forms.IBorderElement.BorderWidth" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -83,6 +93,8 @@
     <Member MemberName="BorderWidthDefaultValue">
       <MemberSignature Language="C#" Value="public double BorderWidthDefaultValue { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance float64 BorderWidthDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IBorderElement.BorderWidthDefaultValue" />
+      <MemberSignature Language="F#" Value="member this.BorderWidthDefaultValue : double" Usage="Xamarin.Forms.IBorderElement.BorderWidthDefaultValue" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -99,6 +111,8 @@
     <Member MemberName="CornerRadius">
       <MemberSignature Language="C#" Value="public int CornerRadius { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 CornerRadius" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IBorderElement.CornerRadius" />
+      <MemberSignature Language="F#" Value="member this.CornerRadius : int" Usage="Xamarin.Forms.IBorderElement.CornerRadius" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -115,6 +129,8 @@
     <Member MemberName="CornerRadiusDefaultValue">
       <MemberSignature Language="C#" Value="public int CornerRadiusDefaultValue { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance int32 CornerRadiusDefaultValue" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.IBorderElement.CornerRadiusDefaultValue" />
+      <MemberSignature Language="F#" Value="member this.CornerRadiusDefaultValue : int" Usage="Xamarin.Forms.IBorderElement.CornerRadiusDefaultValue" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -131,6 +147,8 @@
     <Member MemberName="IsBackgroundColorSet">
       <MemberSignature Language="C#" Value="public bool IsBackgroundColorSet ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsBackgroundColorSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IBorderElement.IsBackgroundColorSet" />
+      <MemberSignature Language="F#" Value="abstract member IsBackgroundColorSet : unit -&gt; bool" Usage="iBorderElement.IsBackgroundColorSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -148,6 +166,8 @@
     <Member MemberName="IsBorderColorSet">
       <MemberSignature Language="C#" Value="public bool IsBorderColorSet ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsBorderColorSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IBorderElement.IsBorderColorSet" />
+      <MemberSignature Language="F#" Value="abstract member IsBorderColorSet : unit -&gt; bool" Usage="iBorderElement.IsBorderColorSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -165,6 +185,8 @@
     <Member MemberName="IsBorderWidthSet">
       <MemberSignature Language="C#" Value="public bool IsBorderWidthSet ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsBorderWidthSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IBorderElement.IsBorderWidthSet" />
+      <MemberSignature Language="F#" Value="abstract member IsBorderWidthSet : unit -&gt; bool" Usage="iBorderElement.IsBorderWidthSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -182,6 +204,8 @@
     <Member MemberName="IsCornerRadiusSet">
       <MemberSignature Language="C#" Value="public bool IsCornerRadiusSet ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsCornerRadiusSet() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IBorderElement.IsCornerRadiusSet" />
+      <MemberSignature Language="F#" Value="abstract member IsCornerRadiusSet : unit -&gt; bool" Usage="iBorderElement.IsCornerRadiusSet " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -199,6 +223,8 @@
     <Member MemberName="OnBorderColorPropertyChanged">
       <MemberSignature Language="C#" Value="public void OnBorderColorPropertyChanged (Xamarin.Forms.Color oldValue, Xamarin.Forms.Color newValue);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnBorderColorPropertyChanged(valuetype Xamarin.Forms.Color oldValue, valuetype Xamarin.Forms.Color newValue) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.IBorderElement.OnBorderColorPropertyChanged(Xamarin.Forms.Color,Xamarin.Forms.Color)" />
+      <MemberSignature Language="F#" Value="abstract member OnBorderColorPropertyChanged : Xamarin.Forms.Color * Xamarin.Forms.Color -&gt; unit" Usage="iBorderElement.OnBorderColorPropertyChanged (oldValue, newValue)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

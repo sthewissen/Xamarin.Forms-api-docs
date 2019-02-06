@@ -1,6 +1,8 @@
 <Type Name="RouteFactory" FullName="Xamarin.Forms.RouteFactory">
   <TypeSignature Language="C#" Value="public abstract class RouteFactory" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit RouteFactory extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Xamarin.Forms.RouteFactory" />
+  <TypeSignature Language="F#" Value="type RouteFactory = class" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -17,6 +19,7 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="protected RouteFactory ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RouteFactory.#ctor" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -30,6 +33,8 @@
     <Member MemberName="GetOrCreate">
       <MemberSignature Language="C#" Value="public abstract Xamarin.Forms.Element GetOrCreate ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Xamarin.Forms.Element GetOrCreate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.RouteFactory.GetOrCreate" />
+      <MemberSignature Language="F#" Value="abstract member GetOrCreate : unit -&gt; Xamarin.Forms.Element" Usage="routeFactory.GetOrCreate " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

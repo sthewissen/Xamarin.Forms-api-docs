@@ -1372,6 +1372,8 @@
       <Member MemberName="IsDefault">
         <MemberSignature Language="C#" Value="public static bool IsDefault (this Xamarin.Forms.IVisual visual);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsDefault(class Xamarin.Forms.IVisual visual) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.EffectiveVisualExtensions.IsDefault(Xamarin.Forms.IVisual)" />
+        <MemberSignature Language="F#" Value="static member IsDefault : Xamarin.Forms.IVisual -&gt; bool" Usage="Xamarin.Forms.EffectiveVisualExtensions.IsDefault visual" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1393,6 +1395,8 @@
       <Member MemberName="IsMatchParent">
         <MemberSignature Language="C#" Value="public static bool IsMatchParent (this Xamarin.Forms.IVisual visual);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsMatchParent(class Xamarin.Forms.IVisual visual) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.EffectiveVisualExtensions.IsMatchParent(Xamarin.Forms.IVisual)" />
+        <MemberSignature Language="F#" Value="static member IsMatchParent : Xamarin.Forms.IVisual -&gt; bool" Usage="Xamarin.Forms.EffectiveVisualExtensions.IsMatchParent visual" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -1414,6 +1418,8 @@
       <Member MemberName="IsMaterial">
         <MemberSignature Language="C#" Value="public static bool IsMaterial (this Xamarin.Forms.IVisual visual);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsMaterial(class Xamarin.Forms.IVisual visual) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.EffectiveVisualExtensions.IsMaterial(Xamarin.Forms.IVisual)" />
+        <MemberSignature Language="F#" Value="static member IsMaterial : Xamarin.Forms.IVisual -&gt; bool" Usage="Xamarin.Forms.EffectiveVisualExtensions.IsMaterial visual" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2688,6 +2694,8 @@
       <Member MemberName="GetIsShadowEnabled">
         <MemberSignature Language="C#" Value="public static bool GetIsShadowEnabled (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetIsShadowEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetIsShadowEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton})" />
+        <MemberSignature Language="F#" Value="static member GetIsShadowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetIsShadowEnabled config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -2709,6 +2717,8 @@
       <Member MemberName="GetShadowColor">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.Color GetShadowColor (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Color GetShadowColor(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowColor(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton})" />
+        <MemberSignature Language="F#" Value="static member GetShadowColor : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; Xamarin.Forms.Color" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowColor config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.Color</ReturnType>
@@ -2730,6 +2740,8 @@
       <Member MemberName="GetShadowOffset">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.Size GetShadowOffset (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Xamarin.Forms.Size GetShadowOffset(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowOffset(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton})" />
+        <MemberSignature Language="F#" Value="static member GetShadowOffset : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; Xamarin.Forms.Size" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowOffset config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.Size</ReturnType>
@@ -2751,6 +2763,8 @@
       <Member MemberName="GetShadowRadius">
         <MemberSignature Language="C#" Value="public static double GetShadowRadius (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 GetShadowRadius(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowRadius(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton})" />
+        <MemberSignature Language="F#" Value="static member GetShadowRadius : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; -&gt; double" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.GetShadowRadius config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Double</ReturnType>
@@ -2772,6 +2786,8 @@
       <Member MemberName="SetIsShadowEnabled">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; SetIsShadowEnabled (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config, bool value);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; SetIsShadowEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config, bool value) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetIsShadowEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton},System.Boolean)" />
+        <MemberSignature Language="F#" Value="static member SetIsShadowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetIsShadowEnabled (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt;</ReturnType>
@@ -2795,6 +2811,8 @@
       <Member MemberName="SetShadowColor">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; SetShadowColor (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config, Xamarin.Forms.Color value);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; SetShadowColor(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config, valuetype Xamarin.Forms.Color value) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowColor(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton},Xamarin.Forms.Color)" />
+        <MemberSignature Language="F#" Value="static member SetShadowColor : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * Xamarin.Forms.Color -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowColor (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt;</ReturnType>
@@ -2818,6 +2836,8 @@
       <Member MemberName="SetShadowOffset">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; SetShadowOffset (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config, Xamarin.Forms.Size value);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; SetShadowOffset(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config, valuetype Xamarin.Forms.Size value) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowOffset(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton},Xamarin.Forms.Size)" />
+        <MemberSignature Language="F#" Value="static member SetShadowOffset : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * Xamarin.Forms.Size -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowOffset (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt;</ReturnType>
@@ -2841,6 +2861,8 @@
       <Member MemberName="SetShadowRadius">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; SetShadowRadius (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt; config, double value);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; SetShadowRadius(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Android, class Xamarin.Forms.ImageButton&gt; config, float64 value) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowRadius(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton},System.Double)" />
+        <MemberSignature Language="F#" Value="static member SetShadowRadius : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt; * double -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android, Xamarin.Forms.ImageButton&gt;" Usage="Xamarin.Forms.PlatformConfiguration.AndroidSpecific.ImageButton.SetShadowRadius (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Android,Xamarin.Forms.ImageButton&gt;</ReturnType>
@@ -3607,6 +3629,8 @@
       <Member MemberName="GetHandleControlUpdatesOnMainThread">
         <MemberSignature Language="C#" Value="public static bool GetHandleControlUpdatesOnMainThread (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application&gt; config);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetHandleControlUpdatesOnMainThread(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Application&gt; config) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetHandleControlUpdatesOnMainThread(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application})" />
+        <MemberSignature Language="F#" Value="static member GetHandleControlUpdatesOnMainThread : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Application&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetHandleControlUpdatesOnMainThread config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -3651,6 +3675,8 @@
       <Member MemberName="SetHandleControlUpdatesOnMainThread">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application&gt; SetHandleControlUpdatesOnMainThread (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application&gt; config, bool value);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Application&gt; SetHandleControlUpdatesOnMainThread(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.iOS, class Xamarin.Forms.Application&gt; config, bool value) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.SetHandleControlUpdatesOnMainThread(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application},System.Boolean)" />
+        <MemberSignature Language="F#" Value="static member SetHandleControlUpdatesOnMainThread : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Application&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS, Xamarin.Forms.Application&gt;" Usage="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.SetHandleControlUpdatesOnMainThread (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application&gt;</ReturnType>
@@ -6320,6 +6346,8 @@
       <Member MemberName="GetToolbarDynamicOverflowEnabled">
         <MemberSignature Language="C#" Value="public static bool GetToolbarDynamicOverflowEnabled (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page&gt; config);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GetToolbarDynamicOverflowEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.Page&gt; config) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page})" />
+        <MemberSignature Language="F#" Value="static member GetToolbarDynamicOverflowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt; -&gt; bool" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.GetToolbarDynamicOverflowEnabled config" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>System.Boolean</ReturnType>
@@ -6364,6 +6392,8 @@
       <Member MemberName="SetToolbarDynamicOverflowEnabled">
         <MemberSignature Language="C#" Value="public static Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page&gt; SetToolbarDynamicOverflowEnabled (this Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page&gt; config, bool value);" />
         <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.Page&gt; SetToolbarDynamicOverflowEnabled(class Xamarin.Forms.IPlatformElementConfiguration`2&lt;class Xamarin.Forms.PlatformConfiguration.Windows, class Xamarin.Forms.Page&gt; config, bool value) cil managed" />
+        <MemberSignature Language="DocId" Value="M:Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page},System.Boolean)" />
+        <MemberSignature Language="F#" Value="static member SetToolbarDynamicOverflowEnabled : Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt; * bool -&gt; Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows, Xamarin.Forms.Page&gt;" Usage="Xamarin.Forms.PlatformConfiguration.WindowsSpecific.Page.SetToolbarDynamicOverflowEnabled (config, value)" />
         <MemberType>ExtensionMethod</MemberType>
         <ReturnValue>
           <ReturnType>Xamarin.Forms.IPlatformElementConfiguration&lt;Xamarin.Forms.PlatformConfiguration.Windows,Xamarin.Forms.Page&gt;</ReturnType>

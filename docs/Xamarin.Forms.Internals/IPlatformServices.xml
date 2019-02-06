@@ -139,6 +139,8 @@
     <Member MemberName="GetNativeSize">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.SizeRequest GetNativeSize (Xamarin.Forms.VisualElement view, double widthConstraint, double heightConstraint);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Xamarin.Forms.SizeRequest GetNativeSize(class Xamarin.Forms.VisualElement view, float64 widthConstraint, float64 heightConstraint) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.IPlatformServices.GetNativeSize(Xamarin.Forms.VisualElement,System.Double,System.Double)" />
+      <MemberSignature Language="F#" Value="abstract member GetNativeSize : Xamarin.Forms.VisualElement * double * double -&gt; Xamarin.Forms.SizeRequest" Usage="iPlatformServices.GetNativeSize (view, widthConstraint, heightConstraint)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

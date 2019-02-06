@@ -2,7 +2,7 @@
   <TypeSignature Language="C#" Value="public interface IPageController : Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPageController implements class Xamarin.Forms.IElementController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.IPageController" />
-  <TypeSignature Language="F#" Value="type IPageController = interface" />
+  <TypeSignature Language="F#" Value="type IPageController = interface&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
   <AssemblyInfo>
     <AssemblyName>Xamarin.Forms.Core</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>

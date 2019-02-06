@@ -485,6 +485,7 @@
     <Member MemberName="Xamarin.Forms.IMenuItemController.Activate">
       <MemberSignature Language="C#" Value="void IMenuItemController.Activate ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void Xamarin.Forms.IMenuItemController.Activate() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.MenuItem.Xamarin#Forms#IMenuItemController#Activate" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Xamarin.Forms.IMenuItemController.Activate</InterfaceMember>

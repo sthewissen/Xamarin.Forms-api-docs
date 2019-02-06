@@ -25,6 +25,8 @@
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public NavigationRequestedEventArgs (Xamarin.Forms.Page page, bool animated);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Xamarin.Forms.Page page, bool animated) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.Internals.NavigationRequestedEventArgs.#ctor(Xamarin.Forms.Page,System.Boolean)" />
+      <MemberSignature Language="F#" Value="new Xamarin.Forms.Internals.NavigationRequestedEventArgs : Xamarin.Forms.Page * bool -&gt; Xamarin.Forms.Internals.NavigationRequestedEventArgs" Usage="new Xamarin.Forms.Internals.NavigationRequestedEventArgs (page, animated)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -149,6 +151,8 @@
     <Member MemberName="RequestType">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Internals.NavigationRequestType RequestType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Internals.NavigationRequestType RequestType" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Internals.NavigationRequestedEventArgs.RequestType" />
+      <MemberSignature Language="F#" Value="member this.RequestType : Xamarin.Forms.Internals.NavigationRequestType with get, set" Usage="Xamarin.Forms.Internals.NavigationRequestedEventArgs.RequestType" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

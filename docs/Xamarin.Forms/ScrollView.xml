@@ -244,6 +244,8 @@ MainPage = new ContentPage
     <Member MemberName="LayoutAreaOverride">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Rectangle LayoutAreaOverride { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Rectangle LayoutAreaOverride" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.ScrollView.LayoutAreaOverride" />
+      <MemberSignature Language="F#" Value="member this.LayoutAreaOverride : Xamarin.Forms.Rectangle with get, set" Usage="Xamarin.Forms.ScrollView.LayoutAreaOverride" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:Xamarin.Forms.IScrollViewController.LayoutAreaOverride</InterfaceMember>

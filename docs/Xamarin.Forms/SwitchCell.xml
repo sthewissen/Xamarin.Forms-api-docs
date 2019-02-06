@@ -152,6 +152,8 @@ namespace FormsGallery
     <Member MemberName="OnColor">
       <MemberSignature Language="C#" Value="public Xamarin.Forms.Color OnColor { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Xamarin.Forms.Color OnColor" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.SwitchCell.OnColor" />
+      <MemberSignature Language="F#" Value="member this.OnColor : Xamarin.Forms.Color with get, set" Usage="Xamarin.Forms.SwitchCell.OnColor" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -168,6 +170,8 @@ namespace FormsGallery
     <Member MemberName="OnColorProperty">
       <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty OnColorProperty;" />
       <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty OnColorProperty" />
+      <MemberSignature Language="DocId" Value="F:Xamarin.Forms.SwitchCell.OnColorProperty" />
+      <MemberSignature Language="F#" Value=" staticval mutable OnColorProperty : Xamarin.Forms.BindableProperty" Usage="Xamarin.Forms.SwitchCell.OnColorProperty" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
