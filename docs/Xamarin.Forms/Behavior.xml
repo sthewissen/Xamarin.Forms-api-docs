@@ -19,7 +19,7 @@
   <Docs>
     <summary>Base class for generalized user-defined behaviors that can respond to arbitrary conditions and events.</summary>
     <remarks>Application developers should specialize the <see cref="T:Xamarin.Forms.Behavior`1" /> generic class, instead of directly using <see cref="T:Xamarin.Forms.Behavior" />.</remarks>
-    <related type="article" href="https://developer.xamarin.com/guides/xamarin-forms/application-fundamentals/behaviors/creating/">Xamarin.Forms Behaviors</related>
+    <related type="article" href="https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/behaviors/creating/">Xamarin.Forms Behaviors</related>
   </Docs>
   <Members>
     <Member MemberName="AssociatedType">
@@ -121,7 +121,7 @@
       </Parameters>
       <Docs>
         <param name="bindable">For internal use by the Xamarin.Forms platform.</param>
-        <summary>AFor internal use by the Xamarin.Forms platform.</summary>
+        <summary>For internal use by the Xamarin.Forms platform.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
