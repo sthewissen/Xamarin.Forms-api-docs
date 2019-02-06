@@ -1,6 +1,6 @@
 <Type Name="VisualElement" FullName="Xamarin.Forms.VisualElement">
-  <TypeSignature Language="C#" Value="public class VisualElement : Xamarin.Forms.Element, Xamarin.Forms.IAnimatable, Xamarin.Forms.IVisualElementController" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VisualElement extends Xamarin.Forms.Element implements class Xamarin.Forms.IAnimatable, class Xamarin.Forms.IElementController, class Xamarin.Forms.IVisualElementController" />
+  <TypeSignature Language="C#" Value="public class VisualElement : Xamarin.Forms.NavigableElement, Xamarin.Forms.IAnimatable, Xamarin.Forms.IVisualElementController" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit VisualElement extends Xamarin.Forms.NavigableElement implements class Xamarin.Forms.IAnimatable, class Xamarin.Forms.IElementController, class Xamarin.Forms.IVisualElementController" />
   <TypeSignature Language="DocId" Value="T:Xamarin.Forms.VisualElement" />
   <TypeSignature Language="F#" Value="type VisualElement = class&#xA;    inherit Element&#xA;    interface IAnimatable&#xA;    interface IVisualElementController&#xA;    interface IElementController" />
   <AssemblyInfo>
@@ -15,11 +15,14 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>Xamarin.Forms.Element</BaseTypeName>
+    <BaseTypeName>Xamarin.Forms.NavigableElement</BaseTypeName>
   </Base>
   <Interfaces>
     <Interface>
       <InterfaceName>Xamarin.Forms.IAnimatable</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Xamarin.Forms.IElementController</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>Xamarin.Forms.IVisualElementController</InterfaceName>
@@ -613,6 +616,9 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.Obsolete("OnSizeRequest is obsolete as of version 2.2.0. Please use OnMeasure instead.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1482,7 +1488,6 @@
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
@@ -1535,7 +1540,6 @@
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
@@ -1557,7 +1561,6 @@
       </Implements>
       <AssemblyInfo>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <Attributes>
@@ -1688,7 +1691,6 @@
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
@@ -1751,6 +1753,9 @@
       <Attributes>
         <Attribute>
           <AttributeName>System.Obsolete("OnSizeRequest is obsolete as of version 2.2.0. Please use OnMeasure instead.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2343,7 +2348,6 @@
         <AssemblyVersion>1.3.0.0</AssemblyVersion>
         <AssemblyVersion>1.4.0.0</AssemblyVersion>
         <AssemblyVersion>1.5.0.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyName>Xamarin.Forms.Core</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
@@ -2620,6 +2624,69 @@
       <Docs>
         <summary>Occurs when the element loses focus.</summary>
         <remarks>Unfocused event is raised whenever the VisualElement loses focus. This event is not bubbled through the Xamarin.Forms stack and is received directly from the native control. This event is emitted by the IsFocusedProperty setter.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VerifyVisualFlagEnabled">
+      <MemberSignature Language="C#" Value="public static void VerifyVisualFlagEnabled (string constructorHint = null, string memberName = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void VerifyVisualFlagEnabled(string constructorHint, string memberName) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="constructorHint" Type="System.String" />
+        <Parameter Name="memberName" Type="System.String">
+          <Attributes>
+            <Attribute>
+              <AttributeName>System.Runtime.CompilerServices.CallerMemberName</AttributeName>
+            </Attribute>
+          </Attributes>
+        </Parameter>
+      </Parameters>
+      <Docs>
+        <param name="constructorHint">To be added.</param>
+        <param name="memberName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visual">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.IVisual Visual { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.IVisual Visual" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.IVisual</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VisualProperty">
+      <MemberSignature Language="C#" Value="public static readonly Xamarin.Forms.BindableProperty VisualProperty;" />
+      <MemberSignature Language="ILAsm" Value=".field public static initonly class Xamarin.Forms.BindableProperty VisualProperty" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.BindableProperty</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Width">
