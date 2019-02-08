@@ -13,10 +13,7 @@
   <Interfaces />
   <Docs>
     <summary>A <see cref='T:Xamarin.Forms.View' /> that serves as a base class for views that contain a templated list of items.</summary>
-    <remarks>
-      <para>The types of <see cref='T:Xamarin.Forms.ItemsView' /> are shown in this image:</para>
-      <para><img href="~/Xamarin.Forms/_images/ItemsView_Hierarchy.png"/></para>
-    </remarks>
+    <remarks>To be added.</remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
