@@ -20,7 +20,7 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>Attribute specifying the mapping between an XML namespace and a CLR namespace.</summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
