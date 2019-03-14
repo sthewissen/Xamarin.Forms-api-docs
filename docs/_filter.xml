@@ -67,52 +67,52 @@
       <typeFilter name="ToolbarItem">
         <memberFilter name="Name" expose="false"/>
       </typeFilter>
-      <typeFilter name="Span" expose="true">
+      <typeFilter name="Span">
         <memberFilter name="Font" expose="false"/>
         <memberFilter name="ForegroundColorProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="NavigableElement" expose="true">
+      <typeFilter name="NavigableElement">
         <memberFilter name="NavigationProxy" expose="false"/>
       </typeFilter>
-      <typeFilter name="OnPlatform`1" expose="true">
+      <typeFilter name="OnPlatform`1">
         <memberFilter name="Android" expose="false"/>
         <memberFilter name="iOS" expose="false"/>
         <memberFilter name="WinPhone" expose="false"/>
       </typeFilter>
-      <typeFilter name="Label" expose="true">
+      <typeFilter name="Label">
         <memberFilter name="Font" expose="false"/>
         <memberFilter name="XAlign" expose="false"/>
         <memberFilter name="YAlign" expose="false"/>
         <memberFilter name="XAlignProperty" expose="false"/>
         <memberFilter name="YAlignProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="ItemsView`1" expose="true">
+      <typeFilter name="ItemsView`1">
         <memberFilter name="TemplatedItems" expose="false"/>
       </typeFilter>
-      <typeFilter name="IElementController" expose="true">
+      <typeFilter name="IElementController">
         <memberFilter name="Platform" expose="false"/>
       </typeFilter>
-      <typeFilter name="Frame" expose="true">
+      <typeFilter name="Frame">
         <memberFilter name="OutlineColor" expose="false"/>
         <memberFilter name="OutlineColorProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="Accelerator" expose="true">
+      <typeFilter name="Accelerator">
         <memberFilter name="Modifiers" expose="false"/>
         <memberFilter name="Keys" expose="false"/>
       </typeFilter>
-      <typeFilter name="StyleSheet" expose="true">
+      <typeFilter name="StyleSheet">
         <memberFilter name="FromString" expose="false"/>
       </typeFilter>
-      <typeFilter name="WebViewSource" expose="true">
+      <typeFilter name="WebViewSource">
         <memberFilter name="Load" expose="false"/>
       </typeFilter>
-      <typeFilter name="WebView" expose="true">
+      <typeFilter name="WebView">
         <memberFilter name="SendNavigated" expose="false"/>
         <memberFilter name="SendNavigating" expose="false"/>
         <memberFilter name="Xamarin.Forms.IWebViewController.CanGoBack" expose="false"/>
         <memberFilter name="Xamarin.Forms.IWebViewController.CanGoForward" expose="false"/>
       </typeFilter>
-      <typeFilter name="VisualElement" expose="true">
+      <typeFilter name="VisualElement">
         <memberFilter name="NativeSizeChanged" expose="false"/>
         <memberFilter name="GetSizeRequest" expose="false"/>
         <memberFilter name="OnSizeRequest" expose="false"/>
@@ -129,23 +129,23 @@
         <memberFilter name="IsFocusedPropertyKey" expose="false"/>
         <memberFilter name="NextFocusDirectionProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="UrlWebViewSource" expose="true">
+      <typeFilter name="UrlWebViewSource">
         <memberFilter name="Load" expose="false"/>
       </typeFilter>
-      <typeFilter name="UriImageSource" expose="true">
+      <typeFilter name="UriImageSource">
         <memberFilter name="GetStreamAsync" expose="false"/>
       </typeFilter>
-      <typeFilter name="TypeTypeConverter" expose="true">
+      <typeFilter name="TypeTypeConverter">
         <memberFilter name="Xamarin.Forms.IExtendedTypeConverter.ConvertFrom" expose="false"/>
       </typeFilter>
-      <typeFilter name="TypeConverter" expose="true">
+      <typeFilter name="TypeConverter">
         <memberFilter name="ConvertFrom" expose="false"/>
         <memberFilter name="ConvertFrom" expose="false"/>
       </typeFilter>
-      <typeFilter name="TemplatedView" expose="true">
+      <typeFilter name="TemplatedView">
         <memberFilter name="OnSizeRequest" expose="false"/>
       </typeFilter>
-      <typeFilter name="TapGestureRecognizer" expose="true">
+      <typeFilter name="TapGestureRecognizer">
         <memberFilter name="SendTapped" expose="false"/>
         <memberFilter name=".ctor" expose="false"/>
         <memberFilter name=".ctor" expose="false"/>
@@ -154,51 +154,51 @@
         <memberFilter name="TappedCallbackProperty" expose="false"/>
         <memberFilter name="TappedCallbackParameterProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="TableView" expose="true">
+      <typeFilter name="TableView">
         <memberFilter name="OnSizeRequest" expose="false"/>
         <memberFilter name="Model" expose="false"/>
       </typeFilter>
-      <typeFilter name="StackLayout" expose="true">
+      <typeFilter name="StackLayout">
         <memberFilter name="OnSizeRequest" expose="false"/>
       </typeFilter>
-      <typeFilter name="Shell" expose="true">
+      <typeFilter name="Shell">
         <memberFilter name="VerifyShellFlagEnabled" expose="false"/>
       </typeFilter>
-      <typeFilter name="SearchBar" expose="true">
+      <typeFilter name="SearchBar">
         <memberFilter name="OnSearchButtonPressed" expose="false"/>
       </typeFilter>
-      <typeFilter name="ScrollView" expose="true">
+      <typeFilter name="ScrollView">
         <memberFilter name="GetScrollPositionForElement" expose="false"/>
         <memberFilter name="SendScrollFinished" expose="false"/>
         <memberFilter name="SetScrolledPosition" expose="false"/>
         <memberFilter name="OnSizeRequest" expose="false"/>
         <memberFilter name="LayoutAreaOverride" expose="false"/>
       </typeFilter>
-      <typeFilter name="ResourceDictionary" expose="true">
+      <typeFilter name="ResourceDictionary">
         <memberFilter name="SetAndLoadSource" expose="false"/>
         <memberFilter name="MergedWith" expose="false"/>
       </typeFilter>
-      <typeFilter name="RelativeLayout" expose="true">
+      <typeFilter name="RelativeLayout">
         <memberFilter name="OnSizeRequest" expose="false"/>
       </typeFilter>
-      <typeFilter name="PlatformEffect`2" expose="true">
+      <typeFilter name="PlatformEffect`2">
         <memberFilter name="SetContainer" expose="false"/>
         <memberFilter name="SetControl" expose="false"/>
       </typeFilter>
-      <typeFilter name="PinchGestureRecognizer" expose="true">
+      <typeFilter name="PinchGestureRecognizer">
         <memberFilter name="SendPinch" expose="false"/>
         <memberFilter name="SendPinchCanceled" expose="false"/>
         <memberFilter name="SendPinchEnded" expose="false"/>
         <memberFilter name="SendPinchStarted" expose="false"/>
         <memberFilter name="IsPinching" expose="false"/>
       </typeFilter>
-      <typeFilter name="PanGestureRecognizer" expose="true">
+      <typeFilter name="PanGestureRecognizer">
         <memberFilter name="SendPan" expose="false"/>
         <memberFilter name="SendPanCanceled" expose="false"/>
         <memberFilter name="SendPanCompleted" expose="false"/>
         <memberFilter name="SendPanStarted" expose="false"/>
       </typeFilter>
-      <typeFilter name="Page" expose="true">
+      <typeFilter name="Page">
         <memberFilter name="SendAppearing" expose="false"/>
         <memberFilter name="SendDisappearing" expose="false"/>
         <memberFilter name="SetSafeAreaInsets" expose="false"/>
@@ -206,7 +206,7 @@
         <memberFilter name="IgnoresContainerArea" expose="false"/>
         <memberFilter name="InternalChildren" expose="false"/>
       </typeFilter>
-      <typeFilter name="NavigationPage" expose="true">
+      <typeFilter name="NavigationPage">
         <memberFilter name="Peek" expose="false"/>
         <memberFilter name="PopAsyncInner" expose="false"/>
         <memberFilter name="Tint" expose="false"/>
@@ -214,23 +214,23 @@
         <memberFilter name="StackDepth" expose="false"/>
         <memberFilter name="TintProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="MultiPage`1" expose="true">
+      <typeFilter name="MultiPage`1">
         <memberFilter name="GetIndex" expose="false"/>
         <memberFilter name="GetPageByIndex" expose="false"/>
         <memberFilter name="SetIndex" expose="false"/>
       </typeFilter>
-      <typeFilter name="MenuItem" expose="true">
+      <typeFilter name="MenuItem">
         <memberFilter name="set_IsEnabled" expose="false"/>
         <memberFilter name="Xamarin.Forms.IMenuItemController.Activate" expose="false"/>
       </typeFilter>
-      <typeFilter name="MasterDetailPage" expose="true">
+      <typeFilter name="MasterDetailPage">
         <memberFilter name="UpdateMasterBehavior" expose="false"/>
         <memberFilter name="CanChangeIsPresented" expose="false"/>
         <memberFilter name="DetailBounds" expose="false"/>
         <memberFilter name="MasterBounds" expose="false"/>
         <memberFilter name="ShouldShowSplitMode" expose="false"/>
       </typeFilter>
-      <typeFilter name="ListView" expose="true">
+      <typeFilter name="ListView">
         <memberFilter name="SendCellAppearing" expose="false"/>
         <memberFilter name="SendCellDisappearing" expose="false"/>
         <memberFilter name="SendRefreshing" expose="false"/>
@@ -243,48 +243,48 @@
         <memberFilter name="FooterElement" expose="false"/>
         <memberFilter name="HeaderElement" expose="false"/>
       </typeFilter>
-      <typeFilter name="Layout" expose="true">
+      <typeFilter name="Layout">
         <memberFilter name="GetSizeRequest" expose="false"/>
         <memberFilter name="Children" expose="false"/>
       </typeFilter>
-      <typeFilter name="CollectionView" expose="true">
+      <typeFilter name="CollectionView">
         <memberFilter name="VerifyCollectionViewFlagEnabled" expose="false"/>
       </typeFilter>
-      <typeFilter name="ImageButton" expose="true">
+      <typeFilter name="ImageButton">
         <memberFilter name="SetIsLoading" expose="false"/>
         <memberFilter name="SetIsPressed" expose="false"/>
         <memberFilter name="SendClicked" expose="false"/>
         <memberFilter name="SendPressed" expose="false"/>
         <memberFilter name="SendReleased" expose="false"/>
       </typeFilter>
-      <typeFilter name="Image" expose="true">
+      <typeFilter name="Image">
         <memberFilter name="OnSizeRequest" expose="false"/>
         <memberFilter name="SetIsLoading" expose="false"/>
       </typeFilter>
-      <typeFilter name="IExtendedTypeConverter" expose="true">
+      <typeFilter name="IExtendedTypeConverter">
         <memberFilter name="ConvertFrom" expose="false"/>
       </typeFilter>
-      <typeFilter name="HtmlWebViewSource" expose="true">
+      <typeFilter name="HtmlWebViewSource">
         <memberFilter name="Load" expose="false"/>
       </typeFilter>
-      <typeFilter name="Grid" expose="true">
+      <typeFilter name="Grid">
         <memberFilter name="InvalidateMeasureInernalNonVirtual" expose="false"/>
         <memberFilter name="OnSizeRequest" expose="false"/>
       </typeFilter>
-      <typeFilter name="FontSizeConverter" expose="true">
+      <typeFilter name="FontSizeConverter">
         <memberFilter name="Xamarin.Forms.IExtendedTypeConverter.ConvertFrom" expose="false"/>
       </typeFilter>
-      <typeFilter name="Font" expose="true">
+      <typeFilter name="Font">
         <memberFilter name="BoldSystemFontOfSize" expose="false"/>
         <memberFilter name="BoldSystemFontOfSize" expose="false"/>
       </typeFilter>
-      <typeFilter name="ExperimentalFlags" expose="true">
+      <typeFilter name="ExperimentalFlags">
         <memberFilter name="VerifyFlagEnabled" expose="false"/>
       </typeFilter>
-      <typeFilter name="Entry" expose="true">
+      <typeFilter name="Entry">
         <memberFilter name="SendCompleted" expose="false"/>
       </typeFilter>
-      <typeFilter name="Element" expose="true">
+      <typeFilter name="Element">
         <memberFilter name="SetValueFromRenderer" expose="false"/>
         <memberFilter name="SetValueFromRenderer" expose="false"/>
         <memberFilter name="EffectIsAttached" expose="false"/>
@@ -295,10 +295,10 @@
         <memberFilter name="EffectControlProvider" expose="false"/>
         <memberFilter name="Platform" expose="false"/>
       </typeFilter>
-      <typeFilter name="Editor" expose="true">
+      <typeFilter name="Editor">
         <memberFilter name="SendCompleted" expose="false"/>
       </typeFilter>
-      <typeFilter name="Device" expose="true">
+      <typeFilter name="Device">
         <memberFilter name="SetIdiom" expose="false"/>
         <memberFilter name="SetTargetIdiom" expose="false"/>
         <memberFilter name="SetFlowDirection" expose="false"/>
@@ -314,31 +314,31 @@
         <memberFilter name="Flags" expose="false"/>
         <memberFilter name="info" expose="false"/>
       </typeFilter>
-      <typeFilter name="ContentPresenter" expose="true">
+      <typeFilter name="ContentPresenter">
         <memberFilter name="OnSizeRequest" expose="false"/>
       </typeFilter>
-      <typeFilter name="CompressedLayout" expose="true">
+      <typeFilter name="CompressedLayout">
         <memberFilter name="GetHeadlessOffset" expose="false"/>
         <memberFilter name="HeadlessOffsetProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="Color" expose="true">
+      <typeFilter name="Color">
         <memberFilter name="SetAccent" expose="false"/>
         <memberFilter name="IsDefault" expose="false"/>
         <memberFilter name="Fuschia" expose="false"/>
       </typeFilter>
-      <typeFilter name="ClickGestureRecognizer" expose="true">
+      <typeFilter name="ClickGestureRecognizer">
         <memberFilter name="SendClicked" expose="false"/>
       </typeFilter>
-      <typeFilter name="EntryCell" expose="true">
+      <typeFilter name="EntryCell">
         <memberFilter name="SendCompleted" expose="false"/>
         <memberFilter name="XAlign" expose="false"/>
         <memberFilter name="XAlignProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="Cell" expose="true">
+      <typeFilter name="Cell">
         <memberFilter name="SendAppearing" expose="false"/>
         <memberFilter name="SendDisappearing" expose="false"/>
       </typeFilter>
-      <typeFilter name="Button" expose="true">
+      <typeFilter name="Button">
         <memberFilter name="SendClicked" expose="false"/>
         <memberFilter name="Xamarin.Forms.Internals.IButtonElement.SetIsPressed" expose="false"/>
         <memberFilter name="SendPressed" expose="false"/>
@@ -349,15 +349,15 @@
         <memberFilter name="BorderRadius" expose="false"/>
         <memberFilter name="BorderRadiusProperty" expose="false"/>
       </typeFilter>
-      <typeFilter name="BoxView" expose="true">
+      <typeFilter name="BoxView">
         <memberFilter name="OnSizeRequest" expose="false"/>
       </typeFilter>
-      <typeFilter name="Binding" expose="true">
+      <typeFilter name="Binding">
         <memberFilter name="Create" expose="false"/>
         <memberFilter name="GetBindingPath" expose="false"/>
         <memberFilter name="UpdateSourceEventName" expose="false"/>
       </typeFilter>
-      <typeFilter name="BindableProperty" expose="true">
+      <typeFilter name="BindableProperty">
         <memberFilter name="Create" expose="false"/>
         <memberFilter name="CreateAttached" expose="false"/>
         <memberFilter name="CreateAttachedReadOnly" expose="false"/>
@@ -365,17 +365,17 @@
         <memberFilter name="Create" expose="false"/>
         <memberFilter name="CreateAttached" expose="false"/>
       </typeFilter>
-      <typeFilter name="BindableObjectExtensions" expose="true">
+      <typeFilter name="BindableObjectExtensions">
         <memberFilter name="SetBinding" expose="false"/>
       </typeFilter>
-      <typeFilter name="BindableObject" expose="true">
+      <typeFilter name="BindableObject">
         <memberFilter name="SetInheritedBindingContext" expose="false"/>
         <memberFilter name="GetValues" expose="false"/>
         <memberFilter name="GetValues" expose="false"/>
         <memberFilter name="GetValues" expose="false"/>
         <memberFilter name="SetValueCore" expose="false"/>
       </typeFilter>
-      <typeFilter name="Application" expose="true">
+      <typeFilter name="Application">
         <memberFilter name="SetCurrentApplication" expose="false"/>
         <memberFilter name="SetAppIndexingProvider" expose="false"/>
         <memberFilter name="ClearCurrent" expose="false"/>
@@ -388,7 +388,7 @@
         <memberFilter name="NavigationProxy" expose="false"/>
         <memberFilter name="PanGestureId" expose="false"/>
       </typeFilter>
-      <typeFilter name="AbsoluteLayout" expose="true">
+      <typeFilter name="AbsoluteLayout">
         <memberFilter name="OnSizeRequest" expose="false"/>
       </typeFilter>
       <typeFilter name="TypedBinding`2" expose="false">
