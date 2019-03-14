@@ -444,7 +444,7 @@ Device.BeginInvokeOnMainThread (() => {
         <param name="Android">(optional) The Action to execute on Android.</param>
         <param name="WinPhone">(optional) The Action to execute on WinPhone.</param>
         <param name="Default">(optional) The Action to execute if no Action was provided for the current OS.</param>
-        <summary>Executes different Actions depending on the <see cref="T:Xamarin.Forms.TargetPlatform" /> that Xamarin.Forms is working on.</summary>
+        <summary>Executes different Actions depending on the platform on which Xamarin.Forms is working.</summary>
         <remarks>
           <para>This example shows how to change the font of a Label on a single OS.
           </para>
@@ -497,7 +497,7 @@ Device.OnPlatform (iOS: () => label.Font = Font.OfSize ("HelveticaNeue-UltraLigh
         <param name="iOS">The value for iOS.</param>
         <param name="Android">The value for Android.</param>
         <param name="WinPhone">The value for WinPhone.</param>
-        <summary>Returns different values depending on the <see cref="T:Xamarin.Forms.TargetPlatform" /> Xamarin.Forms is working on.</summary>
+        <summary>Returns different values depending on the platform on which Xamarin.Forms is working.</summary>
         <returns>The value for the current OS.</returns>
         <remarks>
           <para>This example shows how to use different heights for a Button on different OS.
@@ -568,8 +568,8 @@ button.HeightRequest = Device.OnPlatform (20,30,30);
         <ReturnType>Xamarin.Forms.TargetPlatform</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets the <see cref="T:Xamarin.Forms.TargetPlatform" /> indicating the OS Xamarin.Forms is working on.</summary>
-        <value>A <see cref="T:Xamarin.Forms.TargetPlatform" /> that indicates the current OS.</value>
+        <summary>Developers should use <see cref="M:Xamarin.Forms.Device.RuntimePlatform"/> rather than this deprecated method.</summary>
+        <value>A value that indicates the current OS.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
