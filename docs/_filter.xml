@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="_filter.xsd">
+<filter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <apiFilter apply="true">
     <!-- Filter out System.Drawing to avoid conflict with BCL -->
     <namespaceFilter name="System.Drawing">
