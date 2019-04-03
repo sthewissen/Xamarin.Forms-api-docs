@@ -37,12 +37,12 @@
         <code lang="C#"><![CDATA[
 var converter = new KeyboardTypeConverter ();
 foreach (var kvp in new Dictionary<string, Keyboard> {
-	{"Keyboard.Default", Keyboard.Default},
-	{"Keyboard.Email", Keyboard.Email},
-	{"Keyboard.Text", Keyboard.Text},
-	{"Keyboard.Url", Keyboard.Url},
-	{"Keyboard.Telephone", Keyboard.Telephone},
-	{"Keyboard.Chat", Keyboard.Chat},
+    {"Keyboard.Default", Keyboard.Default},
+    {"Keyboard.Email", Keyboard.Email},
+    {"Keyboard.Text", Keyboard.Text},
+    {"Keyboard.Url", Keyboard.Url},
+    {"Keyboard.Telephone", Keyboard.Telephone},
+    {"Keyboard.Chat", Keyboard.Chat},
 })
 Assert.AreSame (kvp.Value, converter.ConvertFrom (kvp.Key));
           ]]></code>

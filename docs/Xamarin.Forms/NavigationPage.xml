@@ -1167,14 +1167,14 @@
             <code lang="C#"><![CDATA[
 public class MyPage : NavigationPage
 {
-	public MyPage ()
-	{
-		var myContentPage = new MyContentPage (Color.White);
-		this.Push (myContentPage);
+    public MyPage ()
+    {
+        var myContentPage = new MyContentPage (Color.White);
+        this.Push (myContentPage);
 
-		var s = "icon-45.png";
-		NavigationPage.SetTitleIcon (myContentPage, s);
-	}
+        var s = "icon-45.png";
+        NavigationPage.SetTitleIcon (myContentPage, s);
+    }
 }
           ]]></code>
           </example>
