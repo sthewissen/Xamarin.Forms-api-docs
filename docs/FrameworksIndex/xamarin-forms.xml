@@ -99,6 +99,7 @@
       <Member Id="E:Xamarin.Forms.Application.PageAppearing" />
       <Member Id="E:Xamarin.Forms.Application.PageDisappearing" />
       <Member Id="M:Xamarin.Forms.Application.#ctor" />
+      <Member Id="M:Xamarin.Forms.Application.CleanUp" />
       <Member Id="M:Xamarin.Forms.Application.ClearCurrent" />
       <Member Id="M:Xamarin.Forms.Application.IsApplicationOrNull(Xamarin.Forms.Element)" />
       <Member Id="M:Xamarin.Forms.Application.On``1" />
@@ -182,6 +183,8 @@
       <Member Id="M:Xamarin.Forms.BaseMenuItem.#ctor" />
     </Type>
     <Type Name="Xamarin.Forms.BaseShellItem" Id="T:Xamarin.Forms.BaseShellItem">
+      <Member Id="E:Xamarin.Forms.BaseShellItem.Appearing" />
+      <Member Id="E:Xamarin.Forms.BaseShellItem.Disappearing" />
       <Member Id="F:Xamarin.Forms.BaseShellItem.FlyoutIconProperty" />
       <Member Id="F:Xamarin.Forms.BaseShellItem.IconProperty" />
       <Member Id="F:Xamarin.Forms.BaseShellItem.IsCheckedProperty" />
@@ -190,6 +193,8 @@
       <Member Id="F:Xamarin.Forms.BaseShellItem.TabIndexProperty" />
       <Member Id="F:Xamarin.Forms.BaseShellItem.TitleProperty" />
       <Member Id="M:Xamarin.Forms.BaseShellItem.#ctor" />
+      <Member Id="M:Xamarin.Forms.BaseShellItem.OnAppearing" />
+      <Member Id="M:Xamarin.Forms.BaseShellItem.OnDisappearing" />
       <Member Id="M:Xamarin.Forms.BaseShellItem.OnPropertyChanged(System.String)" />
       <Member Id="M:Xamarin.Forms.BaseShellItem.OnTabIndexPropertyChanged(System.Int32,System.Int32)" />
       <Member Id="M:Xamarin.Forms.BaseShellItem.OnTabStopPropertyChanged(System.Boolean,System.Boolean)" />
@@ -354,6 +359,7 @@
       <Member Id="F:Xamarin.Forms.Button.BorderColorProperty" />
       <Member Id="F:Xamarin.Forms.Button.BorderRadiusProperty" />
       <Member Id="F:Xamarin.Forms.Button.BorderWidthProperty" />
+      <Member Id="F:Xamarin.Forms.Button.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.Button.CommandParameterProperty" />
       <Member Id="F:Xamarin.Forms.Button.CommandProperty" />
       <Member Id="F:Xamarin.Forms.Button.ContentLayoutProperty" />
@@ -391,6 +397,7 @@
       <Member Id="P:Xamarin.Forms.Button.BorderColor" />
       <Member Id="P:Xamarin.Forms.Button.BorderRadius" />
       <Member Id="P:Xamarin.Forms.Button.BorderWidth" />
+      <Member Id="P:Xamarin.Forms.Button.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.Button.Command" />
       <Member Id="P:Xamarin.Forms.Button.CommandParameter" />
       <Member Id="P:Xamarin.Forms.Button.ContentLayout" />
@@ -681,6 +688,7 @@
       <Member Id="M:Xamarin.Forms.Color.op_Implicit(Xamarin.Forms.Color)~System.Drawing.Color" />
       <Member Id="M:Xamarin.Forms.Color.op_Inequality(Xamarin.Forms.Color,Xamarin.Forms.Color)" />
       <Member Id="M:Xamarin.Forms.Color.SetAccent(Xamarin.Forms.Color)" />
+      <Member Id="M:Xamarin.Forms.Color.ToHex" />
       <Member Id="M:Xamarin.Forms.Color.ToString" />
       <Member Id="M:Xamarin.Forms.Color.WithHue(System.Double)" />
       <Member Id="M:Xamarin.Forms.Color.WithLuminosity(System.Double)" />
@@ -836,6 +844,7 @@
     </Type>
     <Type Name="Xamarin.Forms.DatePicker" Id="T:Xamarin.Forms.DatePicker">
       <Member Id="E:Xamarin.Forms.DatePicker.DateSelected" />
+      <Member Id="F:Xamarin.Forms.DatePicker.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.DatePicker.DateProperty" />
       <Member Id="F:Xamarin.Forms.DatePicker.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.DatePicker.FontFamilyProperty" />
@@ -851,6 +860,7 @@
       <Member Id="M:Xamarin.Forms.DatePicker.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <Member Id="M:Xamarin.Forms.DatePicker.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.DatePicker.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
+      <Member Id="P:Xamarin.Forms.DatePicker.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.DatePicker.Date" />
       <Member Id="P:Xamarin.Forms.DatePicker.FontAttributes" />
       <Member Id="P:Xamarin.Forms.DatePicker.FontFamily" />
@@ -962,6 +972,7 @@
       <Member Id="E:Xamarin.Forms.Editor.Completed" />
       <Member Id="E:Xamarin.Forms.Editor.TextChanged" />
       <Member Id="F:Xamarin.Forms.Editor.AutoSizeProperty" />
+      <Member Id="F:Xamarin.Forms.Editor.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.Editor.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.Editor.FontFamilyProperty" />
       <Member Id="F:Xamarin.Forms.Editor.FontSizeProperty" />
@@ -980,6 +991,7 @@
       <Member Id="M:Xamarin.Forms.Editor.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.Editor.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <Member Id="P:Xamarin.Forms.Editor.AutoSize" />
+      <Member Id="P:Xamarin.Forms.Editor.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.Editor.FontAttributes" />
       <Member Id="P:Xamarin.Forms.Editor.FontFamily" />
       <Member Id="P:Xamarin.Forms.Editor.FontSize" />
@@ -1053,6 +1065,7 @@
       <Member Id="P:Xamarin.Forms.Element.Platform" />
       <Member Id="P:Xamarin.Forms.Element.RealParent" />
       <Member Id="P:Xamarin.Forms.Element.StyleId" />
+      <Member Id="P:Xamarin.Forms.Element.TemplatedParent" />
     </Type>
     <Type Name="Xamarin.Forms.ElementEventArgs" Id="T:Xamarin.Forms.ElementEventArgs">
       <Member Id="M:Xamarin.Forms.ElementEventArgs.#ctor(Xamarin.Forms.Element)" />
@@ -1065,6 +1078,7 @@
     <Type Name="Xamarin.Forms.Entry" Id="T:Xamarin.Forms.Entry">
       <Member Id="E:Xamarin.Forms.Entry.Completed" />
       <Member Id="E:Xamarin.Forms.Entry.TextChanged" />
+      <Member Id="F:Xamarin.Forms.Entry.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.Entry.CursorPositionProperty" />
       <Member Id="F:Xamarin.Forms.Entry.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.Entry.FontFamilyProperty" />
@@ -1080,6 +1094,7 @@
       <Member Id="F:Xamarin.Forms.Entry.SelectionLengthProperty" />
       <Member Id="F:Xamarin.Forms.Entry.TextColorProperty" />
       <Member Id="F:Xamarin.Forms.Entry.TextProperty" />
+      <Member Id="F:Xamarin.Forms.Entry.VerticalTextAlignmentProperty" />
       <Member Id="M:Xamarin.Forms.Entry.#ctor" />
       <Member Id="M:Xamarin.Forms.Entry.On``1" />
       <Member Id="M:Xamarin.Forms.Entry.SendCompleted" />
@@ -1088,6 +1103,7 @@
       <Member Id="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <Member Id="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.Entry.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
+      <Member Id="P:Xamarin.Forms.Entry.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.Entry.CursorPosition" />
       <Member Id="P:Xamarin.Forms.Entry.FontAttributes" />
       <Member Id="P:Xamarin.Forms.Entry.FontFamily" />
@@ -1103,6 +1119,7 @@
       <Member Id="P:Xamarin.Forms.Entry.SelectionLength" />
       <Member Id="P:Xamarin.Forms.Entry.Text" />
       <Member Id="P:Xamarin.Forms.Entry.TextColor" />
+      <Member Id="P:Xamarin.Forms.Entry.VerticalTextAlignment" />
     </Type>
     <Type Name="Xamarin.Forms.EntryCell" Id="T:Xamarin.Forms.EntryCell">
       <Member Id="E:Xamarin.Forms.EntryCell.Completed" />
@@ -1112,6 +1129,7 @@
       <Member Id="F:Xamarin.Forms.EntryCell.LabelProperty" />
       <Member Id="F:Xamarin.Forms.EntryCell.PlaceholderProperty" />
       <Member Id="F:Xamarin.Forms.EntryCell.TextProperty" />
+      <Member Id="F:Xamarin.Forms.EntryCell.VerticalTextAlignmentProperty" />
       <Member Id="F:Xamarin.Forms.EntryCell.XAlignProperty" />
       <Member Id="M:Xamarin.Forms.EntryCell.#ctor" />
       <Member Id="M:Xamarin.Forms.EntryCell.SendCompleted" />
@@ -1121,6 +1139,7 @@
       <Member Id="P:Xamarin.Forms.EntryCell.LabelColor" />
       <Member Id="P:Xamarin.Forms.EntryCell.Placeholder" />
       <Member Id="P:Xamarin.Forms.EntryCell.Text" />
+      <Member Id="P:Xamarin.Forms.EntryCell.VerticalTextAlignment" />
       <Member Id="P:Xamarin.Forms.EntryCell.XAlign" />
     </Type>
     <Type Name="Xamarin.Forms.EventTrigger" Id="T:Xamarin.Forms.EventTrigger">
@@ -1439,10 +1458,14 @@
       <Member Id="M:Xamarin.Forms.Grid.IGridList`1.AddVertical(Xamarin.Forms.View)" />
     </Type>
     <Type Name="Xamarin.Forms.GridItemsLayout" Id="T:Xamarin.Forms.GridItemsLayout">
+      <Member Id="F:Xamarin.Forms.GridItemsLayout.HorizontalItemSpacingProperty" />
       <Member Id="F:Xamarin.Forms.GridItemsLayout.SpanProperty" />
+      <Member Id="F:Xamarin.Forms.GridItemsLayout.VerticalItemSpacingProperty" />
       <Member Id="M:Xamarin.Forms.GridItemsLayout.#ctor(System.Int32,Xamarin.Forms.ItemsLayoutOrientation)" />
       <Member Id="M:Xamarin.Forms.GridItemsLayout.#ctor(Xamarin.Forms.ItemsLayoutOrientation)" />
+      <Member Id="P:Xamarin.Forms.GridItemsLayout.HorizontalItemSpacing" />
       <Member Id="P:Xamarin.Forms.GridItemsLayout.Span" />
+      <Member Id="P:Xamarin.Forms.GridItemsLayout.VerticalItemSpacing" />
     </Type>
     <Type Name="Xamarin.Forms.GridLength" Id="T:Xamarin.Forms.GridLength">
       <Member Id="M:Xamarin.Forms.GridLength.#ctor(System.Double)" />
@@ -1467,6 +1490,15 @@
       <Member Id="F:Xamarin.Forms.GridUnitType.Absolute" />
       <Member Id="F:Xamarin.Forms.GridUnitType.Auto" />
       <Member Id="F:Xamarin.Forms.GridUnitType.Star" />
+    </Type>
+    <Type Name="Xamarin.Forms.GroupableItemsView" Id="T:Xamarin.Forms.GroupableItemsView">
+      <Member Id="F:Xamarin.Forms.GroupableItemsView.GroupFooterTemplateProperty" />
+      <Member Id="F:Xamarin.Forms.GroupableItemsView.GroupHeaderTemplateProperty" />
+      <Member Id="F:Xamarin.Forms.GroupableItemsView.IsGroupedProperty" />
+      <Member Id="M:Xamarin.Forms.GroupableItemsView.#ctor" />
+      <Member Id="P:Xamarin.Forms.GroupableItemsView.GroupFooterTemplate" />
+      <Member Id="P:Xamarin.Forms.GroupableItemsView.GroupHeaderTemplate" />
+      <Member Id="P:Xamarin.Forms.GroupableItemsView.IsGrouped" />
     </Type>
     <Type Name="Xamarin.Forms.HandlerAttribute" Id="T:Xamarin.Forms.HandlerAttribute">
       <Member Id="M:Xamarin.Forms.HandlerAttribute.#ctor(System.Type,System.Type)" />
@@ -1960,27 +1992,62 @@
       <Member Id="F:Xamarin.Forms.ItemsLayoutOrientation.Horizontal" />
       <Member Id="F:Xamarin.Forms.ItemsLayoutOrientation.Vertical" />
     </Type>
+    <Type Name="Xamarin.Forms.ItemsLayoutTypeConverter" Id="T:Xamarin.Forms.ItemsLayoutTypeConverter">
+      <Member Id="M:Xamarin.Forms.ItemsLayoutTypeConverter.#ctor" />
+      <Member Id="M:Xamarin.Forms.ItemsLayoutTypeConverter.ConvertFromInvariantString(System.String)" />
+    </Type>
+    <Type Name="Xamarin.Forms.ItemsUpdatingScrollMode" Id="T:Xamarin.Forms.ItemsUpdatingScrollMode">
+      <Member Id="F:Xamarin.Forms.ItemsUpdatingScrollMode.KeepItemsInView" />
+      <Member Id="F:Xamarin.Forms.ItemsUpdatingScrollMode.KeepLastItemInView" />
+      <Member Id="F:Xamarin.Forms.ItemsUpdatingScrollMode.KeepScrollOffset" />
+    </Type>
     <Type Name="Xamarin.Forms.ItemsView" Id="T:Xamarin.Forms.ItemsView">
+      <Member Id="E:Xamarin.Forms.ItemsView.RemainingItemsThresholdReached" />
+      <Member Id="E:Xamarin.Forms.ItemsView.Scrolled" />
       <Member Id="E:Xamarin.Forms.ItemsView.ScrollToRequested" />
       <Member Id="F:Xamarin.Forms.ItemsView.EmptyViewProperty" />
       <Member Id="F:Xamarin.Forms.ItemsView.EmptyViewTemplateProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.FooterProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.FooterTemplateProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.HeaderProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.HeaderTemplateProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.HorizontalScrollBarVisibilityProperty" />
       <Member Id="F:Xamarin.Forms.ItemsView.ItemSizingStrategyProperty" />
       <Member Id="F:Xamarin.Forms.ItemsView.ItemsLayoutProperty" />
       <Member Id="F:Xamarin.Forms.ItemsView.ItemsSourceProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.ItemsUpdatingScrollModeProperty" />
       <Member Id="F:Xamarin.Forms.ItemsView.ItemTemplateProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.RemainingItemsThresholdProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.RemainingItemsThresholdReachedCommandParameterProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.RemainingItemsThresholdReachedCommandProperty" />
+      <Member Id="F:Xamarin.Forms.ItemsView.VerticalScrollBarVisibilityProperty" />
       <Member Id="M:Xamarin.Forms.ItemsView.#ctor" />
       <Member Id="M:Xamarin.Forms.ItemsView.AddLogicalChild(Xamarin.Forms.Element)" />
       <Member Id="M:Xamarin.Forms.ItemsView.OnMeasure(System.Double,System.Double)" />
+      <Member Id="M:Xamarin.Forms.ItemsView.OnRemainingItemsThresholdReached" />
+      <Member Id="M:Xamarin.Forms.ItemsView.OnScrolled(Xamarin.Forms.ItemsViewScrolledEventArgs)" />
       <Member Id="M:Xamarin.Forms.ItemsView.OnScrollToRequested(Xamarin.Forms.ScrollToRequestEventArgs)" />
       <Member Id="M:Xamarin.Forms.ItemsView.RemoveLogicalChild(Xamarin.Forms.Element)" />
       <Member Id="M:Xamarin.Forms.ItemsView.ScrollTo(System.Int32,System.Int32,Xamarin.Forms.ScrollToPosition,System.Boolean)" />
       <Member Id="M:Xamarin.Forms.ItemsView.ScrollTo(System.Object,System.Object,Xamarin.Forms.ScrollToPosition,System.Boolean)" />
+      <Member Id="M:Xamarin.Forms.ItemsView.SendRemainingItemsThresholdReached" />
+      <Member Id="M:Xamarin.Forms.ItemsView.SendScrolled(Xamarin.Forms.ItemsViewScrolledEventArgs)" />
       <Member Id="P:Xamarin.Forms.ItemsView.EmptyView" />
       <Member Id="P:Xamarin.Forms.ItemsView.EmptyViewTemplate" />
+      <Member Id="P:Xamarin.Forms.ItemsView.Footer" />
+      <Member Id="P:Xamarin.Forms.ItemsView.FooterTemplate" />
+      <Member Id="P:Xamarin.Forms.ItemsView.Header" />
+      <Member Id="P:Xamarin.Forms.ItemsView.HeaderTemplate" />
+      <Member Id="P:Xamarin.Forms.ItemsView.HorizontalScrollBarVisibility" />
       <Member Id="P:Xamarin.Forms.ItemsView.ItemSizingStrategy" />
       <Member Id="P:Xamarin.Forms.ItemsView.ItemsLayout" />
       <Member Id="P:Xamarin.Forms.ItemsView.ItemsSource" />
+      <Member Id="P:Xamarin.Forms.ItemsView.ItemsUpdatingScrollMode" />
       <Member Id="P:Xamarin.Forms.ItemsView.ItemTemplate" />
+      <Member Id="P:Xamarin.Forms.ItemsView.RemainingItemsThreshold" />
+      <Member Id="P:Xamarin.Forms.ItemsView.RemainingItemsThresholdReachedCommand" />
+      <Member Id="P:Xamarin.Forms.ItemsView.RemainingItemsThresholdReachedCommandParameter" />
+      <Member Id="P:Xamarin.Forms.ItemsView.VerticalScrollBarVisibility" />
     </Type>
     <Type Name="Xamarin.Forms.ItemsView`1" Id="T:Xamarin.Forms.ItemsView`1">
       <Member Id="F:Xamarin.Forms.ItemsView`1.ItemsSourceProperty" />
@@ -1997,6 +2064,16 @@
       <Member Id="P:Xamarin.Forms.ItemsView`1.TemplatedItems" />
       <Member Id="P:Xamarin.Forms.ItemsView`1.Xamarin#Forms#ITemplatedItemsView&lt;TVisual&gt;#ListProxy" />
       <Member Id="P:Xamarin.Forms.ItemsView`1.Xamarin#Forms#ITemplatedItemsView&lt;TVisual&gt;#TemplatedItems" />
+    </Type>
+    <Type Name="Xamarin.Forms.ItemsViewScrolledEventArgs" Id="T:Xamarin.Forms.ItemsViewScrolledEventArgs">
+      <Member Id="M:Xamarin.Forms.ItemsViewScrolledEventArgs.#ctor" />
+      <Member Id="P:Xamarin.Forms.ItemsViewScrolledEventArgs.CenterItemIndex" />
+      <Member Id="P:Xamarin.Forms.ItemsViewScrolledEventArgs.FirstVisibleItemIndex" />
+      <Member Id="P:Xamarin.Forms.ItemsViewScrolledEventArgs.HorizontalDelta" />
+      <Member Id="P:Xamarin.Forms.ItemsViewScrolledEventArgs.HorizontalOffset" />
+      <Member Id="P:Xamarin.Forms.ItemsViewScrolledEventArgs.LastVisibleItemIndex" />
+      <Member Id="P:Xamarin.Forms.ItemsViewScrolledEventArgs.VerticalDelta" />
+      <Member Id="P:Xamarin.Forms.ItemsViewScrolledEventArgs.VerticalOffset" />
     </Type>
     <Type Name="Xamarin.Forms.ItemTappedEventArgs" Id="T:Xamarin.Forms.ItemTappedEventArgs">
       <Member Id="M:Xamarin.Forms.ItemTappedEventArgs.#ctor(System.Object,System.Object)" />
@@ -2074,6 +2151,7 @@
       <Member Id="M:Xamarin.Forms.KeyboardTypeConverter.ConvertFromInvariantString(System.String)" />
     </Type>
     <Type Name="Xamarin.Forms.Label" Id="T:Xamarin.Forms.Label">
+      <Member Id="F:Xamarin.Forms.Label.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.Label.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.Label.FontFamilyProperty" />
       <Member Id="F:Xamarin.Forms.Label.FontProperty" />
@@ -2083,6 +2161,7 @@
       <Member Id="F:Xamarin.Forms.Label.LineBreakModeProperty" />
       <Member Id="F:Xamarin.Forms.Label.LineHeightProperty" />
       <Member Id="F:Xamarin.Forms.Label.MaxLinesProperty" />
+      <Member Id="F:Xamarin.Forms.Label.PaddingProperty" />
       <Member Id="F:Xamarin.Forms.Label.TextColorProperty" />
       <Member Id="F:Xamarin.Forms.Label.TextDecorationsProperty" />
       <Member Id="F:Xamarin.Forms.Label.TextProperty" />
@@ -2098,6 +2177,7 @@
       <Member Id="M:Xamarin.Forms.Label.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <Member Id="M:Xamarin.Forms.Label.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.Label.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
+      <Member Id="P:Xamarin.Forms.Label.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.Label.Font" />
       <Member Id="P:Xamarin.Forms.Label.FontAttributes" />
       <Member Id="P:Xamarin.Forms.Label.FontFamily" />
@@ -2107,6 +2187,7 @@
       <Member Id="P:Xamarin.Forms.Label.LineBreakMode" />
       <Member Id="P:Xamarin.Forms.Label.LineHeight" />
       <Member Id="P:Xamarin.Forms.Label.MaxLines" />
+      <Member Id="P:Xamarin.Forms.Label.Padding" />
       <Member Id="P:Xamarin.Forms.Label.Text" />
       <Member Id="P:Xamarin.Forms.Label.TextColor" />
       <Member Id="P:Xamarin.Forms.Label.TextDecorations" />
@@ -2178,9 +2259,11 @@
       <Member Id="F:Xamarin.Forms.LineBreakMode.WordWrap" />
     </Type>
     <Type Name="Xamarin.Forms.ListItemsLayout" Id="T:Xamarin.Forms.ListItemsLayout">
-      <Member Id="F:Xamarin.Forms.ListItemsLayout.HorizontalList" />
-      <Member Id="F:Xamarin.Forms.ListItemsLayout.VerticalList" />
+      <Member Id="F:Xamarin.Forms.ListItemsLayout.Horizontal" />
+      <Member Id="F:Xamarin.Forms.ListItemsLayout.ItemSpacingProperty" />
+      <Member Id="F:Xamarin.Forms.ListItemsLayout.Vertical" />
       <Member Id="M:Xamarin.Forms.ListItemsLayout.#ctor(Xamarin.Forms.ItemsLayoutOrientation)" />
+      <Member Id="P:Xamarin.Forms.ListItemsLayout.ItemSpacing" />
     </Type>
     <Type Name="Xamarin.Forms.ListProxyChangedEventArgs" Id="T:Xamarin.Forms.ListProxyChangedEventArgs">
       <Member Id="M:Xamarin.Forms.ListProxyChangedEventArgs.#ctor(System.Collections.Generic.IReadOnlyCollection{System.Object},System.Collections.Generic.IReadOnlyCollection{System.Object})" />
@@ -2558,11 +2641,13 @@
       <Member Id="F:Xamarin.Forms.Page.IconProperty" />
       <Member Id="F:Xamarin.Forms.Page.IsBusyProperty" />
       <Member Id="F:Xamarin.Forms.Page.PaddingProperty" />
+      <Member Id="F:Xamarin.Forms.Page.PromptSignalName" />
       <Member Id="F:Xamarin.Forms.Page.TitleProperty" />
       <Member Id="M:Xamarin.Forms.Page.#ctor" />
       <Member Id="M:Xamarin.Forms.Page.DisplayActionSheet(System.String,System.String,System.String,System.String[])" />
       <Member Id="M:Xamarin.Forms.Page.DisplayAlert(System.String,System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.Page.DisplayAlert(System.String,System.String,System.String,System.String)" />
+      <Member Id="M:Xamarin.Forms.Page.DisplayPromptAsync(System.String,System.String,System.String,System.String,System.String,System.Int32,Xamarin.Forms.Keyboard)" />
       <Member Id="M:Xamarin.Forms.Page.ForceLayout" />
       <Member Id="M:Xamarin.Forms.Page.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <Member Id="M:Xamarin.Forms.Page.On``1" />
@@ -2609,6 +2694,7 @@
     </Type>
     <Type Name="Xamarin.Forms.Picker" Id="T:Xamarin.Forms.Picker">
       <Member Id="E:Xamarin.Forms.Picker.SelectedIndexChanged" />
+      <Member Id="F:Xamarin.Forms.Picker.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.Picker.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.Picker.FontFamilyProperty" />
       <Member Id="F:Xamarin.Forms.Picker.FontSizeProperty" />
@@ -2625,6 +2711,7 @@
       <Member Id="M:Xamarin.Forms.Picker.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <Member Id="M:Xamarin.Forms.Picker.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.Picker.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
+      <Member Id="P:Xamarin.Forms.Picker.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.Picker.FontAttributes" />
       <Member Id="P:Xamarin.Forms.Picker.FontFamily" />
       <Member Id="P:Xamarin.Forms.Picker.FontSize" />
@@ -2770,6 +2857,20 @@
       <Member Id="M:Xamarin.Forms.Region.FromLines(System.Double[],System.Double,System.Double,System.Double,System.Double)" />
       <Member Id="M:Xamarin.Forms.Region.Inflate(System.Double)" />
       <Member Id="M:Xamarin.Forms.Region.Inflate(System.Double,System.Double,System.Double,System.Double)" />
+    </Type>
+    <Type Name="Xamarin.Forms.RelativeBindingSource" Id="T:Xamarin.Forms.RelativeBindingSource">
+      <Member Id="M:Xamarin.Forms.RelativeBindingSource.#ctor(Xamarin.Forms.RelativeBindingSourceMode,System.Type,System.Int32)" />
+      <Member Id="P:Xamarin.Forms.RelativeBindingSource.AncestorLevel" />
+      <Member Id="P:Xamarin.Forms.RelativeBindingSource.AncestorType" />
+      <Member Id="P:Xamarin.Forms.RelativeBindingSource.Mode" />
+      <Member Id="P:Xamarin.Forms.RelativeBindingSource.Self" />
+      <Member Id="P:Xamarin.Forms.RelativeBindingSource.TemplatedParent" />
+    </Type>
+    <Type Name="Xamarin.Forms.RelativeBindingSourceMode" Id="T:Xamarin.Forms.RelativeBindingSourceMode">
+      <Member Id="F:Xamarin.Forms.RelativeBindingSourceMode.FindAncestor" />
+      <Member Id="F:Xamarin.Forms.RelativeBindingSourceMode.FindAncestorBindingContext" />
+      <Member Id="F:Xamarin.Forms.RelativeBindingSourceMode.Self" />
+      <Member Id="F:Xamarin.Forms.RelativeBindingSourceMode.TemplatedParent" />
     </Type>
     <Type Name="Xamarin.Forms.RelativeLayout" Id="T:Xamarin.Forms.RelativeLayout">
       <Member Id="F:Xamarin.Forms.RelativeLayout.BoundsConstraintProperty" />
@@ -2956,6 +3057,7 @@
       <Member Id="E:Xamarin.Forms.SearchBar.SearchButtonPressed" />
       <Member Id="E:Xamarin.Forms.SearchBar.TextChanged" />
       <Member Id="F:Xamarin.Forms.SearchBar.CancelButtonColorProperty" />
+      <Member Id="F:Xamarin.Forms.SearchBar.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.SearchBar.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.SearchBar.FontFamilyProperty" />
       <Member Id="F:Xamarin.Forms.SearchBar.FontSizeProperty" />
@@ -2966,6 +3068,7 @@
       <Member Id="F:Xamarin.Forms.SearchBar.SearchCommandProperty" />
       <Member Id="F:Xamarin.Forms.SearchBar.TextColorProperty" />
       <Member Id="F:Xamarin.Forms.SearchBar.TextProperty" />
+      <Member Id="F:Xamarin.Forms.SearchBar.VerticalTextAlignmentProperty" />
       <Member Id="M:Xamarin.Forms.SearchBar.#ctor" />
       <Member Id="M:Xamarin.Forms.SearchBar.On``1" />
       <Member Id="M:Xamarin.Forms.SearchBar.OnSearchButtonPressed" />
@@ -2975,6 +3078,7 @@
       <Member Id="M:Xamarin.Forms.SearchBar.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.SearchBar.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <Member Id="P:Xamarin.Forms.SearchBar.CancelButtonColor" />
+      <Member Id="P:Xamarin.Forms.SearchBar.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.SearchBar.FontAttributes" />
       <Member Id="P:Xamarin.Forms.SearchBar.FontFamily" />
       <Member Id="P:Xamarin.Forms.SearchBar.FontSize" />
@@ -2985,6 +3089,7 @@
       <Member Id="P:Xamarin.Forms.SearchBar.SearchCommandParameter" />
       <Member Id="P:Xamarin.Forms.SearchBar.Text" />
       <Member Id="P:Xamarin.Forms.SearchBar.TextColor" />
+      <Member Id="P:Xamarin.Forms.SearchBar.VerticalTextAlignment" />
     </Type>
     <Type Name="Xamarin.Forms.SearchBoxVisibility" Id="T:Xamarin.Forms.SearchBoxVisibility">
       <Member Id="F:Xamarin.Forms.SearchBoxVisibility.Collapsible" />
@@ -2998,6 +3103,7 @@
       <Member Id="E:Xamarin.Forms.SearchHandler.Xamarin#Forms#ISearchHandlerController#ListProxyChanged" />
       <Member Id="F:Xamarin.Forms.SearchHandler.BackgroundColorProperty" />
       <Member Id="F:Xamarin.Forms.SearchHandler.CancelButtonColorProperty" />
+      <Member Id="F:Xamarin.Forms.SearchHandler.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.SearchHandler.ClearIconHelpTextProperty" />
       <Member Id="F:Xamarin.Forms.SearchHandler.ClearIconNameProperty" />
       <Member Id="F:Xamarin.Forms.SearchHandler.ClearIconProperty" />
@@ -3030,6 +3136,7 @@
       <Member Id="F:Xamarin.Forms.SearchHandler.SelectedItemProperty" />
       <Member Id="F:Xamarin.Forms.SearchHandler.ShowsResultsProperty" />
       <Member Id="F:Xamarin.Forms.SearchHandler.TextColorProperty" />
+      <Member Id="F:Xamarin.Forms.SearchHandler.VerticalTextAlignmentProperty" />
       <Member Id="M:Xamarin.Forms.SearchHandler.#ctor" />
       <Member Id="M:Xamarin.Forms.SearchHandler.Focus" />
       <Member Id="M:Xamarin.Forms.SearchHandler.OnClearPlaceholderClicked" />
@@ -3050,6 +3157,7 @@
       <Member Id="M:Xamarin.Forms.SearchHandler.Xamarin#Forms#ISearchHandlerController#QueryConfirmed" />
       <Member Id="P:Xamarin.Forms.SearchHandler.BackgroundColor" />
       <Member Id="P:Xamarin.Forms.SearchHandler.CancelButtonColor" />
+      <Member Id="P:Xamarin.Forms.SearchHandler.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.SearchHandler.ClearIcon" />
       <Member Id="P:Xamarin.Forms.SearchHandler.ClearIconHelpText" />
       <Member Id="P:Xamarin.Forms.SearchHandler.ClearIconName" />
@@ -3081,6 +3189,7 @@
       <Member Id="P:Xamarin.Forms.SearchHandler.SelectedItem" />
       <Member Id="P:Xamarin.Forms.SearchHandler.ShowsResults" />
       <Member Id="P:Xamarin.Forms.SearchHandler.TextColor" />
+      <Member Id="P:Xamarin.Forms.SearchHandler.VerticalTextAlignment" />
       <Member Id="P:Xamarin.Forms.SearchHandler.Xamarin#Forms#ISearchHandlerController#ListProxy" />
     </Type>
     <Type Name="Xamarin.Forms.SelectableItemsView" Id="T:Xamarin.Forms.SelectableItemsView">
@@ -3142,6 +3251,8 @@
       <Member Id="F:Xamarin.Forms.Shell.CurrentStateProperty" />
       <Member Id="F:Xamarin.Forms.Shell.DisabledColorProperty" />
       <Member Id="F:Xamarin.Forms.Shell.FlyoutBackgroundColorProperty" />
+      <Member Id="F:Xamarin.Forms.Shell.FlyoutBackgroundImageAspectProperty" />
+      <Member Id="F:Xamarin.Forms.Shell.FlyoutBackgroundImageProperty" />
       <Member Id="F:Xamarin.Forms.Shell.FlyoutBehaviorProperty" />
       <Member Id="F:Xamarin.Forms.Shell.FlyoutHeaderBehaviorProperty" />
       <Member Id="F:Xamarin.Forms.Shell.FlyoutHeaderProperty" />
@@ -3222,6 +3333,8 @@
       <Member Id="P:Xamarin.Forms.Shell.CurrentItem" />
       <Member Id="P:Xamarin.Forms.Shell.CurrentState" />
       <Member Id="P:Xamarin.Forms.Shell.FlyoutBackgroundColor" />
+      <Member Id="P:Xamarin.Forms.Shell.FlyoutBackgroundImage" />
+      <Member Id="P:Xamarin.Forms.Shell.FlyoutBackgroundImageAspect" />
       <Member Id="P:Xamarin.Forms.Shell.FlyoutBehavior" />
       <Member Id="P:Xamarin.Forms.Shell.FlyoutHeader" />
       <Member Id="P:Xamarin.Forms.Shell.FlyoutHeaderBehavior" />
@@ -3261,6 +3374,7 @@
       <Member Id="F:Xamarin.Forms.ShellContent.ContentTemplateProperty" />
       <Member Id="F:Xamarin.Forms.ShellContent.MenuItemsProperty" />
       <Member Id="M:Xamarin.Forms.ShellContent.#ctor" />
+      <Member Id="M:Xamarin.Forms.ShellContent.OnChildAdded(Xamarin.Forms.Element)" />
       <Member Id="M:Xamarin.Forms.ShellContent.op_Implicit(Xamarin.Forms.TemplatedPage)~Xamarin.Forms.ShellContent" />
       <Member Id="M:Xamarin.Forms.ShellContent.Xamarin#Forms#IShellContentController#GetOrCreateContent" />
       <Member Id="M:Xamarin.Forms.ShellContent.Xamarin#Forms#IShellContentController#RecyclePage(Xamarin.Forms.Page)" />
@@ -3329,6 +3443,7 @@
       <Member Id="F:Xamarin.Forms.ShellSection.ItemsProperty" />
       <Member Id="M:Xamarin.Forms.ShellSection.#ctor" />
       <Member Id="M:Xamarin.Forms.ShellSection.GetNavigationStack" />
+      <Member Id="M:Xamarin.Forms.ShellSection.OnBindingContextChanged" />
       <Member Id="M:Xamarin.Forms.ShellSection.OnChildAdded(Xamarin.Forms.Element)" />
       <Member Id="M:Xamarin.Forms.ShellSection.OnChildRemoved(Xamarin.Forms.Element)" />
       <Member Id="M:Xamarin.Forms.ShellSection.OnInsertPageBefore(Xamarin.Forms.Page,Xamarin.Forms.Page)" />
@@ -3420,6 +3535,7 @@
     </Type>
     <Type Name="Xamarin.Forms.Span" Id="T:Xamarin.Forms.Span">
       <Member Id="F:Xamarin.Forms.Span.BackgroundColorProperty" />
+      <Member Id="F:Xamarin.Forms.Span.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.Span.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.Span.FontFamilyProperty" />
       <Member Id="F:Xamarin.Forms.Span.FontProperty" />
@@ -3438,6 +3554,7 @@
       <Member Id="M:Xamarin.Forms.Span.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.Span.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
       <Member Id="P:Xamarin.Forms.Span.BackgroundColor" />
+      <Member Id="P:Xamarin.Forms.Span.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.Span.Font" />
       <Member Id="P:Xamarin.Forms.Span.FontAttributes" />
       <Member Id="P:Xamarin.Forms.Span.FontFamily" />
@@ -3527,10 +3644,12 @@
       <Member Id="E:Xamarin.Forms.Switch.Toggled" />
       <Member Id="F:Xamarin.Forms.Switch.IsToggledProperty" />
       <Member Id="F:Xamarin.Forms.Switch.OnColorProperty" />
+      <Member Id="F:Xamarin.Forms.Switch.ThumbColorProperty" />
       <Member Id="M:Xamarin.Forms.Switch.#ctor" />
       <Member Id="M:Xamarin.Forms.Switch.On``1" />
       <Member Id="P:Xamarin.Forms.Switch.IsToggled" />
       <Member Id="P:Xamarin.Forms.Switch.OnColor" />
+      <Member Id="P:Xamarin.Forms.Switch.ThumbColor" />
     </Type>
     <Type Name="Xamarin.Forms.SwitchCell" Id="T:Xamarin.Forms.SwitchCell">
       <Member Id="E:Xamarin.Forms.SwitchCell.OnChanged" />
@@ -3678,6 +3797,7 @@
     <Type Name="Xamarin.Forms.TemplatedPage" Id="T:Xamarin.Forms.TemplatedPage">
       <Member Id="F:Xamarin.Forms.TemplatedPage.ControlTemplateProperty" />
       <Member Id="M:Xamarin.Forms.TemplatedPage.#ctor" />
+      <Member Id="M:Xamarin.Forms.TemplatedPage.GetTemplateChild(System.String)" />
       <Member Id="M:Xamarin.Forms.TemplatedPage.OnApplyTemplate" />
       <Member Id="M:Xamarin.Forms.TemplatedPage.OnChildRemoved(Xamarin.Forms.Element)" />
       <Member Id="P:Xamarin.Forms.TemplatedPage.ControlTemplate" />
@@ -3685,6 +3805,7 @@
     <Type Name="Xamarin.Forms.TemplatedView" Id="T:Xamarin.Forms.TemplatedView">
       <Member Id="F:Xamarin.Forms.TemplatedView.ControlTemplateProperty" />
       <Member Id="M:Xamarin.Forms.TemplatedView.#ctor" />
+      <Member Id="M:Xamarin.Forms.TemplatedView.GetTemplateChild(System.String)" />
       <Member Id="M:Xamarin.Forms.TemplatedView.LayoutChildren(System.Double,System.Double,System.Double,System.Double)" />
       <Member Id="M:Xamarin.Forms.TemplatedView.OnApplyTemplate" />
       <Member Id="M:Xamarin.Forms.TemplatedView.OnChildRemoved(Xamarin.Forms.Element)" />
@@ -3746,6 +3867,7 @@
       <Member Id="M:Xamarin.Forms.Thickness.op_Inequality(Xamarin.Forms.Thickness,Xamarin.Forms.Thickness)" />
       <Member Id="P:Xamarin.Forms.Thickness.Bottom" />
       <Member Id="P:Xamarin.Forms.Thickness.HorizontalThickness" />
+      <Member Id="P:Xamarin.Forms.Thickness.IsEmpty" />
       <Member Id="P:Xamarin.Forms.Thickness.Left" />
       <Member Id="P:Xamarin.Forms.Thickness.Right" />
       <Member Id="P:Xamarin.Forms.Thickness.Top" />
@@ -3756,6 +3878,7 @@
       <Member Id="M:Xamarin.Forms.ThicknessTypeConverter.ConvertFromInvariantString(System.String)" />
     </Type>
     <Type Name="Xamarin.Forms.TimePicker" Id="T:Xamarin.Forms.TimePicker">
+      <Member Id="F:Xamarin.Forms.TimePicker.CharacterSpacingProperty" />
       <Member Id="F:Xamarin.Forms.TimePicker.FontAttributesProperty" />
       <Member Id="F:Xamarin.Forms.TimePicker.FontFamilyProperty" />
       <Member Id="F:Xamarin.Forms.TimePicker.FontSizeProperty" />
@@ -3769,6 +3892,7 @@
       <Member Id="M:Xamarin.Forms.TimePicker.Xamarin#Forms#Internals#IFontElement#OnFontChanged(Xamarin.Forms.Font,Xamarin.Forms.Font)" />
       <Member Id="M:Xamarin.Forms.TimePicker.Xamarin#Forms#Internals#IFontElement#OnFontFamilyChanged(System.String,System.String)" />
       <Member Id="M:Xamarin.Forms.TimePicker.Xamarin#Forms#Internals#IFontElement#OnFontSizeChanged(System.Double,System.Double)" />
+      <Member Id="P:Xamarin.Forms.TimePicker.CharacterSpacing" />
       <Member Id="P:Xamarin.Forms.TimePicker.FontAttributes" />
       <Member Id="P:Xamarin.Forms.TimePicker.FontFamily" />
       <Member Id="P:Xamarin.Forms.TimePicker.FontSize" />
@@ -4523,6 +4647,18 @@
       <Member Id="F:Xamarin.Forms.Internals.Profile.Datum.Name" />
       <Member Id="F:Xamarin.Forms.Internals.Profile.Datum.Ticks" />
     </Type>
+    <Type Name="Xamarin.Forms.Internals.PromptArguments" Id="T:Xamarin.Forms.Internals.PromptArguments">
+      <Member Id="M:Xamarin.Forms.Internals.PromptArguments.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32,Xamarin.Forms.Keyboard)" />
+      <Member Id="M:Xamarin.Forms.Internals.PromptArguments.SetResult(System.String)" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.Accept" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.Cancel" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.Keyboard" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.MaxLength" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.Message" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.Placeholder" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.Result" />
+      <Member Id="P:Xamarin.Forms.Internals.PromptArguments.Title" />
+    </Type>
     <Type Name="Xamarin.Forms.Internals.ReflectionExtensions" Id="T:Xamarin.Forms.Internals.ReflectionExtensions">
       <Member Id="M:Xamarin.Forms.Internals.ReflectionExtensions.GetExportedTypes(System.Reflection.Assembly)" />
       <Member Id="M:Xamarin.Forms.Internals.ReflectionExtensions.GetField(System.Type,System.Func{System.Reflection.FieldInfo,System.Boolean})" />
@@ -4722,6 +4858,7 @@
       <Member Id="F:Xamarin.Forms.Maps.Map.ItemTemplateProperty" />
       <Member Id="F:Xamarin.Forms.Maps.Map.ItemTemplateSelectorProperty" />
       <Member Id="F:Xamarin.Forms.Maps.Map.MapTypeProperty" />
+      <Member Id="F:Xamarin.Forms.Maps.Map.MoveToLastRegionOnLayoutChangeProperty" />
       <Member Id="M:Xamarin.Forms.Maps.Map.#ctor" />
       <Member Id="M:Xamarin.Forms.Maps.Map.#ctor(Xamarin.Forms.Maps.MapSpan)" />
       <Member Id="M:Xamarin.Forms.Maps.Map.GetEnumerator" />
@@ -4737,6 +4874,7 @@
       <Member Id="P:Xamarin.Forms.Maps.Map.ItemTemplateSelector" />
       <Member Id="P:Xamarin.Forms.Maps.Map.LastMoveToRegion" />
       <Member Id="P:Xamarin.Forms.Maps.Map.MapType" />
+      <Member Id="P:Xamarin.Forms.Maps.Map.MoveToLastRegionOnLayoutChange" />
       <Member Id="P:Xamarin.Forms.Maps.Map.Pins" />
       <Member Id="P:Xamarin.Forms.Maps.Map.VisibleRegion" />
     </Type>
@@ -5238,12 +5376,17 @@
   </Namespace>
   <Namespace Name="Xamarin.Forms.PlatformConfiguration.iOSSpecific">
     <Type Name="Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application" Id="T:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application">
+      <Member Id="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.EnableAccessibilityScalingForNamedFontSizesProperty" />
       <Member Id="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.HandleControlUpdatesOnMainThreadProperty" />
       <Member Id="F:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.PanGestureRecognizerShouldRecognizeSimultaneouslyProperty" />
+      <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetEnableAccessibilityScalingForNamedFontSizes(Xamarin.Forms.BindableObject)" />
+      <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetEnableAccessibilityScalingForNamedFontSizes(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application})" />
       <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetHandleControlUpdatesOnMainThread(Xamarin.Forms.BindableObject)" />
       <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetHandleControlUpdatesOnMainThread(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application})" />
       <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetPanGestureRecognizerShouldRecognizeSimultaneously(Xamarin.Forms.BindableObject)" />
       <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.GetPanGestureRecognizerShouldRecognizeSimultaneously(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application})" />
+      <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.SetEnableAccessibilityScalingForNamedFontSizes(Xamarin.Forms.BindableObject,System.Boolean)" />
+      <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.SetEnableAccessibilityScalingForNamedFontSizes(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application},System.Boolean)" />
       <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.SetHandleControlUpdatesOnMainThread(Xamarin.Forms.BindableObject,System.Boolean)" />
       <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.SetHandleControlUpdatesOnMainThread(Xamarin.Forms.IPlatformElementConfiguration{Xamarin.Forms.PlatformConfiguration.iOS,Xamarin.Forms.Application},System.Boolean)" />
       <Member Id="M:Xamarin.Forms.PlatformConfiguration.iOSSpecific.Application.SetPanGestureRecognizerShouldRecognizeSimultaneously(Xamarin.Forms.BindableObject,System.Boolean)" />
@@ -5760,6 +5903,7 @@
     <Type Name="Xamarin.Forms.StyleSheets.StyleSheet" Id="T:Xamarin.Forms.StyleSheets.StyleSheet">
       <Member Id="M:Xamarin.Forms.StyleSheets.StyleSheet.FromAssemblyResource(System.Reflection.Assembly,System.String,System.Xml.IXmlLineInfo)" />
       <Member Id="M:Xamarin.Forms.StyleSheets.StyleSheet.FromReader(System.IO.TextReader)" />
+      <Member Id="M:Xamarin.Forms.StyleSheets.StyleSheet.FromResource(System.String,System.Reflection.Assembly,System.Xml.IXmlLineInfo)" />
       <Member Id="M:Xamarin.Forms.StyleSheets.StyleSheet.FromString(System.String)" />
     </Type>
   </Namespace>
@@ -5804,6 +5948,15 @@
     <Type Name="Xamarin.Forms.Xaml.Extensions" Id="T:Xamarin.Forms.Xaml.Extensions">
       <Member Id="M:Xamarin.Forms.Xaml.Extensions.LoadFromXaml``1(``0,System.String)" />
       <Member Id="M:Xamarin.Forms.Xaml.Extensions.LoadFromXaml``1(``0,System.Type)" />
+    </Type>
+    <Type Name="Xamarin.Forms.Xaml.FontImageExtension" Id="T:Xamarin.Forms.Xaml.FontImageExtension">
+      <Member Id="M:Xamarin.Forms.Xaml.FontImageExtension.#ctor" />
+      <Member Id="M:Xamarin.Forms.Xaml.FontImageExtension.ProvideValue(System.IServiceProvider)" />
+      <Member Id="M:Xamarin.Forms.Xaml.FontImageExtension.Xamarin#Forms#Xaml#IMarkupExtension#ProvideValue(System.IServiceProvider)" />
+      <Member Id="P:Xamarin.Forms.Xaml.FontImageExtension.Color" />
+      <Member Id="P:Xamarin.Forms.Xaml.FontImageExtension.FontFamily" />
+      <Member Id="P:Xamarin.Forms.Xaml.FontImageExtension.Glyph" />
+      <Member Id="P:Xamarin.Forms.Xaml.FontImageExtension.Size" />
     </Type>
     <Type Name="Xamarin.Forms.Xaml.IMarkupExtension" Id="T:Xamarin.Forms.Xaml.IMarkupExtension">
       <Member Id="M:Xamarin.Forms.Xaml.IMarkupExtension.ProvideValue(System.IServiceProvider)" />
@@ -5868,6 +6021,14 @@
       <Member Id="M:Xamarin.Forms.Xaml.ReferenceExtension.#ctor" />
       <Member Id="M:Xamarin.Forms.Xaml.ReferenceExtension.ProvideValue(System.IServiceProvider)" />
       <Member Id="P:Xamarin.Forms.Xaml.ReferenceExtension.Name" />
+    </Type>
+    <Type Name="Xamarin.Forms.Xaml.RelativeSourceExtension" Id="T:Xamarin.Forms.Xaml.RelativeSourceExtension">
+      <Member Id="M:Xamarin.Forms.Xaml.RelativeSourceExtension.#ctor" />
+      <Member Id="M:Xamarin.Forms.Xaml.RelativeSourceExtension.ProvideValue(System.IServiceProvider)" />
+      <Member Id="M:Xamarin.Forms.Xaml.RelativeSourceExtension.Xamarin#Forms#Xaml#IMarkupExtension&lt;Xamarin#Forms#RelativeBindingSource&gt;#ProvideValue(System.IServiceProvider)" />
+      <Member Id="P:Xamarin.Forms.Xaml.RelativeSourceExtension.AncestorLevel" />
+      <Member Id="P:Xamarin.Forms.Xaml.RelativeSourceExtension.AncestorType" />
+      <Member Id="P:Xamarin.Forms.Xaml.RelativeSourceExtension.Mode" />
     </Type>
     <Type Name="Xamarin.Forms.Xaml.StaticExtension" Id="T:Xamarin.Forms.Xaml.StaticExtension">
       <Member Id="M:Xamarin.Forms.Xaml.StaticExtension.#ctor" />

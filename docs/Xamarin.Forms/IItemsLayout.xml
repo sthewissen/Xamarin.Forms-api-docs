@@ -13,6 +13,11 @@
       <InterfaceName>System.ComponentModel.INotifyPropertyChanged</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>Xamarin.Forms.TypeConverter(typeof(Xamarin.Forms.ItemsLayoutTypeConverter))</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>Interface defining types that layout child items.</summary>
     <remarks>To be added.</remarks>

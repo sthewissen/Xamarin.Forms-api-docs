@@ -79,6 +79,29 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetTemplateChild">
+      <MemberSignature Language="C#" Value="protected object GetTemplateChild (string name);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance object GetTemplateChild(string name) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Xamarin.Forms.TemplatedPage.GetTemplateChild(System.String)" />
+      <MemberSignature Language="F#" Value="member this.GetTemplateChild : string -&gt; obj" Usage="templatedPage.GetTemplateChild name" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="OnApplyTemplate">
       <MemberSignature Language="C#" Value="protected virtual void OnApplyTemplate ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void OnApplyTemplate() cil managed" />

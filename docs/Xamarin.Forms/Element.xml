@@ -318,7 +318,7 @@
           <AttributeName>System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Xamarin.Forms.Element/&lt;Descendants&gt;d__83))</AttributeName>
+          <AttributeName>System.Runtime.CompilerServices.IteratorStateMachine(typeof(Xamarin.Forms.Element/&lt;Descendants&gt;d__95))</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1026,6 +1026,25 @@
         <summary>Gets or sets a user defined value to uniquely identify the element.</summary>
         <value>A string uniquely identifying the element.</value>
         <remarks>Use the StyleId property to identify individual elements in your application for identification in ui testing and in theme engines.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplatedParent">
+      <MemberSignature Language="C#" Value="public Xamarin.Forms.BindableObject TemplatedParent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Xamarin.Forms.BindableObject TemplatedParent" />
+      <MemberSignature Language="DocId" Value="P:Xamarin.Forms.Element.TemplatedParent" />
+      <MemberSignature Language="F#" Value="member this.TemplatedParent : Xamarin.Forms.BindableObject" Usage="Xamarin.Forms.Element.TemplatedParent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Xamarin.Forms.Core</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Xamarin.Forms.BindableObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Xamarin.Forms.IElementController.SetValueFromRenderer">
